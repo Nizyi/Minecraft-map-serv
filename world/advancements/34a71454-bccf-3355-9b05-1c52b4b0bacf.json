@@ -527,6 +527,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2022-06-11 14:13:26 +0200"
+    },
+    "done": true
+  },
   "minecraft:adventure/sleep_in_bed": {
     "criteria": {
       "slept_in_bed": "2022-06-10 18:14:06 +0200"
@@ -719,6 +725,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2022-06-11 14:08:02 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/birch_wood": {
     "criteria": {
       "has_log": "2022-06-10 18:22:42 +0200"
@@ -806,6 +818,12 @@
   "immersiveengineering:recipes/immersiveengineering/crafting/screwdriver": {
     "criteria": {
       "has_iron_ingot": "2022-06-10 17:58:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye": {
+    "criteria": {
+      "has_lapis_lazuli": "2022-06-11 14:09:13 +0200"
     },
     "done": true
   },
@@ -1103,6 +1121,12 @@
     },
     "done": true
   },
+  "supplementaries:recipes/copper_lantern": {
+    "criteria": {
+      "has_item": "2022-06-11 14:08:02 +0200"
+    },
+    "done": true
+  },
   "create:recipes/create.base/crafting/kinetics/cyan_seat": {
     "criteria": {
       "has_wool": "2022-06-10 18:00:46 +0200"
@@ -1367,6 +1391,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2022-06-11 14:08:02 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/stonecutter": {
     "criteria": {
       "has_stone": "2022-06-10 20:48:01 +0200"
@@ -1525,6 +1555,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/grindstone": {
+    "criteria": {
+      "has_stone_slab": "2022-06-11 14:12:47 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/diamond_block": {
     "criteria": {
       "has_diamond": "2022-06-10 18:49:58 +0200"
@@ -1552,6 +1588,12 @@
   "ironchest:recipes/ironchest/chests/silver_diamond_chest": {
     "criteria": {
       "has_item": "2022-06-10 18:49:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_lapis": "2022-06-11 14:09:13 +0200"
     },
     "done": true
   },
@@ -1711,6 +1753,12 @@
   "minecraft:recipes/food/cooked_mutton": {
     "criteria": {
       "has_mutton": "2022-06-10 18:00:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2022-06-11 14:08:02 +0200"
     },
     "done": true
   },
@@ -2725,6 +2773,12 @@
     },
     "done": true
   },
+  "botania:recipes/botania/cyan_shiny_flower": {
+    "criteria": {
+      "has_item": "2022-06-11 14:13:59 +0200"
+    },
+    "done": true
+  },
   "immersiveengineering:recipes/immersiveengineering/crafting/radiator": {
     "criteria": {
       "has_water_bucket": "2022-06-10 18:52:10 +0200"
@@ -2794,6 +2848,12 @@
   "computercraft:recipes/computercraft/pocket_computer_normal": {
     "criteria": {
       "has_apple": "2022-06-10 20:01:08 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/botania/spark": {
+    "criteria": {
+      "has_item": "2022-06-11 14:08:02 +0200"
     },
     "done": true
   },
@@ -3058,6 +3118,12 @@
   "undergarden:recipes/undergarden_group/cloggrum_nugget_to_ingot": {
     "criteria": {
       "has_cloggrum_nugget": "2022-06-10 20:34:25 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/botania/petal_cyan": {
+    "criteria": {
+      "has_item": "2022-06-11 14:13:59 +0200"
     },
     "done": true
   },
