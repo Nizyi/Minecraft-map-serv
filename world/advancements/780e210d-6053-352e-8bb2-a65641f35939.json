@@ -1986,15 +1986,15 @@
     },
     "done": true
   },
-  "create:recipes/create.palettes/polished_scoria": {
-    "criteria": {
-      "has_scoria": "2022-06-11 14:46:51 +0200"
-    },
-    "done": true
-  },
   "immersiveengineering:recipes/immersiveengineering/crafting/steel_scaffolding_standard": {
     "criteria": {
       "has_steel_ingot": "2022-06-11 14:10:44 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/polished_scoria": {
+    "criteria": {
+      "has_scoria": "2022-06-11 14:46:51 +0200"
     },
     "done": true
   },
@@ -2540,15 +2540,15 @@
     },
     "done": true
   },
-  "create:recipes/create.palettes/scoria_pillar_from_scoria_stonecutting": {
-    "criteria": {
-      "has_scoria": "2022-06-11 14:46:51 +0200"
-    },
-    "done": true
-  },
   "rftoolspower:recipes/rftoolspower/pearl_injector": {
     "criteria": {
       "frame": "2022-06-11 14:07:05 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/scoria_pillar_from_scoria_stonecutting": {
+    "criteria": {
+      "has_scoria": "2022-06-11 14:46:51 +0200"
     },
     "done": true
   },
@@ -3878,15 +3878,15 @@
     },
     "done": true
   },
-  "immersiveengineering:recipes/immersiveengineering/crafting/gunpart_drum": {
-    "criteria": {
-      "has_ingot_steel": "2022-06-11 14:10:44 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/blue_carpet_from_white_carpet": {
     "criteria": {
       "has_blue_dye": "2022-06-11 14:06:27 +0200"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/gunpart_drum": {
+    "criteria": {
+      "has_ingot_steel": "2022-06-11 14:10:44 +0200"
     },
     "done": true
   },
