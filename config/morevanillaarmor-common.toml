@@ -1,0 +1,401 @@
+
+[bone]
+	#Will be multiplied with
+	#11 for head
+	#16 for chestplate
+	#15 for leggings
+	#13 for boots
+	#Range: > 0
+	durabilityFactor = 7
+	#Range: 0.0 ~ 3.4028234663852886E38
+	thoughness = 0.0
+	#Range: > 0
+	enchantability = 20
+	#Range: 0.0 ~ 3.4028234663852886E38
+	knockbackResistance = 0.0
+
+	[bone.damageReduction]
+		#Range: > 0
+		head = 2
+		#Range: > 0
+		chest = 3
+		#Range: > 0
+		boots = 1
+		#Range: > 0
+		leggings = 2
+
+[coal]
+	#Will be multiplied with
+	#11 for head
+	#16 for chestplate
+	#15 for leggings
+	#13 for boots
+	#Range: > 0
+	durabilityFactor = 6
+	#Range: 0.0 ~ 3.4028234663852886E38
+	thoughness = 0.0
+	#Range: > 0
+	enchantability = 10
+	#Range: 0.0 ~ 3.4028234663852886E38
+	knockbackResistance = 0.0
+
+	[coal.damageReduction]
+		#Range: > 0
+		head = 1
+		#Range: > 0
+		chest = 2
+		#Range: > 0
+		boots = 1
+		#Range: > 0
+		leggings = 1
+
+[emerald]
+	#Will be multiplied with
+	#11 for head
+	#16 for chestplate
+	#15 for leggings
+	#13 for boots
+	#Range: > 0
+	durabilityFactor = 25
+	#Range: 0.0 ~ 3.4028234663852886E38
+	thoughness = 1.899999976158142
+	#Range: > 0
+	enchantability = 25
+	#Range: 0.0 ~ 3.4028234663852886E38
+	knockbackResistance = 0.0
+
+	[emerald.damageReduction]
+		#Range: > 0
+		head = 2
+		#Range: > 0
+		chest = 6
+		#Range: > 0
+		boots = 2
+		#Range: > 0
+		leggings = 4
+
+[ender]
+	#Will be multiplied with
+	#11 for head
+	#16 for chestplate
+	#15 for leggings
+	#13 for boots
+	#Range: > 0
+	durabilityFactor = 21
+	#Range: 0.0 ~ 3.4028234663852886E38
+	thoughness = 0.10000000149011612
+	#Range: > 0
+	enchantability = 15
+	#Range: 0.0 ~ 3.4028234663852886E38
+	knockbackResistance = 0.0
+
+	[ender.damageReduction]
+		#Range: > 0
+		head = 2
+		#Range: > 0
+		chest = 5
+		#Range: > 0
+		boots = 1
+		#Range: > 0
+		leggings = 3
+
+[fiery]
+	#Will be multiplied with
+	#11 for head
+	#16 for chestplate
+	#15 for leggings
+	#13 for boots
+	#Range: > 0
+	durabilityFactor = 13
+	#Range: 0.0 ~ 3.4028234663852886E38
+	thoughness = 0.0
+	#Range: > 0
+	enchantability = 13
+	#Range: 0.0 ~ 3.4028234663852886E38
+	knockbackResistance = 0.0
+
+	[fiery.damageReduction]
+		#Range: > 0
+		head = 1
+		#Range: > 0
+		chest = 4
+		#Range: > 0
+		boots = 1
+		#Range: > 0
+		leggings = 3
+
+[glowstone]
+	#Will be multiplied with
+	#11 for head
+	#16 for chestplate
+	#15 for leggings
+	#13 for boots
+	#Range: > 0
+	durabilityFactor = 7
+	#Range: 0.0 ~ 3.4028234663852886E38
+	thoughness = 0.0
+	#Range: > 0
+	enchantability = 15
+	#Range: 0.0 ~ 3.4028234663852886E38
+	knockbackResistance = 0.0
+
+	[glowstone.damageReduction]
+		#Range: > 0
+		head = 1
+		#Range: > 0
+		chest = 3
+		#Range: > 0
+		boots = 1
+		#Range: > 0
+		leggings = 2
+
+[lapis]
+	#Will be multiplied with
+	#11 for head
+	#16 for chestplate
+	#15 for leggings
+	#13 for boots
+	#Range: > 0
+	durabilityFactor = 8
+	#Range: 0.0 ~ 3.4028234663852886E38
+	thoughness = 0.0
+	#Range: > 0
+	enchantability = 30
+	#Range: 0.0 ~ 3.4028234663852886E38
+	knockbackResistance = 0.0
+
+	[lapis.damageReduction]
+		#Range: > 0
+		head = 1
+		#Range: > 0
+		chest = 5
+		#Range: > 0
+		boots = 1
+		#Range: > 0
+		leggings = 3
+
+[nether]
+	#Will be multiplied with
+	#11 for head
+	#16 for chestplate
+	#15 for leggings
+	#13 for boots
+	#Range: > 0
+	durabilityFactor = 11
+	#Range: 0.0 ~ 3.4028234663852886E38
+	thoughness = 0.10000000149011612
+	#Range: > 0
+	enchantability = 20
+	#Range: 0.0 ~ 3.4028234663852886E38
+	knockbackResistance = 0.0
+
+	[nether.damageReduction]
+		#Range: > 0
+		head = 1
+		#Range: > 0
+		chest = 4
+		#Range: > 0
+		boots = 2
+		#Range: > 0
+		leggings = 2
+
+[obsidian]
+	#Will be multiplied with
+	#11 for head
+	#16 for chestplate
+	#15 for leggings
+	#13 for boots
+	#Range: > 0
+	durabilityFactor = 40
+	#Range: 0.0 ~ 3.4028234663852886E38
+	thoughness = 1.5
+	#Range: > 0
+	enchantability = 8
+	#Range: 0.0 ~ 3.4028234663852886E38
+	knockbackResistance = 0.30000001192092896
+
+	[obsidian.damageReduction]
+		#Range: > 0
+		head = 2
+		#Range: > 0
+		chest = 8
+		#Range: > 0
+		boots = 3
+		#Range: > 0
+		leggings = 6
+
+[paper]
+	#Will be multiplied with
+	#11 for head
+	#16 for chestplate
+	#15 for leggings
+	#13 for boots
+	#Range: > 0
+	durabilityFactor = 1
+	#Range: 0.0 ~ 3.4028234663852886E38
+	thoughness = 0.0
+	#Range: > 0
+	enchantability = 13
+	#Range: 0.0 ~ 3.4028234663852886E38
+	knockbackResistance = 0.0
+
+	[paper.damageReduction]
+		#Range: > 0
+		head = 0
+		#Range: > 0
+		chest = 2
+		#Range: > 0
+		boots = 0
+		#Range: > 0
+		leggings = 1
+
+[prismarine]
+	#Will be multiplied with
+	#11 for head
+	#16 for chestplate
+	#15 for leggings
+	#13 for boots
+	#Range: > 0
+	durabilityFactor = 14
+	#Range: 0.0 ~ 3.4028234663852886E38
+	thoughness = 0.10000000149011612
+	#Range: > 0
+	enchantability = 15
+	#Range: 0.0 ~ 3.4028234663852886E38
+	knockbackResistance = 0.0
+
+	[prismarine.damageReduction]
+		#Range: > 0
+		head = 1
+		#Range: > 0
+		chest = 5
+		#Range: > 0
+		boots = 2
+		#Range: > 0
+		leggings = 3
+
+[quartz]
+	#Will be multiplied with
+	#11 for head
+	#16 for chestplate
+	#15 for leggings
+	#13 for boots
+	#Range: > 0
+	durabilityFactor = 7
+	#Range: 0.0 ~ 3.4028234663852886E38
+	thoughness = 0.0
+	#Range: > 0
+	enchantability = 15
+	#Range: 0.0 ~ 3.4028234663852886E38
+	knockbackResistance = 0.0
+
+	[quartz.damageReduction]
+		#Range: > 0
+		head = 1
+		#Range: > 0
+		chest = 2
+		#Range: > 0
+		boots = 1
+		#Range: > 0
+		leggings = 1
+
+[redstone]
+	#Will be multiplied with
+	#11 for head
+	#16 for chestplate
+	#15 for leggings
+	#13 for boots
+	#Range: > 0
+	durabilityFactor = 8
+	#Range: 0.0 ~ 3.4028234663852886E38
+	thoughness = 0.0
+	#Range: > 0
+	enchantability = 15
+	#Range: 0.0 ~ 3.4028234663852886E38
+	knockbackResistance = 0.0
+
+	[redstone.damageReduction]
+		#Range: > 0
+		head = 1
+		#Range: > 0
+		chest = 5
+		#Range: > 0
+		boots = 1
+		#Range: > 0
+		leggings = 3
+
+[slime]
+	#Will be multiplied with
+	#11 for head
+	#16 for chestplate
+	#15 for leggings
+	#13 for boots
+	#Range: > 0
+	durabilityFactor = 36
+	#Range: 0.0 ~ 3.4028234663852886E38
+	thoughness = 0.10000000149011612
+	#Range: > 0
+	enchantability = 14
+	#Range: 0.0 ~ 3.4028234663852886E38
+	knockbackResistance = 0.20000000298023224
+
+	[slime.damageReduction]
+		#Range: > 0
+		head = 3
+		#Range: > 0
+		chest = 8
+		#Range: > 0
+		boots = 4
+		#Range: > 0
+		leggings = 6
+
+[stone]
+	#Will be multiplied with
+	#11 for head
+	#16 for chestplate
+	#15 for leggings
+	#13 for boots
+	#Range: > 0
+	durabilityFactor = 4
+	#Range: 0.0 ~ 3.4028234663852886E38
+	thoughness = 0.0
+	#Range: > 0
+	enchantability = 7
+	#Range: 0.0 ~ 3.4028234663852886E38
+	knockbackResistance = 0.0
+
+	[stone.damageReduction]
+		#Range: > 0
+		head = 1
+		#Range: > 0
+		chest = 3
+		#Range: > 0
+		boots = 1
+		#Range: > 0
+		leggings = 1
+
+[wood]
+	#Will be multiplied with
+	#11 for head
+	#16 for chestplate
+	#15 for leggings
+	#13 for boots
+	#Range: > 0
+	durabilityFactor = 8
+	#Range: 0.0 ~ 3.4028234663852886E38
+	thoughness = 0.0
+	#Range: > 0
+	enchantability = 5
+	#Range: 0.0 ~ 3.4028234663852886E38
+	knockbackResistance = 0.0
+
+	[wood.damageReduction]
+		#Range: > 0
+		head = 2
+		#Range: > 0
+		chest = 3
+		#Range: > 0
+		boots = 1
+		#Range: > 0
+		leggings = 2
+

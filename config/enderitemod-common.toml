@@ -1,0 +1,48 @@
+
+#World-generation settings
+[world_generation]
+
+	#Settings for tools, affect the way these tools work
+	[world_generation.tool_settings]
+
+		#Settings for the Enderite Tools
+		[world_generation.tool_settings.enderite_bow]
+			#
+			#Determines if dropped Enderite items have no gravity, default 'true'. They will still save themselves from the void even when set to 'false'!
+			no_gravity = true
+			#
+			#Determines the base damage of the bow, i.e. how many damage you will cause with one single arrow (default: 1.5)
+			#Range: 0.0 ~ 255.0
+			bow_base_damage = 1.5
+			#
+			#Determines the base damage of the sword, default value is '9', which is one more than netherite
+			#Range: 3 ~ 255
+			sword_base_damage = 9
+			#
+			#Determines the time you need to fully charge the Enderite Bow (charge time or draw speed), default value is '30.0', which is nearly the same as the vanilla bow
+			#Range: 1.0 ~ 255.0
+			charge_time = 30.0
+
+	#Enderite settings
+	[world_generation.enderite_generation]
+		#
+		#Top offset for enderite ore generation, based on maximum height, e.g. if you choose this value as '12' (default value), ore will only be generated below y = maximum - 12
+		#Range: 0 ~ 255
+		top_offset = 12
+		#
+		#How many enderite ore should be generated per chunk (default: 3)
+		#Range: 1 ~ 255
+		count = 3
+		#
+		#Maximum height for enderite ore generation, has to be greater than 'top_offset', default value is '48'
+		#Range: 1 ~ 255
+		maximum = 48
+		#
+		#How many enderite ore should be generated on average per vein (default: 1)
+		#Range: 1 ~ 255
+		vein_size = 1
+		#
+		#Bottom offset for enderite ore generation, e.g. if you choose this value as '12' (default value), ore will only be generated above y = 12
+		#Range: 0 ~ 255
+		bottom_offset = 12
+

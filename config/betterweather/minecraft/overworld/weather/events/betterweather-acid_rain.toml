@@ -1,0 +1,449 @@
+#Better Weather uses a prefix system for what biomes weather is allowed to function in.
+# Prefix Guide:
+# "#" - Biome category representable.
+# "$" - Biome dictionary representable.
+# "," - Creates a new condition, separate from the previous.
+# "ALL" - Spawn in all biomes(no condition).
+# "!" - Negates/flips/does the reverse of the condition.
+# "" - No prefix serves as a biome ID OR Mod ID representable.
+#
+# Here are a few examples:
+#1. "byg#THE_END, $OCEAN" would mean that the ore may spawn in biomes with the name space "byg" AND in the "END" biome category, OR all biomes in the "OCEAN" dictionary.
+#2. "byg:guiana_shield, #MESA" would mean that the ore may spawn in the "byg:guiana_shield" OR all biomes in the "MESA" category.
+#3. "byg#ICY$MOUNTAIN" would mean that the ore may only spawn in biomes from byg in the "ICY" category and "MOUNTAIN" dictionary type.
+#4. "!byg#DESERT" would mean that the ore may only spawn in biomes that are NOT from byg and NOT in the "DESERT" category.
+#5. "ALL", spawn everywhere. 
+#6. "" Don't spawn anywhere.
+biomeCondition = "!#DESERT#SAVANNA#NETHER#THEEND"
+#The chance of a chunk being ticked for this tick.
+chunkTickChance = 150
+#What is the default chance for this weather event to occur? This value is only used when Seasons are NOT present in the given dimension.
+defaultChance = 0.25
+#The chance of an entity getting damaged every tick when acid rain is on the player's position.
+entityDamageChance = 100
+#What is the temperature offset for valid biomes?
+humidityOffset = 0.1
+#Determines whether or not this weather event may spawn lightning and sets world info internally for MC and mods to use.
+isThundering = false
+#How often does lightning spawn? Requires "isThundering" to be true.
+lightningChance = 0
+#What is the temperature offset for valid biomes?
+temperatureOffset = 0.0
+#Target Weather Event's Registry ID to configure settings for in this config.
+type = "betterweather:acid_rain"
+
+[clientSettings]
+	#How dense is fog?
+	fogDensity = -1.0
+	#Texture path to the rain texture.
+	rainTexture = "betterweather:textures/environment/acid_rain.png"
+	#What is the opacity of the sky? 0.0 means hidden, 1.0 is fully visible.
+	##Range 0.0-1.0
+	skyOpacity = 0.0
+	#Texture path to the rain texture.
+	snowTexture = "minecraft:textures/environment/snow.png"
+	#Do sunsets/sunrises modify fog/sky color?
+	sunsetSunriseColor = true
+	#Target Weather Event's Registry ID to configure settings for in this config.
+	type = "betterweather:rain"
+
+	[clientSettings.colorSettings]
+		#The strength of this world's cloud color blend towards the value of "cloudTargetHexColor".
+		#Range: 0 - 1.0
+		cloudColorBlendStrength = 1.0
+		#Blends this world's grass color towards this value. Blend strength is determined by the value of "cloudColorBlendStrength".
+		cloudTargetHexColor = "ff59648e"
+		#The strength of this world's fog color blend towards the value of "fogTargetHexColor".
+		#Range: 0 - 1.0
+		fogColorBlendStrength = 1.0
+		#Blends the world's fog color towards this value. Blend strength is determined by the value of "fogColorBlendStrength".
+		fogTargetHexColor = "ff59648e"
+		#The strength of this world's sky color blend towards the value of "foliageTargetHexColor".
+		#Range: 0 - 1.0
+		foliageColorBlendStrength = 0.1
+		#Blends this world's foliage color towards this value. Blend strength is determined by the value of "foliageColorBlendStrength".
+		foliageTargetHexColor = ""
+		#The strength of this world's grass color blend towards the value of "grassTargetHexColor".
+		#Range: 0 - 1.0
+		grassColorBlendStrength = 0.1
+		#Blends this world's grass color towards this value. Blend strength is determined by the value of "grassColorBlendStrength".
+		grassTargetHexColor = ""
+		#The strength of this world's sky color blend towards the value of "skyTargetHexColor".
+		#Range: 0 - 1.0
+		skyColorBlendStrength = 1.0
+		#Blends this world's grass color towards this value. Blend strength is determined by the value of "skyColorBlendStrength".
+		skyTargetHexColor = "ff677288"
+
+#What the specified block(left) "decays" into(right).
+[decayer]
+	"ars_nouveau:blue_archwood_leaves" = "minecraft:air"
+	"ars_nouveau:blue_archwood_sapling" = "minecraft:air"
+	"ars_nouveau:green_archwood_leaves" = "minecraft:air"
+	"ars_nouveau:green_archwood_sapling" = "minecraft:air"
+	"ars_nouveau:mana_berry_bush" = "minecraft:air"
+	"ars_nouveau:mana_bloom_crop" = "minecraft:air"
+	"ars_nouveau:purple_archwood_leaves" = "minecraft:air"
+	"ars_nouveau:purple_archwood_sapling" = "minecraft:air"
+	"ars_nouveau:red_archwood_leaves" = "minecraft:air"
+	"ars_nouveau:red_archwood_sapling" = "minecraft:air"
+	"betteranimalsplus:trillium" = "minecraft:air"
+	"betterendforge:amber_root_seed" = "minecraft:air"
+	"betterendforge:aurant_polypore" = "minecraft:air"
+	"betterendforge:blossom_berry_seed" = "minecraft:air"
+	"betterendforge:blue_vine" = "minecraft:air"
+	"betterendforge:blue_vine_seed" = "minecraft:air"
+	"betterendforge:bulb_moss" = "minecraft:air"
+	"betterendforge:bulb_vine" = "minecraft:air"
+	"betterendforge:bulb_vine_seed" = "minecraft:air"
+	"betterendforge:cave_bush" = "minecraft:air"
+	"betterendforge:chorus_mushroom_seed" = "minecraft:air"
+	"betterendforge:creeping_moss" = "minecraft:air"
+	"betterendforge:cyan_moss" = "minecraft:air"
+	"betterendforge:dense_vine" = "minecraft:air"
+	"betterendforge:dragon_tree_leaves" = "minecraft:air"
+	"betterendforge:dragon_tree_sapling" = "minecraft:air"
+	"betterendforge:end_lotus_flower" = "minecraft:air"
+	"betterendforge:end_lotus_leaf" = "minecraft:air"
+	"betterendforge:filalux" = "minecraft:air"
+	"betterendforge:filalux_wings" = "minecraft:air"
+	"betterendforge:flamaea" = "minecraft:air"
+	"betterendforge:glowing_pillar_luminophor" = "minecraft:air"
+	"betterendforge:glowing_pillar_roots" = "minecraft:air"
+	"betterendforge:glowing_pillar_seed" = "minecraft:air"
+	"betterendforge:helix_tree_leaves" = "minecraft:air"
+	"betterendforge:helix_tree_sapling" = "minecraft:air"
+	"betterendforge:hydralux_petal_block" = "minecraft:air"
+	"betterendforge:hydralux_petal_block_black" = "minecraft:air"
+	"betterendforge:hydralux_petal_block_blue" = "minecraft:air"
+	"betterendforge:hydralux_petal_block_brown" = "minecraft:air"
+	"betterendforge:hydralux_petal_block_cyan" = "minecraft:air"
+	"betterendforge:hydralux_petal_block_gray" = "minecraft:air"
+	"betterendforge:hydralux_petal_block_green" = "minecraft:air"
+	"betterendforge:hydralux_petal_block_light_blue" = "minecraft:air"
+	"betterendforge:hydralux_petal_block_light_gray" = "minecraft:air"
+	"betterendforge:hydralux_petal_block_lime" = "minecraft:air"
+	"betterendforge:hydralux_petal_block_magenta" = "minecraft:air"
+	"betterendforge:hydralux_petal_block_orange" = "minecraft:air"
+	"betterendforge:hydralux_petal_block_pink" = "minecraft:air"
+	"betterendforge:hydralux_petal_block_purple" = "minecraft:air"
+	"betterendforge:hydralux_petal_block_red" = "minecraft:air"
+	"betterendforge:hydralux_petal_block_white" = "minecraft:air"
+	"betterendforge:hydralux_petal_block_yellow" = "minecraft:air"
+	"betterendforge:jungle_fern" = "minecraft:air"
+	"betterendforge:jungle_vine" = "minecraft:air"
+	"betterendforge:lacugrove_leaves" = "minecraft:air"
+	"betterendforge:lacugrove_sapling" = "minecraft:air"
+	"betterendforge:lanceleaf" = "minecraft:air"
+	"betterendforge:lanceleaf_seed" = "minecraft:air"
+	"betterendforge:large_amaranita_mushroom" = "minecraft:air"
+	"betterendforge:lucernia_leaves" = "minecraft:air"
+	"betterendforge:lucernia_sapling" = "minecraft:air"
+	"betterendforge:lumecorn_seed" = "minecraft:air"
+	"betterendforge:mossy_glowshroom_sapling" = "minecraft:air"
+	"betterendforge:murkweed" = "minecraft:air"
+	"betterendforge:needlegrass" = "minecraft:air"
+	"betterendforge:purple_polypore" = "minecraft:air"
+	"betterendforge:pythadendron_leaves" = "minecraft:air"
+	"betterendforge:pythadendron_sapling" = "minecraft:air"
+	"betterendforge:rubinea" = "minecraft:air"
+	"betterendforge:ruscus" = "minecraft:air"
+	"betterendforge:shadow_berry" = "minecraft:air"
+	"betterendforge:small_amaranita_mushroom" = "minecraft:air"
+	"betterendforge:small_jellyshroom" = "minecraft:air"
+	"betterendforge:tail_moss" = "minecraft:air"
+	"betterendforge:tenanea_flowers" = "minecraft:air"
+	"betterendforge:tenanea_leaves" = "minecraft:air"
+	"betterendforge:tenanea_sapling" = "minecraft:air"
+	"betterendforge:twisted_moss" = "minecraft:air"
+	"betterendforge:twisted_umbrella_moss" = "minecraft:air"
+	"betterendforge:twisted_umbrella_moss_tall" = "minecraft:air"
+	"betterendforge:twisted_vine" = "minecraft:air"
+	"betterendforge:umbrella_moss" = "minecraft:air"
+	"betterendforge:umbrella_moss_tall" = "minecraft:air"
+	"betterendforge:umbrella_tree_sapling" = "minecraft:air"
+	"biomesoplenty:barley" = "minecraft:air"
+	"biomesoplenty:blue_hydrangea" = "minecraft:air"
+	"biomesoplenty:bramble" = "minecraft:air"
+	"biomesoplenty:burning_blossom" = "minecraft:air"
+	"biomesoplenty:cattail" = "minecraft:air"
+	"biomesoplenty:dead_leaves" = "minecraft:air"
+	"biomesoplenty:dead_sapling" = "minecraft:air"
+	"biomesoplenty:fir_leaves" = "minecraft:air"
+	"biomesoplenty:fir_sapling" = "minecraft:air"
+	"biomesoplenty:flowering_oak_leaves" = "minecraft:air"
+	"biomesoplenty:flowering_oak_sapling" = "minecraft:air"
+	"biomesoplenty:glowflower" = "minecraft:air"
+	"biomesoplenty:glowshroom" = "minecraft:air"
+	"biomesoplenty:goldenrod" = "minecraft:air"
+	"biomesoplenty:hellbark_leaves" = "minecraft:air"
+	"biomesoplenty:hellbark_sapling" = "minecraft:air"
+	"biomesoplenty:huge_clover_petal" = "minecraft:air"
+	"biomesoplenty:jacaranda_leaves" = "minecraft:air"
+	"biomesoplenty:jacaranda_sapling" = "minecraft:air"
+	"biomesoplenty:lavender" = "minecraft:air"
+	"biomesoplenty:magic_leaves" = "minecraft:air"
+	"biomesoplenty:magic_sapling" = "minecraft:air"
+	"biomesoplenty:mahogany_leaves" = "minecraft:air"
+	"biomesoplenty:mahogany_sapling" = "minecraft:air"
+	"biomesoplenty:maple_leaves" = "minecraft:air"
+	"biomesoplenty:maple_sapling" = "minecraft:air"
+	"biomesoplenty:orange_autumn_leaves" = "minecraft:air"
+	"biomesoplenty:orange_autumn_sapling" = "minecraft:air"
+	"biomesoplenty:orange_cosmos" = "minecraft:air"
+	"biomesoplenty:origin_leaves" = "minecraft:air"
+	"biomesoplenty:origin_sapling" = "minecraft:air"
+	"biomesoplenty:palm_leaves" = "minecraft:air"
+	"biomesoplenty:palm_sapling" = "minecraft:air"
+	"biomesoplenty:pink_cherry_leaves" = "minecraft:air"
+	"biomesoplenty:pink_cherry_sapling" = "minecraft:air"
+	"biomesoplenty:pink_daffodil" = "minecraft:air"
+	"biomesoplenty:pink_hibiscus" = "minecraft:air"
+	"biomesoplenty:rainbow_birch_leaves" = "minecraft:air"
+	"biomesoplenty:rainbow_birch_sapling" = "minecraft:air"
+	"biomesoplenty:redwood_leaves" = "minecraft:air"
+	"biomesoplenty:redwood_sapling" = "minecraft:air"
+	"biomesoplenty:rose" = "minecraft:air"
+	"biomesoplenty:toadstool" = "minecraft:air"
+	"biomesoplenty:umbran_leaves" = "minecraft:air"
+	"biomesoplenty:umbran_sapling" = "minecraft:air"
+	"biomesoplenty:violet" = "minecraft:air"
+	"biomesoplenty:white_cherry_leaves" = "minecraft:air"
+	"biomesoplenty:white_cherry_sapling" = "minecraft:air"
+	"biomesoplenty:wildflower" = "minecraft:air"
+	"biomesoplenty:willow_leaves" = "minecraft:air"
+	"biomesoplenty:willow_sapling" = "minecraft:air"
+	"biomesoplenty:wilted_lily" = "minecraft:air"
+	"biomesoplenty:yellow_autumn_leaves" = "minecraft:air"
+	"biomesoplenty:yellow_autumn_sapling" = "minecraft:air"
+	"botania:agricarnation" = "minecraft:air"
+	"botania:agricarnation_chibi" = "minecraft:air"
+	"botania:bellethorn" = "minecraft:air"
+	"botania:bellethorn_chibi" = "minecraft:air"
+	"botania:bergamute" = "minecraft:air"
+	"botania:black_buried_petals" = "minecraft:air"
+	"botania:black_double_flower" = "minecraft:air"
+	"botania:black_mushroom" = "minecraft:air"
+	"botania:black_mystical_flower" = "minecraft:air"
+	"botania:black_petal_block" = "minecraft:air"
+	"botania:black_shiny_flower" = "minecraft:air"
+	"botania:blue_buried_petals" = "minecraft:air"
+	"botania:blue_double_flower" = "minecraft:air"
+	"botania:blue_mushroom" = "minecraft:air"
+	"botania:blue_mystical_flower" = "minecraft:air"
+	"botania:blue_petal_block" = "minecraft:air"
+	"botania:blue_shiny_flower" = "minecraft:air"
+	"botania:brown_buried_petals" = "minecraft:air"
+	"botania:brown_double_flower" = "minecraft:air"
+	"botania:brown_mushroom" = "minecraft:air"
+	"botania:brown_mystical_flower" = "minecraft:air"
+	"botania:brown_petal_block" = "minecraft:air"
+	"botania:brown_shiny_flower" = "minecraft:air"
+	"botania:bubbell" = "minecraft:air"
+	"botania:bubbell_chibi" = "minecraft:air"
+	"botania:clayconia" = "minecraft:air"
+	"botania:clayconia_chibi" = "minecraft:air"
+	"botania:cyan_buried_petals" = "minecraft:air"
+	"botania:cyan_double_flower" = "minecraft:air"
+	"botania:cyan_mushroom" = "minecraft:air"
+	"botania:cyan_mystical_flower" = "minecraft:air"
+	"botania:cyan_petal_block" = "minecraft:air"
+	"botania:cyan_shiny_flower" = "minecraft:air"
+	"botania:daffomill" = "minecraft:air"
+	"botania:dandelifeon" = "minecraft:air"
+	"botania:daybloom_motif" = "minecraft:air"
+	"botania:dreadthorn" = "minecraft:air"
+	"botania:endoflame" = "minecraft:air"
+	"botania:entropinnyum" = "minecraft:air"
+	"botania:exoflame" = "minecraft:air"
+	"botania:fallen_kanade" = "minecraft:air"
+	"botania:gourmaryllis" = "minecraft:air"
+	"botania:gray_buried_petals" = "minecraft:air"
+	"botania:gray_double_flower" = "minecraft:air"
+	"botania:gray_mushroom" = "minecraft:air"
+	"botania:gray_mystical_flower" = "minecraft:air"
+	"botania:gray_petal_block" = "minecraft:air"
+	"botania:gray_shiny_flower" = "minecraft:air"
+	"botania:green_buried_petals" = "minecraft:air"
+	"botania:green_double_flower" = "minecraft:air"
+	"botania:green_mushroom" = "minecraft:air"
+	"botania:green_mystical_flower" = "minecraft:air"
+	"botania:green_petal_block" = "minecraft:air"
+	"botania:green_shiny_flower" = "minecraft:air"
+	"botania:heisei_dream" = "minecraft:air"
+	"botania:hopperhock" = "minecraft:air"
+	"botania:hopperhock_chibi" = "minecraft:air"
+	"botania:hyacidus" = "minecraft:air"
+	"botania:hydroangeas" = "minecraft:air"
+	"botania:hydroangeas_motif" = "minecraft:air"
+	"botania:jaded_amaranthus" = "minecraft:air"
+	"botania:jiyuulia" = "minecraft:air"
+	"botania:jiyuulia_chibi" = "minecraft:air"
+	"botania:kekimurus" = "minecraft:air"
+	"botania:labellia" = "minecraft:air"
+	"botania:light_blue_buried_petals" = "minecraft:air"
+	"botania:light_blue_double_flower" = "minecraft:air"
+	"botania:light_blue_mushroom" = "minecraft:air"
+	"botania:light_blue_mystical_flower" = "minecraft:air"
+	"botania:light_blue_petal_block" = "minecraft:air"
+	"botania:light_blue_shiny_flower" = "minecraft:air"
+	"botania:light_gray_buried_petals" = "minecraft:air"
+	"botania:light_gray_double_flower" = "minecraft:air"
+	"botania:light_gray_mushroom" = "minecraft:air"
+	"botania:light_gray_mystical_flower" = "minecraft:air"
+	"botania:light_gray_petal_block" = "minecraft:air"
+	"botania:light_gray_shiny_flower" = "minecraft:air"
+	"botania:lime_buried_petals" = "minecraft:air"
+	"botania:lime_double_flower" = "minecraft:air"
+	"botania:lime_mushroom" = "minecraft:air"
+	"botania:lime_mystical_flower" = "minecraft:air"
+	"botania:lime_petal_block" = "minecraft:air"
+	"botania:lime_shiny_flower" = "minecraft:air"
+	"botania:loonium" = "minecraft:air"
+	"botania:magenta_buried_petals" = "minecraft:air"
+	"botania:magenta_double_flower" = "minecraft:air"
+	"botania:magenta_mushroom" = "minecraft:air"
+	"botania:magenta_mystical_flower" = "minecraft:air"
+	"botania:magenta_petal_block" = "minecraft:air"
+	"botania:magenta_shiny_flower" = "minecraft:air"
+	"botania:manastar" = "minecraft:air"
+	"botania:marimorphosis" = "minecraft:air"
+	"botania:marimorphosis_chibi" = "minecraft:air"
+	"botania:medumone" = "minecraft:air"
+	"botania:munchdew" = "minecraft:air"
+	"botania:narslimmus" = "minecraft:air"
+	"botania:nightshade_motif" = "minecraft:air"
+	"botania:orange_buried_petals" = "minecraft:air"
+	"botania:orange_double_flower" = "minecraft:air"
+	"botania:orange_mushroom" = "minecraft:air"
+	"botania:orange_mystical_flower" = "minecraft:air"
+	"botania:orange_petal_block" = "minecraft:air"
+	"botania:orange_shiny_flower" = "minecraft:air"
+	"botania:orechid" = "minecraft:air"
+	"botania:orechid_ignem" = "minecraft:air"
+	"botania:pink_buried_petals" = "minecraft:air"
+	"botania:pink_double_flower" = "minecraft:air"
+	"botania:pink_mushroom" = "minecraft:air"
+	"botania:pink_mystical_flower" = "minecraft:air"
+	"botania:pink_petal_block" = "minecraft:air"
+	"botania:pink_shiny_flower" = "minecraft:air"
+	"botania:pollidisiac" = "minecraft:air"
+	"botania:pure_daisy" = "minecraft:air"
+	"botania:purple_buried_petals" = "minecraft:air"
+	"botania:purple_double_flower" = "minecraft:air"
+	"botania:purple_mushroom" = "minecraft:air"
+	"botania:purple_mystical_flower" = "minecraft:air"
+	"botania:purple_petal_block" = "minecraft:air"
+	"botania:purple_shiny_flower" = "minecraft:air"
+	"botania:rafflowsia" = "minecraft:air"
+	"botania:rannuncarpus" = "minecraft:air"
+	"botania:rannuncarpus_chibi" = "minecraft:air"
+	"botania:red_buried_petals" = "minecraft:air"
+	"botania:red_double_flower" = "minecraft:air"
+	"botania:red_mushroom" = "minecraft:air"
+	"botania:red_mystical_flower" = "minecraft:air"
+	"botania:red_petal_block" = "minecraft:air"
+	"botania:red_shiny_flower" = "minecraft:air"
+	"botania:root" = "minecraft:air"
+	"botania:rosa_arcana" = "minecraft:air"
+	"botania:shulk_me_not" = "minecraft:air"
+	"botania:solegnolia" = "minecraft:air"
+	"botania:solegnolia_chibi" = "minecraft:air"
+	"botania:spectranthemum" = "minecraft:air"
+	"botania:spectrolus" = "minecraft:air"
+	"botania:tangleberrie" = "minecraft:air"
+	"botania:tangleberrie_chibi" = "minecraft:air"
+	"botania:thermalily" = "minecraft:air"
+	"botania:tigerseye" = "minecraft:air"
+	"botania:vinculotus" = "minecraft:air"
+	"botania:white_buried_petals" = "minecraft:air"
+	"botania:white_double_flower" = "minecraft:air"
+	"botania:white_mushroom" = "minecraft:air"
+	"botania:white_mystical_flower" = "minecraft:air"
+	"botania:white_petal_block" = "minecraft:air"
+	"botania:white_shiny_flower" = "minecraft:air"
+	"botania:yellow_buried_petals" = "minecraft:air"
+	"botania:yellow_double_flower" = "minecraft:air"
+	"botania:yellow_mushroom" = "minecraft:air"
+	"botania:yellow_mystical_flower" = "minecraft:air"
+	"botania:yellow_petal_block" = "minecraft:air"
+	"botania:yellow_shiny_flower" = "minecraft:air"
+	"minecraft:acacia_leaves" = "minecraft:air"
+	"minecraft:acacia_sapling" = "minecraft:air"
+	"minecraft:allium" = "minecraft:air"
+	"minecraft:attached_melon_stem" = "minecraft:air"
+	"minecraft:attached_pumpkin_stem" = "minecraft:air"
+	"minecraft:azure_bluet" = "minecraft:air"
+	"minecraft:beetroots" = "minecraft:air"
+	"minecraft:birch_leaves" = "minecraft:air"
+	"minecraft:birch_sapling" = "minecraft:air"
+	"minecraft:blue_orchid" = "minecraft:air"
+	"minecraft:brown_mushroom" = "minecraft:air"
+	"minecraft:carrots" = "minecraft:air"
+	"minecraft:chorus_flower" = "minecraft:air"
+	"minecraft:chorus_plant" = "minecraft:air"
+	"minecraft:cocoa" = "minecraft:air"
+	"minecraft:cornflower" = "minecraft:air"
+	"minecraft:crimson_fungus" = "minecraft:air"
+	"minecraft:dandelion" = "minecraft:air"
+	"minecraft:dark_oak_leaves" = "minecraft:air"
+	"minecraft:dark_oak_sapling" = "minecraft:air"
+	"minecraft:grass_block" = "minecraft:dirt"
+	"minecraft:jungle_leaves" = "minecraft:air"
+	"minecraft:jungle_sapling" = "minecraft:air"
+	"minecraft:lily_of_the_valley" = "minecraft:air"
+	"minecraft:lily_pad" = "minecraft:air"
+	"minecraft:melon_stem" = "minecraft:air"
+	"minecraft:mycelium" = "minecraft:dirt"
+	"minecraft:nether_wart" = "minecraft:air"
+	"minecraft:oak_leaves" = "minecraft:air"
+	"minecraft:oak_sapling" = "minecraft:air"
+	"minecraft:orange_tulip" = "minecraft:air"
+	"minecraft:oxeye_daisy" = "minecraft:air"
+	"minecraft:pink_tulip" = "minecraft:air"
+	"minecraft:podzol" = "minecraft:dirt"
+	"minecraft:poppy" = "minecraft:air"
+	"minecraft:potatoes" = "minecraft:air"
+	"minecraft:pumpkin_stem" = "minecraft:air"
+	"minecraft:red_mushroom" = "minecraft:air"
+	"minecraft:red_tulip" = "minecraft:air"
+	"minecraft:spruce_leaves" = "minecraft:air"
+	"minecraft:spruce_sapling" = "minecraft:air"
+	"minecraft:sugar_cane" = "minecraft:air"
+	"minecraft:sweet_berry_bush" = "minecraft:air"
+	"minecraft:twisting_vines" = "minecraft:air"
+	"minecraft:twisting_vines_plant" = "minecraft:air"
+	"minecraft:warped_fungus" = "minecraft:air"
+	"minecraft:weeping_vines" = "minecraft:air"
+	"minecraft:weeping_vines_plant" = "minecraft:air"
+	"minecraft:wheat" = "minecraft:air"
+	"minecraft:white_tulip" = "minecraft:air"
+	"minecraft:wither_rose" = "minecraft:air"
+
+#Entity/Category(left) damage strength(right).
+[entityDamage]
+	"category/monster" = 0.5
+	"minecraft:player" = 0.5
+
+#What is the chance for this weather event to occur for the given season (phase)?
+[seasonChances]
+
+	[seasonChances.AUTUMN]
+		END = 0.03
+		MID = 0.03
+		START = 0.03
+
+	[seasonChances.SPRING]
+		END = 0.16
+		MID = 0.26
+		START = 0.23
+
+	[seasonChances.SUMMER]
+		END = 0.0
+		MID = 0.0
+		START = 0.03
+
+	[seasonChances.WINTER]
+		END = 0.06
+		MID = 0.03
+		START = 0.03
+
