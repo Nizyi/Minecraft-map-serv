@@ -83,6 +83,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/materials/sand_paper": {
+    "criteria": {
+      "has_item": "2022-06-12 18:37:13 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/lime_concrete_powder": {
     "criteria": {
       "has_gravel": "2022-06-11 14:00:19 +0200"
@@ -485,6 +491,12 @@
     },
     "done": true
   },
+  "immersiveengineering:recipes/immersiveengineering/crafting/blueprint_bullets": {
+    "criteria": {
+      "has_paper": "2022-06-12 18:37:13 +0200"
+    },
+    "done": true
+  },
   "create:recipes/create.base/crafting/kinetics/lime_seat": {
     "criteria": {
       "has_wool": "2022-06-11 14:31:32 +0200"
@@ -800,6 +812,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/schematics/empty_schematic": {
+    "criteria": {
+      "has_item": "2022-06-12 18:37:13 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/stone_brick_wall": {
     "criteria": {
       "has_stone_bricks": "2022-06-12 14:02:46 +0200"
@@ -986,6 +1004,12 @@
     },
     "done": true
   },
+  "supplementaries:recipes/notice_board": {
+    "criteria": {
+      "has_item": "2022-06-12 18:37:13 +0200"
+    },
+    "done": true
+  },
   "theabyss:strange_rem_phases": {
     "criteria": {
       "strange_rem_phases": "2022-06-11 13:34:32 +0200"
@@ -1127,6 +1151,12 @@
   "minecraft:recipes/misc/yellow_dye_from_dandelion": {
     "criteria": {
       "has_yellow_flower": "2022-06-12 17:12:44 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/materials/red_sand_paper": {
+    "criteria": {
+      "has_item": "2022-06-12 18:37:13 +0200"
     },
     "done": true
   },
@@ -1301,6 +1331,12 @@
   "botania:recipes/botania/petal_black": {
     "criteria": {
       "has_item": "2022-06-11 14:32:24 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2022-06-12 18:37:13 +0200"
     },
     "done": true
   },
@@ -2872,6 +2908,12 @@
     },
     "done": true
   },
+  "immersiveengineering:recipes/immersiveengineering/crafting/blueprint_components": {
+    "criteria": {
+      "has_paper": "2022-06-12 18:37:13 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_carpet": {
     "criteria": {
       "has_white_wool": "2022-06-11 14:31:32 +0200"
@@ -2905,6 +2947,12 @@
   "create:root": {
     "criteria": {
       "0": "2022-06-11 13:29:41 +0200"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/blueprint_molds": {
+    "criteria": {
+      "has_paper": "2022-06-12 18:37:13 +0200"
     },
     "done": true
   },
@@ -3112,6 +3160,12 @@
     },
     "done": true
   },
+  "immersiveengineering:recipes/immersiveengineering/crafting/blueprint_bannerpatterns": {
+    "criteria": {
+      "has_paper": "2022-06-12 18:37:13 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/brown_wool": {
     "criteria": {
       "has_white_wool": "2022-06-11 14:31:32 +0200"
@@ -3151,6 +3205,12 @@
   "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
     "criteria": {
       "has_stone_bricks": "2022-06-12 14:02:46 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/schematics/schematic_and_quill": {
+    "criteria": {
+      "has_item": "2022-06-12 18:37:13 +0200"
     },
     "done": true
   },
