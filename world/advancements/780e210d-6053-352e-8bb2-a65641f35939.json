@@ -264,6 +264,12 @@
     },
     "done": true
   },
+  "appliedenergistics2:recipes/appliedenergistics2/shaped/slabs/sky_stone_block": {
+    "criteria": {
+      "has_sky_stone_block": "2022-06-12 17:08:39 +0200"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/polished_scoria_from_scoria_stonecutting": {
     "criteria": {
       "has_scoria": "2022-06-11 14:46:51 +0200"
@@ -300,9 +306,21 @@
     },
     "done": true
   },
+  "botania:recipes/botania/turntable": {
+    "criteria": {
+      "has_alt_item": "2022-06-12 17:03:25 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_ingot_from_blasting": {
     "criteria": {
       "has_iron_ore": "2022-06-10 18:44:35 +0200"
+    },
+    "done": true
+  },
+  "appliedenergistics2:recipes/appliedenergistics2/block_cutter/stairs/sky_stone_stairs": {
+    "criteria": {
+      "has_sky_stone_block": "2022-06-12 17:08:39 +0200"
     },
     "done": true
   },
@@ -666,6 +684,12 @@
     },
     "done": true
   },
+  "appliedenergistics2:recipes/appliedenergistics2/block_cutter/walls/sky_stone_wall": {
+    "criteria": {
+      "has_sky_stone_block": "2022-06-12 17:08:39 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2022-06-10 17:10:54 +0200"
@@ -792,6 +816,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/jungle_fence": {
+    "criteria": {
+      "has_planks": "2022-06-12 16:55:57 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2022-06-10 20:24:37 +0200"
@@ -900,6 +930,12 @@
   "minecraft:recipes/decorations/brown_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2022-06-11 01:28:26 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/hanging_sign_jungle": {
+    "criteria": {
+      "has_plank": "2022-06-12 16:55:57 +0200"
     },
     "done": true
   },
@@ -1092,6 +1128,12 @@
   "theabyss:strange_rem_phases": {
     "criteria": {
       "strange_rem_phases": "2022-06-10 18:04:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_pressure_plate": {
+    "criteria": {
+      "has_planks": "2022-06-12 16:55:57 +0200"
     },
     "done": true
   },
@@ -1599,6 +1641,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2022-06-12 17:03:17 +0200"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/overgrown_diorite_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2022-06-10 18:44:37 +0200"
@@ -1614,6 +1662,12 @@
   "minecraft:recipes/building_blocks/stone": {
     "criteria": {
       "has_cobblestone": "2022-06-10 17:10:54 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/jungle_window": {
+    "criteria": {
+      "has_ingredient": "2022-06-12 16:55:57 +0200"
     },
     "done": true
   },
@@ -1644,6 +1698,7 @@
       "minecraft:river": "2022-06-10 17:06:54 +0200",
       "minecraft:lukewarm_ocean": "2022-06-10 17:01:32 +0200",
       "minecraft:wooded_hills": "2022-06-11 14:35:00 +0200",
+      "minecraft:swamp": "2022-06-12 16:59:06 +0200",
       "minecraft:savanna": "2022-06-10 17:09:22 +0200",
       "minecraft:plains": "2022-06-10 15:24:24 +0200"
     },
@@ -1784,6 +1839,12 @@
   "minecraft:recipes/misc/purple_dye": {
     "criteria": {
       "has_blue_dye": "2022-06-11 14:06:27 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/spring_launcher": {
+    "criteria": {
+      "has_item": "2022-06-12 17:03:25 +0200"
     },
     "done": true
   },
@@ -1952,6 +2013,12 @@
   "undergarden:recipes/undergarden_group/depthrock_pressure_plate": {
     "criteria": {
       "has_depthrock": "2022-06-11 00:43:01 +0200"
+    },
+    "done": true
+  },
+  "appliedenergistics2:main/glass_cable": {
+    "criteria": {
+      "certus": "2022-06-12 17:19:41 +0200"
     },
     "done": true
   },
@@ -2262,6 +2329,12 @@
     },
     "done": true
   },
+  "supplementaries:recipes/sign_post_jungle": {
+    "criteria": {
+      "has_plank": "2022-06-12 16:55:57 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/brown_concrete_powder": {
     "criteria": {
       "has_gravel": "2022-06-10 18:51:24 +0200"
@@ -2454,6 +2527,12 @@
     },
     "done": true
   },
+  "appliedenergistics2:recipes/appliedenergistics2/shaped/walls/sky_stone_block": {
+    "criteria": {
+      "has_sky_stone_block": "2022-06-12 17:08:39 +0200"
+    },
+    "done": true
+  },
   "supplementaries:recipes/hanging_sign_oak": {
     "criteria": {
       "has_plank": "2022-06-10 17:10:23 +0200"
@@ -2486,6 +2565,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/jungle_trapdoor": {
+    "criteria": {
+      "has_planks": "2022-06-12 16:55:57 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/respawn_anchor": {
     "criteria": {
       "has_obsidian": "2022-06-10 19:02:46 +0200"
@@ -2507,6 +2592,12 @@
   "supplementaries:recipes/gold_door": {
     "criteria": {
       "has_plank": "2022-06-10 17:20:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_button": {
+    "criteria": {
+      "has_planks": "2022-06-12 16:55:57 +0200"
     },
     "done": true
   },
@@ -3122,6 +3213,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2022-06-12 17:03:17 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/glass_pane": {
     "criteria": {
       "has_glass": "2022-06-11 00:38:42 +0200"
@@ -3182,6 +3279,12 @@
     },
     "done": true
   },
+  "appliedenergistics2:main/compass": {
+    "criteria": {
+      "compass": "2022-06-12 16:31:00 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_helmet": {
     "criteria": {
       "has_diamond": "2022-06-10 17:20:58 +0200"
@@ -3218,6 +3321,12 @@
     },
     "done": true
   },
+  "appliedenergistics2:recipes/appliedenergistics2/shaped/stairs/sky_stone_block": {
+    "criteria": {
+      "has_sky_stone_block": "2022-06-12 17:08:39 +0200"
+    },
+    "done": true
+  },
   "theabyss:ignisithe_ore_adv": {
     "criteria": {
       "ignisithe_ore_adv": "2022-06-11 14:56:14 +0200"
@@ -3239,6 +3348,12 @@
   "botania:recipes/botania/quartz_red": {
     "criteria": {
       "has_item": "2022-06-10 18:54:13 +0200"
+    },
+    "done": true
+  },
+  "appliedenergistics2:recipes/appliedenergistics2/block_cutter/slabs/sky_stone_slab": {
+    "criteria": {
+      "has_sky_stone_block": "2022-06-12 17:08:39 +0200"
     },
     "done": true
   },
@@ -3638,6 +3753,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/jungle_sign": {
+    "criteria": {
+      "has_jungle_planks": "2022-06-12 16:55:57 +0200"
+    },
+    "done": true
+  },
   "immersiveengineering:recipes/immersiveengineering/crafting/wire_steel": {
     "criteria": {
       "has_steel_ingot": "2022-06-11 14:10:44 +0200"
@@ -3671,6 +3792,12 @@
   "minecraft:recipes/redstone/acacia_trapdoor": {
     "criteria": {
       "has_planks": "2022-06-11 00:42:57 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2022-06-12 17:03:17 +0200"
     },
     "done": true
   },
@@ -3791,6 +3918,12 @@
   "immersiveengineering:recipes/immersiveengineering/crafting/steel_fence": {
     "criteria": {
       "has_steel_ingot": "2022-06-11 14:10:44 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_slab": {
+    "criteria": {
+      "has_planks": "2022-06-12 16:55:57 +0200"
     },
     "done": true
   },
@@ -4028,6 +4161,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/jungle_stairs": {
+    "criteria": {
+      "has_planks": "2022-06-12 16:55:57 +0200"
+    },
+    "done": true
+  },
   "ironchest:recipes/ironchest/upgrades/wood_to_iron_chest_upgrade": {
     "criteria": {
       "has_iron_ingot": "2022-06-10 17:13:34 +0200"
@@ -4088,6 +4227,18 @@
     },
     "done": true
   },
+  "appliedenergistics2:main/fluix": {
+    "criteria": {
+      "certus": "2022-06-12 16:54:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_door": {
+    "criteria": {
+      "has_planks": "2022-06-12 16:55:57 +0200"
+    },
+    "done": true
+  },
   "create:recipes/create.base/blasting/zinc_ingot_from_ore": {
     "criteria": {
       "has_item": "2022-06-11 00:42:57 +0200"
@@ -4109,6 +4260,12 @@
   "create:recipes/create.palettes/layered_andesite_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2022-06-11 13:15:47 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_fence_gate": {
+    "criteria": {
+      "has_planks": "2022-06-12 16:55:57 +0200"
     },
     "done": true
   },

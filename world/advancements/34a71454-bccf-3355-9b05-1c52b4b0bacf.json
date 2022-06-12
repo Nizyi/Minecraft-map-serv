@@ -29,6 +29,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_andesite_slab": {
+    "criteria": {
+      "has_polished_andesite": "2022-06-12 17:08:55 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/lever": {
     "criteria": {
       "has_cobblestone": "2022-06-10 17:19:24 +0200"
@@ -233,9 +239,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot_from_blasting": {
+    "criteria": {
+      "has_gold_ore": "2022-06-12 16:41:03 +0200"
+    },
+    "done": true
+  },
   "botania:recipes/botania/apothecary_default": {
     "criteria": {
       "has_item": "2022-06-11 13:23:58 +0200"
+    },
+    "done": true
+  },
+  "appliedenergistics2:recipes/appliedenergistics2/shaped/slabs/sky_stone_block": {
+    "criteria": {
+      "has_sky_stone_block": "2022-06-12 17:01:38 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/polished_scoria_from_scoria_stonecutting": {
+    "criteria": {
+      "has_scoria": "2022-06-12 16:46:56 +0200"
     },
     "done": true
   },
@@ -281,6 +305,12 @@
     },
     "done": true
   },
+  "appliedenergistics2:recipes/appliedenergistics2/block_cutter/stairs/sky_stone_stairs": {
+    "criteria": {
+      "has_sky_stone_block": "2022-06-12 17:01:38 +0200"
+    },
+    "done": true
+  },
   "botania:recipes/botania/petal_blue": {
     "criteria": {
       "has_item": "2022-06-10 20:28:17 +0200"
@@ -308,6 +338,12 @@
   "minecraft:recipes/redstone/dispenser": {
     "criteria": {
       "has_bow": "2022-06-10 18:20:04 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/chiseled_scoria_from_scoria_stonecutting": {
+    "criteria": {
+      "has_scoria": "2022-06-12 16:46:56 +0200"
     },
     "done": true
   },
@@ -587,6 +623,12 @@
     },
     "done": true
   },
+  "appliedenergistics2:recipes/appliedenergistics2/block_cutter/walls/sky_stone_wall": {
+    "criteria": {
+      "has_sky_stone_block": "2022-06-12 17:01:38 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2022-06-10 17:19:24 +0200"
@@ -749,6 +791,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/scoria_pillar": {
+    "criteria": {
+      "has_scoria": "2022-06-12 16:46:56 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/diamond_pickaxe": {
     "criteria": {
       "has_diamond": "2022-06-10 18:49:58 +0200"
@@ -773,8 +821,10 @@
       "minecraft:creeper": "2022-06-10 18:28:27 +0200",
       "minecraft:zombified_piglin": "2022-06-11 16:01:30 +0200",
       "minecraft:wither_skeleton": "2022-06-11 16:00:07 +0200",
+      "minecraft:husk": "2022-06-12 17:07:43 +0200",
       "minecraft:piglin": "2022-06-11 13:39:31 +0200",
       "minecraft:enderman": "2022-06-11 13:49:51 +0200",
+      "minecraft:silverfish": "2022-06-12 17:08:18 +0200",
       "minecraft:zombie": "2022-06-10 17:16:55 +0200"
     },
     "done": false
@@ -800,6 +850,12 @@
   "minecraft:recipes/building_blocks/birch_wood": {
     "criteria": {
       "has_log": "2022-06-10 18:22:42 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2022-06-12 17:03:16 +0200"
     },
     "done": true
   },
@@ -830,6 +886,12 @@
   "minecraft:recipes/decorations/stone_brick_wall": {
     "criteria": {
       "has_stone_bricks": "2022-06-10 20:45:06 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/fletching_table": {
+    "criteria": {
+      "has_flint": "2022-06-12 16:33:35 +0200"
     },
     "done": true
   },
@@ -1112,6 +1174,12 @@
   "minecraft:recipes/brewing/glass_bottle": {
     "criteria": {
       "has_glass": "2022-06-10 20:58:34 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/mossy_scoria_from_scoria_stonecutting": {
+    "criteria": {
+      "has_scoria": "2022-06-12 16:46:56 +0200"
     },
     "done": true
   },
@@ -1463,6 +1531,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/scoria_bricks_from_scoria_stonecutting": {
+    "criteria": {
+      "has_scoria": "2022-06-12 16:46:56 +0200"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/andesite_pillar": {
     "criteria": {
       "has_andesite": "2022-06-10 17:56:08 +0200"
@@ -1729,6 +1803,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_andesite_slab_from_polished_andesite_stonecutting": {
+    "criteria": {
+      "has_polished_andesite": "2022-06-12 17:08:55 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_gray_stained_glass": {
     "criteria": {
       "has_glass": "2022-06-10 20:58:34 +0200"
@@ -1825,6 +1905,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/layered_scoria_from_scoria_stonecutting": {
+    "criteria": {
+      "has_scoria": "2022-06-12 16:46:56 +0200"
+    },
+    "done": true
+  },
   "supplementaries:recipes/bellows": {
     "criteria": {
       "has_item": "2022-06-10 18:02:33 +0200"
@@ -1862,6 +1948,12 @@
   "botania:recipes/botania/light_blue_shiny_flower": {
     "criteria": {
       "has_item": "2022-06-10 20:12:56 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/polished_scoria": {
+    "criteria": {
+      "has_scoria": "2022-06-12 16:46:56 +0200"
     },
     "done": true
   },
@@ -1928,6 +2020,12 @@
   "minecraft:recipes/misc/orange_dye_from_red_yellow": {
     "criteria": {
       "has_red_dye": "2022-06-11 13:24:17 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/crafting/palettes/dark_scoria": {
+    "criteria": {
+      "has_item": "2022-06-12 16:46:56 +0200"
     },
     "done": true
   },
@@ -2033,6 +2131,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs": {
+    "criteria": {
+      "has_polished_andesite": "2022-06-12 17:08:55 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
     "criteria": {
       "has_stone_bricks": "2022-06-10 20:45:06 +0200"
@@ -2054,6 +2158,12 @@
   "undergarden:recipes/undergarden_group/depthrock_brick_stairs_stonecutting": {
     "criteria": {
       "has_undergarden:depthrock": "2022-06-10 20:33:03 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/paved_scoria_from_scoria_stonecutting": {
+    "criteria": {
+      "has_scoria": "2022-06-12 16:46:56 +0200"
     },
     "done": true
   },
@@ -2201,6 +2311,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/fancy_scoria_bricks_from_scoria_stonecutting": {
+    "criteria": {
+      "has_scoria": "2022-06-12 16:46:56 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cracked_stone_bricks": {
     "criteria": {
       "has_stone_bricks": "2022-06-10 20:45:06 +0200"
@@ -2279,6 +2395,12 @@
     },
     "done": true
   },
+  "appliedenergistics2:recipes/appliedenergistics2/shaped/walls/sky_stone_block": {
+    "criteria": {
+      "has_sky_stone_block": "2022-06-12 17:01:38 +0200"
+    },
+    "done": true
+  },
   "supplementaries:recipes/hanging_sign_oak": {
     "criteria": {
       "has_plank": "2022-06-10 20:51:44 +0200"
@@ -2290,7 +2412,8 @@
       "cooked_mutton": "2022-06-10 18:02:12 +0200",
       "cooked_beef": "2022-06-10 20:31:10 +0200",
       "baked_potato": "2022-06-10 18:22:02 +0200",
-      "mutton": "2022-06-10 18:03:03 +0200"
+      "mutton": "2022-06-10 18:03:03 +0200",
+      "bread": "2022-06-12 17:18:55 +0200"
     },
     "done": false
   },
@@ -2351,6 +2474,12 @@
   "minecraft:recipes/building_blocks/birch_slab": {
     "criteria": {
       "has_planks": "2022-06-10 20:00:38 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/scoria_pillar_from_scoria_stonecutting": {
+    "criteria": {
+      "has_scoria": "2022-06-12 16:46:56 +0200"
     },
     "done": true
   },
@@ -2954,6 +3083,12 @@
     },
     "done": true
   },
+  "appliedenergistics2:recipes/appliedenergistics2/shaped/stairs/sky_stone_block": {
+    "criteria": {
+      "has_sky_stone_block": "2022-06-12 17:01:38 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cyan_concrete_powder": {
     "criteria": {
       "has_sand": "2022-06-10 18:59:45 +0200"
@@ -2969,6 +3104,12 @@
   "botania:recipes/botania/quartz_red": {
     "criteria": {
       "has_item": "2022-06-11 13:31:13 +0200"
+    },
+    "done": true
+  },
+  "appliedenergistics2:recipes/appliedenergistics2/block_cutter/slabs/sky_stone_slab": {
+    "criteria": {
+      "has_sky_stone_block": "2022-06-12 17:01:38 +0200"
     },
     "done": true
   },
@@ -3152,6 +3293,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/scoria_cobblestone_from_scoria_stonecutting": {
+    "criteria": {
+      "has_scoria": "2022-06-12 16:46:56 +0200"
+    },
+    "done": true
+  },
   "undergarden:undergarden/root": {
     "criteria": {
       "tick": "2022-06-10 17:06:10 +0200"
@@ -3200,6 +3347,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_flint": "2022-06-12 16:33:35 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/coal_block": {
     "criteria": {
       "has_coal": "2022-06-10 17:19:08 +0200"
@@ -3215,6 +3368,12 @@
   "create:recipes/create.base/crafting/kinetics/gray_seat": {
     "criteria": {
       "has_wool": "2022-06-10 18:00:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot": {
+    "criteria": {
+      "has_gold_ore": "2022-06-12 16:41:03 +0200"
     },
     "done": true
   },
@@ -3293,6 +3452,12 @@
   "minecraft:recipes/building_blocks/andesite": {
     "criteria": {
       "has_stone": "2022-06-10 21:39:24 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs_from_polished_andesite_stonecutting": {
+    "criteria": {
+      "has_polished_andesite": "2022-06-12 17:08:55 +0200"
     },
     "done": true
   },
@@ -3557,6 +3722,12 @@
   "immersiveengineering:recipes/immersiveengineering/crafting/ingot_aluminum": {
     "criteria": {
       "has_ore_aluminum": "2022-06-10 17:23:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2022-06-12 17:31:50 +0200"
     },
     "done": true
   },
@@ -3847,6 +4018,12 @@
   "undergarden:recipes/undergarden_group/depthrock_wall_stonecutting": {
     "criteria": {
       "has_undergarden:depthrock": "2022-06-10 20:33:03 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/overgrown_scoria_from_scoria_stonecutting": {
+    "criteria": {
+      "has_scoria": "2022-06-12 16:46:56 +0200"
     },
     "done": true
   },
