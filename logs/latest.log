@@ -1,118 +1,66 @@
-[13juin2022 00:02:28.352] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Nizy___ moved too quickly! 0.07603558378067987,0.0,10.341207358430722
-[13juin2022 00:03:14.550] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Nizy___ moved too quickly! 10.06292665068679,0.0,1.0060542315531649
-[13juin2022 00:04:33.932] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Set own game mode to Survival Mode]
-[13juin2022 00:04:41.801] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Set own game mode to Creative Mode]
-[13juin2022 00:04:47.349] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Nizy___ moved too quickly! 8.163421991544766,0.0,6.188768516004984
-[13juin2022 00:04:50.936] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Nizy___ moved too quickly! -5.2678716177447455,0.0,8.781120269444003
-[13juin2022 00:04:54.436] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Nizy___ moved too quickly! -1.5938695683291542,0.0,-10.183500144595357
-[13juin2022 00:05:01.484] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Nizy___ moved too quickly! -0.46561669139150297,0.0,10.097228169152444
-[13juin2022 00:05:15.624] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Set own game mode to Survival Mode]
-[13juin2022 00:05:37.372] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Nizy___ lost connection: Disconnected
-[13juin2022 00:05:37.373] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nizy___ left the game
-[13juin2022 00:05:52.056] [Netty Server IO #2/INFO] [codechicken.lib.config.ConfigSyncManager/]: Skipping config sync, No mods have registered a syncable config.
-[13juin2022 00:05:55.797] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@13bc08e
-[13juin2022 00:05:55.835] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Nizy___[/127.0.0.1:52705] logged in with entity id 82456 at (96.36049063439069, 64.0, -114.40618817184514)
-[13juin2022 00:05:55.867] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nizy___ joined the game
-[13juin2022 00:05:55.993] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.ReadConfigFileProcedure:executeProcedure:116]: java.io.FileNotFoundException: config\theabyss2.json (Le fichier spécifié est introuvable)
-[13juin2022 00:05:55.993] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.ReadConfigFileProcedure:executeProcedure:116]: 	at java.io.FileInputStream.open0(Native Method)
-[13juin2022 00:05:55.994] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.ReadConfigFileProcedure:executeProcedure:116]: 	at java.io.FileInputStream.open(Unknown Source)
-[13juin2022 00:05:55.995] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.ReadConfigFileProcedure:executeProcedure:116]: 	at java.io.FileInputStream.<init>(Unknown Source)
-[13juin2022 00:05:55.995] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.ReadConfigFileProcedure:executeProcedure:116]: 	at java.io.FileReader.<init>(Unknown Source)
-[13juin2022 00:05:55.996] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.ReadConfigFileProcedure:executeProcedure:116]: 	at net.yezon.theabyss.procedures.ReadConfigFileProcedure.executeProcedure(ReadConfigFileProcedure.java:50)
-[13juin2022 00:05:55.996] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.ReadConfigFileProcedure:executeProcedure:116]: 	at net.yezon.theabyss.procedures.ReadConfigFileProcedure$GlobalTrigger.onPlayerLoggedIn(ReadConfigFileProcedure.java:36)
-[13juin2022 00:05:55.997] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.ReadConfigFileProcedure:executeProcedure:116]: 	at net.minecraftforge.eventbus.ASMEventHandler_1521_GlobalTrigger_onPlayerLoggedIn_PlayerLoggedInEvent.invoke(.dynamic)
-[13juin2022 00:05:55.998] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.ReadConfigFileProcedure:executeProcedure:116]: 	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85)
-[13juin2022 00:05:55.999] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.ReadConfigFileProcedure:executeProcedure:116]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302)
-[13juin2022 00:05:55.999] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.ReadConfigFileProcedure:executeProcedure:116]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283)
-[13juin2022 00:05:56.000] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.ReadConfigFileProcedure:executeProcedure:116]: 	at net.minecraftforge.fml.hooks.BasicEventHooks.firePlayerLoggedIn(BasicEventHooks.java:44)
-[13juin2022 00:05:56.000] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.ReadConfigFileProcedure:executeProcedure:116]: 	at net.minecraft.server.management.PlayerList.func_72355_a(PlayerList.java:232)
-[13juin2022 00:05:56.000] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.ReadConfigFileProcedure:executeProcedure:116]: 	at net.minecraft.network.login.ServerLoginNetHandler.func_147326_c(ServerLoginNetHandler.java:118)
-[13juin2022 00:05:56.001] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.ReadConfigFileProcedure:executeProcedure:116]: 	at net.minecraft.network.login.ServerLoginNetHandler.func_73660_a(ServerLoginNetHandler.java:65)
-[13juin2022 00:05:56.002] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.ReadConfigFileProcedure:executeProcedure:116]: 	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:222)
-[13juin2022 00:05:56.002] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.ReadConfigFileProcedure:executeProcedure:116]: 	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:134)
-[13juin2022 00:05:56.002] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.ReadConfigFileProcedure:executeProcedure:116]: 	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:865)
-[13juin2022 00:05:56.003] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.ReadConfigFileProcedure:executeProcedure:116]: 	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:291)
-[13juin2022 00:05:56.004] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.ReadConfigFileProcedure:executeProcedure:116]: 	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:787)
-[13juin2022 00:05:56.005] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.ReadConfigFileProcedure:executeProcedure:116]: 	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:642)
-[13juin2022 00:05:56.005] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.ReadConfigFileProcedure:executeProcedure:116]: 	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:232)
-[13juin2022 00:05:56.007] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.ReadConfigFileProcedure:executeProcedure:116]: 	at java.lang.Thread.run(Unknown Source)
-[13juin2022 00:06:07.862] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Set own game mode to Creative Mode]
-[13juin2022 00:06:11.264] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Set own game mode to Survival Mode]
-[13juin2022 00:06:14.869] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Set own game mode to Creative Mode]
-[13juin2022 00:07:59.739] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Nizy___ moved too quickly! 6.317043095405481,-2.609694502122963,-7.434808122992507
-[13juin2022 00:10:50.147] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Nizy___ moved too quickly! 0.9537884767017033,0.08660786354290906,10.227716950363543
-[13juin2022 00:14:58.142] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Nizy___ moved too quickly! -10.151182756766872,0.0,-3.626991076946183
-[13juin2022 00:28:36.705] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Gave 64 [Block of Coal Coke] to Nizy___]
-[13juin2022 00:43:21.833] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Set own game mode to Survival Mode]
-[13juin2022 00:43:32.502] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Set own game mode to Creative Mode]
-[13juin2022 00:48:32.254] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Set own game mode to Survival Mode]
-[13juin2022 00:57:09.601] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Nizy___ lost connection: Disconnected
-[13juin2022 00:57:09.601] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nizy___ left the game
-[13juin2022 01:20:48.720] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
-[13juin2022 01:20:48.769] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[13juin2022 01:20:48.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[13juin2022 01:20:48.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[13juin2022 01:20:48.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[13juin2022 01:20:48.962] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[13juin2022 01:20:48.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[13juin2022 01:20:48.969] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13juin2022 01:20:48.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[13juin2022 01:20:48.971] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13juin2022 01:20:48.972] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/theabyss:dream
-[13juin2022 01:20:48.973] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (dream): All chunks are saved
-[13juin2022 01:20:48.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/boss_tools:mars_orbit
-[13juin2022 01:20:48.974] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (mars_orbit): All chunks are saved
-[13juin2022 01:20:48.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/boss_tools:mercury
-[13juin2022 01:20:48.975] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (mercury): All chunks are saved
-[13juin2022 01:20:48.976] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/theabyss:radio
-[13juin2022 01:20:48.980] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (radio): All chunks are saved
-[13juin2022 01:20:48.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/theabyss:ground_lands
-[13juin2022 01:20:48.982] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (ground_lands): All chunks are saved
-[13juin2022 01:20:48.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/hem:blueleaf
-[13juin2022 01:20:48.983] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (blueleaf): All chunks are saved
-[13juin2022 01:20:48.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/appliedenergistics2:spatial_storage
-[13juin2022 01:20:48.984] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
-[13juin2022 01:20:48.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/boss_tools:venus_orbit
-[13juin2022 01:20:48.986] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (venus_orbit): All chunks are saved
-[13juin2022 01:20:48.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/boss_tools:mars
-[13juin2022 01:20:48.988] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (mars): All chunks are saved
-[13juin2022 01:20:48.988] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/boss_tools:venus
-[13juin2022 01:20:48.989] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (venus): All chunks are saved
-[13juin2022 01:20:48.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/boss_tools:overworld_orbit
-[13juin2022 01:20:48.991] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (overworld_orbit): All chunks are saved
-[13juin2022 01:20:48.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/boss_tools:moon_orbit
-[13juin2022 01:20:48.993] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (moon_orbit): All chunks are saved
-[13juin2022 01:20:48.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/theabyss:the_abyss
-[13juin2022 01:20:48.996] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (the_abyss): All chunks are saved
-[13juin2022 01:20:48.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/boss_tools:moon
-[13juin2022 01:20:48.997] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (moon): All chunks are saved
-[13juin2022 01:20:48.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/theabyss:frost_world
-[13juin2022 01:20:49.001] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (frost_world): All chunks are saved
-[13juin2022 01:20:49.001] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/undergarden:undergarden
-[13juin2022 01:20:49.003] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (undergarden): All chunks are saved
-[13juin2022 01:20:49.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/theabyss:pocket_dimension
-[13juin2022 01:20:49.004] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (pocket_dimension): All chunks are saved
-[13juin2022 01:20:49.004] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/boss_tools:mercury_orbit
-[13juin2022 01:20:49.005] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (mercury_orbit): All chunks are saved
-[13juin2022 01:20:49.074] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[13juin2022 01:20:49.173] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13juin2022 01:20:49.185] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13juin2022 01:20:49.186] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (dream): All chunks are saved
-[13juin2022 01:20:49.186] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (mars_orbit): All chunks are saved
-[13juin2022 01:20:49.187] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (mercury): All chunks are saved
-[13juin2022 01:20:49.188] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (radio): All chunks are saved
-[13juin2022 01:20:49.188] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (ground_lands): All chunks are saved
-[13juin2022 01:20:49.189] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (blueleaf): All chunks are saved
-[13juin2022 01:20:49.189] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
-[13juin2022 01:20:49.190] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (venus_orbit): All chunks are saved
-[13juin2022 01:20:49.191] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (mars): All chunks are saved
-[13juin2022 01:20:49.192] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (venus): All chunks are saved
-[13juin2022 01:20:49.192] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (overworld_orbit): All chunks are saved
-[13juin2022 01:20:49.193] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (moon_orbit): All chunks are saved
-[13juin2022 01:20:49.193] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (the_abyss): All chunks are saved
-[13juin2022 01:20:49.194] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (moon): All chunks are saved
-[13juin2022 01:20:49.195] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (frost_world): All chunks are saved
-[13juin2022 01:20:49.200] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (undergarden): All chunks are saved
-[13juin2022 01:20:49.200] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (pocket_dimension): All chunks are saved
-[13juin2022 01:20:49.201] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (mercury_orbit): All chunks are saved
-[13juin2022 01:20:49.214] [Server thread/INFO] [FluxNetworks/]: FluxNetworkData has been unloaded
+[13juin2022 01:25:26.317] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.2.34, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge]
+[13juin2022 01:25:26.320] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 1.8.0_301 by Oracle Corporation
+[13juin2022 01:25:26.834] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[13juin2022 01:25:26.879] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/K:/minecraft%20server/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
+[13juin2022 01:25:27.457] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file Mod File: K:\minecraft server\mods\carrier-1.7.6.jar is missing mods.toml file
+[13juin2022 01:25:27.458] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: File K:\minecraft server\mods\carrier-1.7.6.jar has been ignored - it is invalid
+[13juin2022 01:25:28.150] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, .]
+[13juin2022 01:25:33.074] [main/FATAL] [net.minecraftforge.fml.ModLoader/CORE]: Error during pre-loading phase
+net.minecraftforge.fml.ModLoadingException: Mod §equark§r requires §6autoreglib§r §o1.6-48 or above§r
+§7Currently, §6autoreglib§r§7 is §o§nnot installed
+	at net.minecraftforge.fml.ModLoadingException.lambda$fromEarlyException$0(ModLoadingException.java:64) ~[forge:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source) ~[?:1.8.0_301]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(Unknown Source) ~[?:1.8.0_301]
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source) ~[?:1.8.0_301]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source) ~[?:1.8.0_301]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(Unknown Source) ~[?:1.8.0_301]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(Unknown Source) ~[?:1.8.0_301]
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source) ~[?:1.8.0_301]
+	at java.util.stream.ReferencePipeline.forEach(Unknown Source) ~[?:1.8.0_301]
+	at java.util.stream.ReferencePipeline$7$1.accept(Unknown Source) ~[?:1.8.0_301]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(Unknown Source) ~[?:1.8.0_301]
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source) ~[?:1.8.0_301]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source) ~[?:1.8.0_301]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source) ~[?:1.8.0_301]
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source) ~[?:1.8.0_301]
+	at java.util.stream.ReferencePipeline.collect(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraftforge.fml.ModLoader.<init>(ModLoader.java:120) ~[forge:?]
+	at net.minecraftforge.fml.ModLoader.get(ModLoader.java:154) ~[forge:?]
+	at net.minecraftforge.fml.server.ServerModLoader.load(ServerModLoader.java:44) ~[forge:?]
+	at net.minecraft.server.Main.main(Main.java:95) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraftforge.fml.loading.FMLServerLaunchProvider.lambda$launchService$0(FMLServerLaunchProvider.java:51) ~[forge-1.16.5-36.2.34.jar:36.2]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.1.3.jar:?]
+	at net.minecraftforge.server.ServerMain$Runner.runLauncher(ServerMain.java:63) [forge-1.16.5-36.2.34.jar:?]
+	at net.minecraftforge.server.ServerMain$Runner.access$100(ServerMain.java:60) [forge-1.16.5-36.2.34.jar:?]
+	at net.minecraftforge.server.ServerMain.main(ServerMain.java:57) [forge-1.16.5-36.2.34.jar:?]
+[13juin2022 01:25:33.105] [main/INFO] [STDOUT/]: [net.minecraft.crash.CrashReport:func_85057_a:196]: Negative index in crash report handler (16/18)
+[13juin2022 01:25:33.133] [main/FATAL] [net.minecraftforge.fml.server.ServerModLoader/]: Crash report saved to .\crash-reports\crash-2022-06-13_01.25.33-fml.txt
+[13juin2022 01:25:33.142] [main/FATAL] [net.minecraft.server.Main/]: Failed to start the minecraft server
+net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: [
+	Mod §equark§r requires §6autoreglib§r §o1.6-48 or above§r
+§7Currently, §6autoreglib§r§7 is §o§nnot installed
+]
+	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:178) ~[forge:?]
+	at net.minecraftforge.fml.server.ServerModLoader.load(ServerModLoader.java:44) ~[forge:?]
+	at net.minecraft.server.Main.main(Main.java:95) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraftforge.fml.loading.FMLServerLaunchProvider.lambda$launchService$0(FMLServerLaunchProvider.java:51) ~[forge-1.16.5-36.2.34.jar:36.2]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.1.3.jar:?]
+	at net.minecraftforge.server.ServerMain$Runner.runLauncher(ServerMain.java:63) [forge-1.16.5-36.2.34.jar:?]
+	at net.minecraftforge.server.ServerMain$Runner.access$100(ServerMain.java:60) [forge-1.16.5-36.2.34.jar:?]
+	at net.minecraftforge.server.ServerMain.main(ServerMain.java:57) [forge-1.16.5-36.2.34.jar:?]
