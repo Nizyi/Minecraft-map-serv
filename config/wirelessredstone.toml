@@ -1,0 +1,25 @@
+
+#General configuration
+[Client]
+	#The time for the sniffer highlighting in seconds
+	#Range: 5 ~ 500
+	snifferHighlightTime = 10
+
+	[Client."Highlight color"]
+		#Color of the highlight outline using the sniffer for active transmitters
+		#Range: 0 ~ 255
+		red = 255
+		#Range: 0 ~ 255
+		green = 63
+		#Range: 0 ~ 255
+		blue = 63
+
+	[Client."Frequency Display color"]
+		#Color of the frequency text that is displayed on a transmitter/receiver
+		#Range: 0 ~ 255
+		red = 0
+		#Range: 0 ~ 255
+		green = 0
+		#Range: 0 ~ 255
+		blue = 0
+
