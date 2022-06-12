@@ -348,6 +348,12 @@
     },
     "done": true
   },
+  "immersiveengineering:recipes/immersiveengineering/crafting/metal_ladder_none": {
+    "criteria": {
+      "has_metal_rod": "2022-06-12 17:43:17 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/emerald_block": {
     "criteria": {
       "has_emerald": "2022-06-11 14:54:16 +0200"
@@ -891,6 +897,12 @@
     },
     "done": true
   },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2022-06-12 17:56:59 +0200"
+    },
+    "done": true
+  },
   "undergarden:recipes/undergarden_group/depthrock_tile_stairs_stonecutting": {
     "criteria": {
       "has_undergarden:depthrock": "2022-06-11 00:43:01 +0200"
@@ -1371,6 +1383,12 @@
     },
     "done": true
   },
+  "immersiveengineering:recipes/immersiveengineering/crafting/ingot_aluminum_to_storage_aluminum": {
+    "criteria": {
+      "has_ingot_aluminum": "2022-06-12 17:43:17 +0200"
+    },
+    "done": true
+  },
   "create:recipes/create.base/crafting/kinetics/cyan_seat": {
     "criteria": {
       "has_wool": "2022-06-11 00:42:57 +0200"
@@ -1392,6 +1410,12 @@
   "minecraft:recipes/tools/golden_axe": {
     "criteria": {
       "has_gold_ingot": "2022-06-10 17:20:36 +0200"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/alu_scaffolding_standard": {
+    "criteria": {
+      "has_alu_sticks": "2022-06-12 17:43:17 +0200"
     },
     "done": true
   },
@@ -1691,9 +1715,12 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:forest": "2022-06-12 17:40:40 +0200",
+      "minecraft:mountains": "2022-06-12 17:48:10 +0200",
       "minecraft:desert_hills": "2022-06-10 17:21:57 +0200",
       "minecraft:desert": "2022-06-10 17:12:28 +0200",
       "minecraft:jungle": "2022-06-11 14:45:43 +0200",
+      "minecraft:birch_forest": "2022-06-12 17:39:33 +0200",
       "minecraft:beach": "2022-06-10 15:24:07 +0200",
       "minecraft:river": "2022-06-10 17:06:54 +0200",
       "minecraft:lukewarm_ocean": "2022-06-10 17:01:32 +0200",
@@ -1743,6 +1770,12 @@
   "undergarden:recipes/undergarden_group/grongle_boat": {
     "criteria": {
       "in_water": "2022-06-10 17:01:28 +0200"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/stick_aluminum": {
+    "criteria": {
+      "has_alu_ingot": "2022-06-12 17:43:17 +0200"
     },
     "done": true
   },
@@ -1950,6 +1983,12 @@
     },
     "done": true
   },
+  "immersiveengineering:recipes/immersiveengineering/crafting/wirecoil_redstone": {
+    "criteria": {
+      "has_aluminum_ingot": "2022-06-12 17:43:17 +0200"
+    },
+    "done": true
+  },
   "rftoolsbase:recipes/rftoolsbase/smartwrench": {
     "criteria": {
       "iron": "2022-06-10 17:13:34 +0200"
@@ -2077,6 +2116,12 @@
     },
     "done": true
   },
+  "immersiveengineering:recipes/immersiveengineering/crafting/wire_aluminum": {
+    "criteria": {
+      "has_aluminum_ingot": "2022-06-12 17:43:17 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_diorite": {
     "criteria": {
       "has_stone": "2022-06-10 18:44:37 +0200"
@@ -2143,6 +2188,12 @@
     },
     "done": true
   },
+  "appliedenergistics2:main/storage_cell": {
+    "criteria": {
+      "c64k": "2022-06-12 18:03:12 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/fire_charge": {
     "criteria": {
       "has_blaze_powder": "2022-06-11 14:07:55 +0200"
@@ -2152,6 +2203,12 @@
   "create:recipes/create.palettes/smelting/gabbro": {
     "criteria": {
       "has_item": "2022-06-10 18:43:50 +0200"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/alu_wallmount": {
+    "criteria": {
+      "has_aluminum_ingot": "2022-06-12 17:43:17 +0200"
     },
     "done": true
   },
@@ -2176,6 +2233,12 @@
   "minecraft:recipes/building_blocks/purple_wool": {
     "criteria": {
       "has_white_wool": "2022-06-11 00:42:57 +0200"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/storage_aluminum_to_ingot_aluminum": {
+    "criteria": {
+      "has_storage_aluminum": "2022-06-12 17:43:17 +0200"
     },
     "done": true
   },
@@ -2676,6 +2739,12 @@
   "botania:recipes/botania/flower_bag": {
     "criteria": {
       "has_item": "2022-06-10 20:36:37 +0200"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/alu_fence": {
+    "criteria": {
+      "has_alu_sticks": "2022-06-12 17:43:17 +0200"
     },
     "done": true
   },
@@ -3255,6 +3324,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/lapis_lazuli": {
+    "criteria": {
+      "has_lapis_block": "2022-06-12 17:56:48 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/magenta_stained_glass": {
     "criteria": {
       "has_glass": "2022-06-11 00:38:42 +0200"
@@ -3765,6 +3840,12 @@
     },
     "done": true
   },
+  "immersiveengineering:recipes/immersiveengineering/crafting/strip_curtain": {
+    "criteria": {
+      "has_metal_rod": "2022-06-12 17:43:17 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_andesite_stairs_from_polished_andesite_stonecutting": {
     "criteria": {
       "has_polished_andesite": "2022-06-10 18:24:51 +0200"
@@ -3930,6 +4011,12 @@
   "supplementaries:recipes/goblet": {
     "criteria": {
       "has_plank": "2022-06-10 17:13:34 +0200"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/plate_aluminum_hammering": {
+    "criteria": {
+      "has_aluminum_ingot": "2022-06-12 17:43:17 +0200"
     },
     "done": true
   },
@@ -4395,6 +4482,12 @@
   "create:recipes/create.base/crafting/kinetics/light_gray_seat": {
     "criteria": {
       "has_wool": "2022-06-11 00:42:57 +0200"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/gunpart_barrel": {
+    "criteria": {
+      "has_stick_steel": "2022-06-12 17:43:17 +0200"
     },
     "done": true
   },
