@@ -1034,7 +1034,8 @@
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:crimson_forest": "2022-06-10 18:55:21 +0200",
-      "minecraft:nether_wastes": "2022-06-10 18:52:36 +0200"
+      "minecraft:nether_wastes": "2022-06-10 18:52:36 +0200",
+      "minecraft:basalt_deltas": "2022-06-13 21:20:56 +0200"
     },
     "done": false
   },
@@ -1815,6 +1816,12 @@
   "minecraft:recipes/redstone/birch_door": {
     "criteria": {
       "has_the_recipe": "2022-06-13 01:40:04 +0200"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/craft_chemthrower": {
+    "criteria": {
+      "chemthrower": "2022-06-13 21:35:14 +0200"
     },
     "done": true
   },
@@ -3051,6 +3058,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:blaze": "2022-06-13 21:23:00 +0200",
       "minecraft:skeleton": "2022-06-10 18:43:27 +0200",
       "minecraft:spider": "2022-06-10 17:19:04 +0200",
       "minecraft:piglin_brute": "2022-06-10 19:00:43 +0200",
@@ -3059,6 +3067,7 @@
       "minecraft:phantom": "2022-06-11 14:24:09 +0200",
       "minecraft:zombified_piglin": "2022-06-11 14:13:45 +0200",
       "minecraft:witch": "2022-06-11 14:29:12 +0200",
+      "minecraft:wither_skeleton": "2022-06-13 21:24:19 +0200",
       "minecraft:husk": "2022-06-10 18:33:20 +0200",
       "minecraft:piglin": "2022-06-13 14:28:36 +0200",
       "minecraft:silverfish": "2022-06-10 17:19:58 +0200",
@@ -4623,6 +4632,12 @@
   "undergarden:recipes/undergarden_group/smogstem_fence": {
     "criteria": {
       "has_the_recipe": "2022-06-13 01:40:02 +0200"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/craft_revolver": {
+    "criteria": {
+      "revolver": "2022-06-13 21:36:00 +0200"
     },
     "done": true
   },
@@ -9603,6 +9618,12 @@
   "botania:recipes/botania/manasteel_pick": {
     "criteria": {
       "has_the_recipe": "2022-06-13 01:40:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2022-06-13 21:20:56 +0200"
     },
     "done": true
   },
@@ -15760,6 +15781,12 @@
     },
     "done": true
   },
+  "simpleplanes:recipes/plane": {
+    "criteria": {
+      "in_fire": "2022-06-13 21:45:49 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/iron_bars": {
     "criteria": {
       "has_iron_ingot": "2022-06-10 17:13:34 +0200"
@@ -16990,6 +17017,12 @@
     },
     "done": true
   },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2022-06-13 21:26:25 +0200"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/redstone/redwood_pressure_plate": {
     "criteria": {
       "has_the_recipe": "2022-06-13 01:40:02 +0200"
@@ -17731,6 +17764,12 @@
   "botania:recipes/botania/metamorphic_mountain_stone_stairs": {
     "criteria": {
       "has_the_recipe": "2022-06-13 01:40:04 +0200"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/craft_railgun": {
+    "criteria": {
+      "railgun": "2022-06-13 21:33:33 +0200"
     },
     "done": true
   },

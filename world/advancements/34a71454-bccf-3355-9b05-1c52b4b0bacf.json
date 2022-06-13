@@ -215,6 +215,12 @@
     },
     "done": true
   },
+  "supplementaries:recipes/hanging_sign_dark_oak": {
+    "criteria": {
+      "has_plank": "2022-06-13 19:49:39 +0200"
+    },
+    "done": true
+  },
   "immersiveengineering:recipes/immersiveengineering/crafting/nugget_steel_recycle_sword_from_blasting": {
     "criteria": {
       "has_the_recipe": "2022-06-13 14:05:06 +0200"
@@ -3039,6 +3045,7 @@
       "minecraft:spider": "2022-06-10 18:47:52 +0200",
       "minecraft:piglin_brute": "2022-06-11 15:41:40 +0200",
       "minecraft:creeper": "2022-06-10 18:28:27 +0200",
+      "minecraft:evoker": "2022-06-13 19:51:19 +0200",
       "minecraft:phantom": "2022-06-12 21:22:00 +0200",
       "minecraft:zombified_piglin": "2022-06-11 16:01:30 +0200",
       "minecraft:wither_skeleton": "2022-06-11 16:00:07 +0200",
@@ -3046,6 +3053,7 @@
       "minecraft:piglin": "2022-06-11 13:39:31 +0200",
       "minecraft:enderman": "2022-06-11 13:49:51 +0200",
       "minecraft:silverfish": "2022-06-12 17:08:18 +0200",
+      "minecraft:vex": "2022-06-13 19:51:34 +0200",
       "minecraft:zombie": "2022-06-10 17:16:55 +0200",
       "minecraft:drowned": "2022-06-13 14:35:13 +0200"
     },
@@ -10674,6 +10682,12 @@
   "botania:recipes/botania/spawner_claw": {
     "criteria": {
       "has_the_recipe": "2022-06-13 14:05:10 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/sign_post_dark_oak": {
+    "criteria": {
+      "has_plank": "2022-06-13 19:49:39 +0200"
     },
     "done": true
   },

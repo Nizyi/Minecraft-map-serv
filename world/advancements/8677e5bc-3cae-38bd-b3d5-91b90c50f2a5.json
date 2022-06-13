@@ -3043,6 +3043,8 @@
       "minecraft:blaze": "2022-06-12 17:15:11 +0200",
       "minecraft:pillager": "2022-06-12 17:10:54 +0200",
       "minecraft:skeleton": "2022-06-11 13:53:00 +0200",
+      "minecraft:ghast": "2022-06-13 21:21:58 +0200",
+      "minecraft:hoglin": "2022-06-13 21:31:59 +0200",
       "minecraft:magma_cube": "2022-06-12 17:15:08 +0200",
       "minecraft:spider": "2022-06-12 21:55:24 +0200",
       "minecraft:creeper": "2022-06-12 13:13:13 +0200",
@@ -3050,6 +3052,7 @@
       "minecraft:phantom": "2022-06-11 14:46:18 +0200",
       "minecraft:zombified_piglin": "2022-06-12 17:22:21 +0200",
       "minecraft:wither_skeleton": "2022-06-12 17:15:27 +0200",
+      "minecraft:piglin": "2022-06-13 21:31:40 +0200",
       "minecraft:silverfish": "2022-06-12 17:08:26 +0200",
       "minecraft:vex": "2022-06-13 18:09:07 +0200",
       "minecraft:zombie": "2022-06-12 13:22:06 +0200",
@@ -9024,6 +9027,12 @@
   "biomesoplenty:recipes/redstone/jacaranda_door": {
     "criteria": {
       "has_the_recipe": "2022-06-13 18:03:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/summon_wither": {
+    "criteria": {
+      "summoned": "2022-06-13 21:44:42 +0200"
     },
     "done": true
   },
@@ -15639,6 +15648,12 @@
     },
     "done": true
   },
+  "simpleplanes:recipes/plane": {
+    "criteria": {
+      "in_fire": "2022-06-13 21:44:44 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/iron_bars": {
     "criteria": {
       "has_iron_ingot": "2022-06-11 13:45:12 +0200"
@@ -18138,6 +18153,12 @@
   "botania:recipes/botania/slab_recombine/livingwood_planks": {
     "criteria": {
       "has_the_recipe": "2022-06-13 18:03:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2022-06-13 21:21:58 +0200"
     },
     "done": true
   },
