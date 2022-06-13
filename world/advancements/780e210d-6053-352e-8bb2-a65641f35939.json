@@ -1500,6 +1500,12 @@
     },
     "done": true
   },
+  "betteranimalsplus:animal_head_variants": {
+    "criteria": {
+      "head6": "2022-06-13 16:56:52 +0200"
+    },
+    "done": false
+  },
   "create:recipes/create.palettes/warped_window_pane": {
     "criteria": {
       "has_the_recipe": "2022-06-13 01:40:02 +0200"
@@ -11977,6 +11983,12 @@
     },
     "done": true
   },
+  "betteranimalsplus:animal_head_all": {
+    "criteria": {
+      "head6": "2022-06-13 16:56:52 +0200"
+    },
+    "done": false
+  },
   "rftoolspower:recipes/rftoolspower/blazing_generator": {
     "criteria": {
       "frame": "2022-06-11 14:07:05 +0200"
@@ -15895,6 +15907,12 @@
   "botania:recipes/botania/conversions/cyan_petal_block_deconstruct": {
     "criteria": {
       "has_the_recipe": "2022-06-13 01:40:02 +0200"
+    },
+    "done": true
+  },
+  "betteranimalsplus:animal_head_first": {
+    "criteria": {
+      "head6": "2022-06-13 16:56:52 +0200"
     },
     "done": true
   },
