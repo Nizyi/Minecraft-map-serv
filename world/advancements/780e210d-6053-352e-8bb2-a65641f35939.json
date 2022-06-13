@@ -1819,6 +1819,12 @@
     },
     "done": true
   },
+  "create:goggles": {
+    "criteria": {
+      "0": "2022-06-14 00:04:44 +0200"
+    },
+    "done": true
+  },
   "immersiveengineering:main/craft_chemthrower": {
     "criteria": {
       "chemthrower": "2022-06-13 21:35:14 +0200"
@@ -9240,6 +9246,12 @@
   "minecraft:recipes/building_blocks/purple_concrete_powder": {
     "criteria": {
       "has_gravel": "2022-06-10 18:51:24 +0200"
+    },
+    "done": true
+  },
+  "create:speedometer": {
+    "criteria": {
+      "0": "2022-06-14 00:01:16 +0200"
     },
     "done": true
   },
