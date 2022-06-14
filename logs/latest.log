@@ -1,277 +1,628 @@
-[14juin2022 00:00:27.242] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Spectator Mode]
-[14juin2022 00:00:46.975] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Survival Mode]
-[14juin2022 00:01:10.222] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: GZ29 lost connection: Disconnected
-[14juin2022 00:01:10.223] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: GZ29 left the game
-[14juin2022 00:01:54.721] [Netty Server IO #15/INFO] [codechicken.lib.config.ConfigSyncManager/]: Skipping config sync, No mods have registered a syncable config.
-[14juin2022 00:02:10.064] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@ee1f0a
-[14juin2022 00:02:10.217] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: GZ29[/88.136.130.221:59377] logged in with entity id 25808 at (109.15752218480885, 64.0, -105.2443024939461)
-[14juin2022 00:02:10.245] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: GZ29 joined the game
-[14juin2022 00:02:10.247] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: java.io.FileNotFoundException: config\ExtraSpace\GZ29ExtraSpace.json (Le fichier spécifié est introuvable)
-[14juin2022 00:02:10.247] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at java.io.FileInputStream.open0(Native Method)
-[14juin2022 00:02:10.248] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at java.io.FileInputStream.open(Unknown Source)
-[14juin2022 00:02:10.249] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at java.io.FileInputStream.<init>(Unknown Source)
-[14juin2022 00:02:10.250] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at java.io.FileReader.<init>(Unknown Source)
-[14juin2022 00:02:10.251] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.yezon.extraspace.procedures.SavedCategoriesProcedure.executeProcedure(SavedCategoriesProcedure.java:50)
-[14juin2022 00:02:10.252] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.yezon.extraspace.procedures.SavedCategoriesProcedure.onEntityJoin(SavedCategoriesProcedure.java:93)
-[14juin2022 00:02:10.253] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraftforge.eventbus.ASMEventHandler_610_SavedCategoriesProcedure_onEntityJoin_EntityJoinWorldEvent.invoke(.dynamic)
-[14juin2022 00:02:10.253] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85)
-[14juin2022 00:02:10.254] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302)
-[14juin2022 00:02:10.254] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283)
-[14juin2022 00:02:10.255] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.world.server.ServerWorld.func_217448_f(ServerWorld.java:788)
-[14juin2022 00:02:10.256] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.world.server.ServerWorld.func_217435_c(ServerWorld.java:780)
-[14juin2022 00:02:10.257] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.server.management.PlayerList.func_72355_a(PlayerList.java:185)
-[14juin2022 00:02:10.258] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.network.login.ServerLoginNetHandler.func_147326_c(ServerLoginNetHandler.java:118)
-[14juin2022 00:02:10.258] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.network.login.ServerLoginNetHandler.func_73660_a(ServerLoginNetHandler.java:65)
-[14juin2022 00:02:10.259] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:222)
-[14juin2022 00:02:10.260] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:134)
-[14juin2022 00:02:10.260] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:865)
-[14juin2022 00:02:10.261] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:291)
-[14juin2022 00:02:10.262] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:787)
-[14juin2022 00:02:10.263] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:642)
-[14juin2022 00:02:10.263] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:232)
-[14juin2022 00:02:10.264] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at java.lang.Thread.run(Unknown Source)
-[14juin2022 00:02:10.438] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.ReadConfigFileProcedure:executeProcedure:116]: java.io.FileNotFoundException: config\theabyss2.json (Le fichier spécifié est introuvable)
-[14juin2022 00:02:10.439] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.ReadConfigFileProcedure:executeProcedure:116]: 	at java.io.FileInputStream.open0(Native Method)
-[14juin2022 00:02:10.440] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.ReadConfigFileProcedure:executeProcedure:116]: 	at java.io.FileInputStream.open(Unknown Source)
-[14juin2022 00:02:10.440] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.ReadConfigFileProcedure:executeProcedure:116]: 	at java.io.FileInputStream.<init>(Unknown Source)
-[14juin2022 00:02:10.441] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.ReadConfigFileProcedure:executeProcedure:116]: 	at java.io.FileReader.<init>(Unknown Source)
-[14juin2022 00:02:10.441] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.ReadConfigFileProcedure:executeProcedure:116]: 	at net.yezon.theabyss.procedures.ReadConfigFileProcedure.executeProcedure(ReadConfigFileProcedure.java:50)
-[14juin2022 00:02:10.441] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.ReadConfigFileProcedure:executeProcedure:116]: 	at net.yezon.theabyss.procedures.ReadConfigFileProcedure$GlobalTrigger.onPlayerLoggedIn(ReadConfigFileProcedure.java:36)
-[14juin2022 00:02:10.442] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.ReadConfigFileProcedure:executeProcedure:116]: 	at net.minecraftforge.eventbus.ASMEventHandler_1547_GlobalTrigger_onPlayerLoggedIn_PlayerLoggedInEvent.invoke(.dynamic)
-[14juin2022 00:02:10.442] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.ReadConfigFileProcedure:executeProcedure:116]: 	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85)
-[14juin2022 00:02:10.443] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.ReadConfigFileProcedure:executeProcedure:116]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302)
-[14juin2022 00:02:10.443] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.ReadConfigFileProcedure:executeProcedure:116]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283)
-[14juin2022 00:02:10.444] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.ReadConfigFileProcedure:executeProcedure:116]: 	at net.minecraftforge.fml.hooks.BasicEventHooks.firePlayerLoggedIn(BasicEventHooks.java:44)
-[14juin2022 00:02:10.445] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.ReadConfigFileProcedure:executeProcedure:116]: 	at net.minecraft.server.management.PlayerList.func_72355_a(PlayerList.java:232)
-[14juin2022 00:02:10.445] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.ReadConfigFileProcedure:executeProcedure:116]: 	at net.minecraft.network.login.ServerLoginNetHandler.func_147326_c(ServerLoginNetHandler.java:118)
-[14juin2022 00:02:10.446] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.ReadConfigFileProcedure:executeProcedure:116]: 	at net.minecraft.network.login.ServerLoginNetHandler.func_73660_a(ServerLoginNetHandler.java:65)
-[14juin2022 00:02:10.446] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.ReadConfigFileProcedure:executeProcedure:116]: 	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:222)
-[14juin2022 00:02:10.446] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.ReadConfigFileProcedure:executeProcedure:116]: 	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:134)
-[14juin2022 00:02:10.447] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.ReadConfigFileProcedure:executeProcedure:116]: 	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:865)
-[14juin2022 00:02:10.448] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.ReadConfigFileProcedure:executeProcedure:116]: 	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:291)
-[14juin2022 00:02:10.448] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.ReadConfigFileProcedure:executeProcedure:116]: 	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:787)
-[14juin2022 00:02:10.448] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.ReadConfigFileProcedure:executeProcedure:116]: 	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:642)
-[14juin2022 00:02:10.451] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.ReadConfigFileProcedure:executeProcedure:116]: 	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:232)
-[14juin2022 00:02:10.452] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.ReadConfigFileProcedure:executeProcedure:116]: 	at java.lang.Thread.run(Unknown Source)
-[14juin2022 00:02:26.427] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: GZ29 lost connection: Disconnected
-[14juin2022 00:02:26.428] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: GZ29 left the game
-[14juin2022 00:04:23.407] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Spectator Mode]
-[14juin2022 00:04:38.832] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Survival Mode]
-[14juin2022 00:05:37.628] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Spectator Mode]
-[14juin2022 00:05:56.295] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Survival Mode]
-[14juin2022 00:06:11.634] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Spectator Mode]
-[14juin2022 00:06:16.833] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Survival Mode]
-[14juin2022 00:07:04.782] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Spectator Mode]
-[14juin2022 00:07:16.030] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Survival Mode]
-[14juin2022 00:09:21.435] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@115fbc5
-[14juin2022 00:10:08.444] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Tidic moved wrongly!
-[14juin2022 00:20:56.706] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Set own game mode to Survival Mode]
-[14juin2022 00:23:47.447] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Spectator Mode]
-[14juin2022 00:23:49.773] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Creative Mode]
-[14juin2022 00:23:55.944] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Set own game mode to Creative Mode]
-[14juin2022 00:24:45.297] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Survival Mode]
-[14juin2022 00:24:56.501] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Set own game mode to Survival Mode]
-[14juin2022 00:28:47.895] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Gave 1    [Iron Hoe] to Tidic]
-[14juin2022 00:32:08.694] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Gave 1    [Steel Casing] to Nizy___]
-[14juin2022 00:34:10.527] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Gave 64    [Gold Ingot] to Tidic]
-[14juin2022 00:35:11.707] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Spectator Mode]
-[14juin2022 00:35:20.276] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Survival Mode]
-[14juin2022 00:40:03.696] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Teleported Tidic to -1397.5, 71.5, -365.5]
-[14juin2022 00:40:06.229] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityLammergeier from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
-[14juin2022 00:40:07.969] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntitySquirrel from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
-[14juin2022 00:41:13.627] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityBearNeutral from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
-[14juin2022 00:41:27.055] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Teleported Tidic to 3754.5, 62.5, 1701.5]
-[14juin2022 00:41:33.000] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityFeralWolf from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
-[14juin2022 00:42:03.166] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Tidic moved too quickly! 1.5234160379222885,-5.688388792827382,8.383858555887173
-[14juin2022 00:42:44.695] [Worker-Main-834/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityMoose from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
-[14juin2022 00:43:01.539] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3282ms or 65 ticks behind
-[14juin2022 00:43:03.743] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Tidic moved too quickly! -9.187709940055356,1.9862445564079962,5.3509865571322734
-[14juin2022 00:43:06.271] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Tidic moved too quickly! -8.837456318063232,2.4722092857064695,5.272410178188011
-[14juin2022 00:43:08.496] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Tidic moved too quickly! -4.266591772146967,-8.680700563395845,3.0378916765735084
-[14juin2022 00:43:10.961] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Tidic moved too quickly! -8.160560472787438,-1.9951724506100135,6.205286921364632
-[14juin2022 00:43:30.352] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Tidic moved too quickly! -5.484303232875391,-1.087045657717681,8.563435490192205
-[14juin2022 00:43:40.693] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 24185ms or 483 ticks behind
-[14juin2022 00:43:42.497] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Tidic moved too quickly! -6.458779215347931,0.5194261867610805,8.15844886607374
-[14juin2022 00:43:47.514] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Tidic moved too quickly! -8.79120953796837,-1.7885926605775353,4.8336252567141855
-[14juin2022 00:43:50.023] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Tidic moved too quickly! -2.509386943294885,8.369999120452505,5.126737425405281
-[14juin2022 00:43:52.406] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Tidic moved too quickly! -4.768231093035865,-8.476565427980518,2.679686821200903
-[14juin2022 00:44:12.758] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 17100ms or 342 ticks behind
-[14juin2022 00:44:36.951] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Nizy___ moved too quickly! -9.812050824100936,0.565390238205481,2.1294188189928036
-[14juin2022 00:44:44.549] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 16792ms or 335 ticks behind
-[14juin2022 00:44:51.166] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Tidic moved too quickly! -8.709620874834854,-0.39160429661534124,5.5700157239393775
-[14juin2022 00:45:03.154] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Tidic moved too quickly! -6.570185501899232,-1.57573246410945,7.797901927568091
-[14juin2022 00:45:13.295] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Tidic moved too quickly! -2.6450902438050434,-0.837333057001274,10.405122941949685
-[14juin2022 00:45:13.794] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Teleported Tidic to Nizy___]
-[14juin2022 00:45:22.405] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 22899ms or 457 ticks behind
-[14juin2022 00:46:44.626] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Nizy___> mes applis crash
-[14juin2022 00:46:51.591] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Tidic> RIP
-[14juin2022 00:49:23.109] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Nizy___> MDR
-[14juin2022 00:49:34.391] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2033ms or 40 ticks behind
-[14juin2022 00:51:06.703] [Server thread/WARN] [net.minecraft.server.management.PlayerInteractionManager/]: Mismatch in destroy block pos: BlockPos{x=144, y=55, z=-209} BlockPos{x=148, y=58, z=-211}
-[14juin2022 00:51:06.755] [Server thread/WARN] [net.minecraft.server.management.PlayerInteractionManager/]: Mismatch in destroy block pos: BlockPos{x=144, y=55, z=-209} BlockPos{x=148, y=58, z=-211}
-[14juin2022 00:51:06.801] [Server thread/WARN] [net.minecraft.server.management.PlayerInteractionManager/]: Mismatch in destroy block pos: BlockPos{x=144, y=55, z=-209} BlockPos{x=148, y=58, z=-211}
-[14juin2022 00:51:28.939] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Teleported Tidic to Nizy___]
-[14juin2022 00:52:26.575] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Set own game mode to Creative Mode]
-[14juin2022 00:52:59.275] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Set own game mode to Survival Mode]
-[14juin2022 00:53:06.413] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: java.io.FileNotFoundException: config\ExtraSpace\TidicExtraSpace.json (Le fichier spécifié est introuvable)
-[14juin2022 00:53:06.414] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at java.io.FileInputStream.open0(Native Method)
-[14juin2022 00:53:06.415] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at java.io.FileInputStream.open(Unknown Source)
-[14juin2022 00:53:06.415] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at java.io.FileInputStream.<init>(Unknown Source)
-[14juin2022 00:53:06.415] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at java.io.FileReader.<init>(Unknown Source)
-[14juin2022 00:53:06.416] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.yezon.extraspace.procedures.SavedCategoriesProcedure.executeProcedure(SavedCategoriesProcedure.java:50)
-[14juin2022 00:53:06.417] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.yezon.extraspace.procedures.SavedCategoriesProcedure.onEntityJoin(SavedCategoriesProcedure.java:93)
-[14juin2022 00:53:06.419] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraftforge.eventbus.ASMEventHandler_610_SavedCategoriesProcedure_onEntityJoin_EntityJoinWorldEvent.invoke(.dynamic)
-[14juin2022 00:53:06.419] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85)
-[14juin2022 00:53:06.420] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302)
-[14juin2022 00:53:06.420] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283)
-[14juin2022 00:53:06.421] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.world.server.ServerWorld.func_217448_f(ServerWorld.java:788)
-[14juin2022 00:53:06.422] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.world.server.ServerWorld.func_217447_b(ServerWorld.java:775)
-[14juin2022 00:53:06.422] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.yezon.theabyss.world.dimension.TheabyssdimiceworldDimension$TeleporterDimensionMod.placeEntity(TheabyssdimiceworldDimension.java:544)
-[14juin2022 00:53:06.423] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.entity.player.ServerPlayerEntity.changeDimension(ServerPlayerEntity.java:647)
-[14juin2022 00:53:06.424] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.yezon.theabyss.world.dimension.TheabyssdimiceworldDimension$CustomPortalBlock.teleportToDimension(TheabyssdimiceworldDimension.java:216)
-[14juin2022 00:53:06.424] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.yezon.theabyss.world.dimension.TheabyssdimiceworldDimension$CustomPortalBlock.func_196262_a(TheabyssdimiceworldDimension.java:207)
-[14juin2022 00:53:06.424] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.block.AbstractBlock$AbstractBlockState.func_196950_a(AbstractBlock.java:628)
-[14juin2022 00:53:06.425] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.entity.Entity.func_145775_I(Entity.java:845)
-[14juin2022 00:53:06.426] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.entity.Entity.func_213315_a(Entity.java:597)
-[14juin2022 00:53:06.426] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.network.play.ServerPlayNetHandler.func_147347_a(ServerPlayNetHandler.java:827)
-[14juin2022 00:53:06.427] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.network.play.client.CPlayerPacket.func_148833_a(SourceFile:122)
-[14juin2022 00:53:06.428] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.network.play.client.CPlayerPacket$PositionRotationPacket.func_148833_a(SourceFile:18)
-[14juin2022 00:53:06.428] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.network.PacketThreadUtil.func_225383_a(SourceFile:21)
-[14juin2022 00:53:06.429] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18)
-[14juin2022 00:53:06.429] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144)
-[14juin2022 00:53:06.430] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
-[14juin2022 00:53:06.430] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:734)
-[14juin2022 00:53:06.431] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:159)
-[14juin2022 00:53:06.432] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118)
-[14juin2022 00:53:06.433] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:717)
-[14juin2022 00:53:06.433] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:711)
-[14juin2022 00:53:06.434] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(SourceFile:127)
-[14juin2022 00:53:06.434] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.server.MinecraftServer.func_213202_o(MinecraftServer.java:697)
-[14juin2022 00:53:06.435] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:646)
-[14juin2022 00:53:06.435] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:232)
-[14juin2022 00:53:06.436] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at java.lang.Thread.run(Unknown Source)
-[14juin2022 00:53:07.911] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Tidic moved too quickly! -73.4996640143581,-42.0,-29.50033902547878
-[14juin2022 00:53:09.847] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: java.io.FileNotFoundException: config\ExtraSpace\TidicExtraSpace.json (Le fichier spécifié est introuvable)
-[14juin2022 00:53:09.847] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at java.io.FileInputStream.open0(Native Method)
-[14juin2022 00:53:09.848] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at java.io.FileInputStream.open(Unknown Source)
-[14juin2022 00:53:09.848] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at java.io.FileInputStream.<init>(Unknown Source)
-[14juin2022 00:53:09.849] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at java.io.FileReader.<init>(Unknown Source)
-[14juin2022 00:53:09.850] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.yezon.extraspace.procedures.SavedCategoriesProcedure.executeProcedure(SavedCategoriesProcedure.java:50)
-[14juin2022 00:53:09.851] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.yezon.extraspace.procedures.SavedCategoriesProcedure.onEntityJoin(SavedCategoriesProcedure.java:93)
-[14juin2022 00:53:09.852] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraftforge.eventbus.ASMEventHandler_610_SavedCategoriesProcedure_onEntityJoin_EntityJoinWorldEvent.invoke(.dynamic)
-[14juin2022 00:53:09.852] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85)
-[14juin2022 00:53:09.853] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302)
-[14juin2022 00:53:09.853] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283)
-[14juin2022 00:53:09.854] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.world.server.ServerWorld.func_217448_f(ServerWorld.java:788)
-[14juin2022 00:53:09.854] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.world.server.ServerWorld.func_217447_b(ServerWorld.java:775)
-[14juin2022 00:53:09.855] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.yezon.theabyss.world.dimension.TheabyssdimiceworldDimension$TeleporterDimensionMod.placeEntity(TheabyssdimiceworldDimension.java:544)
-[14juin2022 00:53:09.856] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.entity.player.ServerPlayerEntity.changeDimension(ServerPlayerEntity.java:647)
-[14juin2022 00:53:09.856] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.yezon.theabyss.world.dimension.TheabyssdimiceworldDimension$CustomPortalBlock.teleportToDimension(TheabyssdimiceworldDimension.java:216)
-[14juin2022 00:53:09.857] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.yezon.theabyss.world.dimension.TheabyssdimiceworldDimension$CustomPortalBlock.func_196262_a(TheabyssdimiceworldDimension.java:210)
-[14juin2022 00:53:09.857] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.block.AbstractBlock$AbstractBlockState.func_196950_a(AbstractBlock.java:628)
-[14juin2022 00:53:09.858] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.entity.Entity.func_145775_I(Entity.java:845)
-[14juin2022 00:53:09.859] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.entity.Entity.func_213315_a(Entity.java:597)
-[14juin2022 00:53:09.860] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.network.play.ServerPlayNetHandler.func_147347_a(ServerPlayNetHandler.java:827)
-[14juin2022 00:53:09.860] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.network.play.client.CPlayerPacket.func_148833_a(SourceFile:122)
-[14juin2022 00:53:09.861] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.network.play.client.CPlayerPacket$PositionPacket.func_148833_a(SourceFile:56)
-[14juin2022 00:53:09.861] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.network.PacketThreadUtil.func_225383_a(SourceFile:21)
-[14juin2022 00:53:09.862] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18)
-[14juin2022 00:53:09.863] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144)
-[14juin2022 00:53:09.864] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
-[14juin2022 00:53:09.864] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:734)
-[14juin2022 00:53:09.865] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:159)
-[14juin2022 00:53:09.867] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118)
-[14juin2022 00:53:09.868] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:717)
-[14juin2022 00:53:09.868] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:711)
-[14juin2022 00:53:09.869] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213160_bf(SourceFile:103)
-[14juin2022 00:53:09.869] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.server.MinecraftServer.func_213202_o(MinecraftServer.java:696)
-[14juin2022 00:53:09.870] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:646)
-[14juin2022 00:53:09.871] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:232)
-[14juin2022 00:53:09.871] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at java.lang.Thread.run(Unknown Source)
-[14juin2022 00:53:10.553] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Tidic moved too quickly! 73.86360683249501,42.0,29.136390127668108
-[14juin2022 00:53:13.729] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Set own game mode to Creative Mode]
-[14juin2022 00:53:24.179] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Teleported Tidic to -1397.5, 71.5, -365.5]
-[14juin2022 00:53:51.987] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Teleported Tidic to 3754.5, 62.5, 1701.5]
-[14juin2022 00:54:36.565] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Teleported Tidic to Nizy___]
-[14juin2022 00:54:36.567] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2210ms or 44 ticks behind
-[14juin2022 00:57:52.882] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Set own game mode to Survival Mode]
-[14juin2022 00:59:23.725] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Set own game mode to Creative Mode]
-[14juin2022 00:59:37.470] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Nizy___ moved too quickly! 3.500470241894348,0.11042707544181951,-9.596472176153156
-[14juin2022 00:59:44.645] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Set own game mode to Survival Mode]
-[14juin2022 01:00:04.032] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Set own game mode to Creative Mode]
-[14juin2022 01:00:16.334] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Set own game mode to Survival Mode]
-[14juin2022 01:01:25.288] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Set own game mode to Creative Mode]
-[14juin2022 01:03:04.894] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Spectator Mode]
-[14juin2022 01:03:15.779] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Tidic lost connection: Disconnected
-[14juin2022 01:03:15.780] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Tidic left the game
-[14juin2022 01:03:31.239] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Set own game mode to Survival Mode]
-[14juin2022 01:06:15.370] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Nizy___ lost connection: Disconnected
-[14juin2022 01:06:15.370] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nizy___ left the game
-[14juin2022 01:06:30.319] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
-[14juin2022 01:06:30.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[14juin2022 01:06:30.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[14juin2022 01:06:30.359] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[14juin2022 01:06:30.359] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[14juin2022 01:06:30.778] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[14juin2022 01:06:30.778] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[14juin2022 01:06:30.779] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[14juin2022 01:06:30.780] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[14juin2022 01:06:30.782] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14juin2022 01:06:30.782] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/theabyss:dream
-[14juin2022 01:06:30.783] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (dream): All chunks are saved
-[14juin2022 01:06:30.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/boss_tools:mars_orbit
-[14juin2022 01:06:30.785] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (mars_orbit): All chunks are saved
-[14juin2022 01:06:30.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/boss_tools:mercury
-[14juin2022 01:06:30.785] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (mercury): All chunks are saved
-[14juin2022 01:06:30.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/theabyss:radio
-[14juin2022 01:06:30.787] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (radio): All chunks are saved
-[14juin2022 01:06:30.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/theabyss:ground_lands
-[14juin2022 01:06:30.790] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (ground_lands): All chunks are saved
-[14juin2022 01:06:30.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/hem:blueleaf
-[14juin2022 01:06:30.791] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (blueleaf): All chunks are saved
-[14juin2022 01:06:30.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/appliedenergistics2:spatial_storage
-[14juin2022 01:06:30.792] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
-[14juin2022 01:06:30.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/boss_tools:venus_orbit
-[14juin2022 01:06:30.793] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (venus_orbit): All chunks are saved
-[14juin2022 01:06:30.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/boss_tools:mars
-[14juin2022 01:06:30.794] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (mars): All chunks are saved
-[14juin2022 01:06:30.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/boss_tools:venus
-[14juin2022 01:06:30.797] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (venus): All chunks are saved
-[14juin2022 01:06:30.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/boss_tools:overworld_orbit
-[14juin2022 01:06:30.798] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (overworld_orbit): All chunks are saved
-[14juin2022 01:06:30.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/boss_tools:moon_orbit
-[14juin2022 01:06:30.799] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (moon_orbit): All chunks are saved
-[14juin2022 01:06:30.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/theabyss:the_abyss
-[14juin2022 01:06:30.801] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (the_abyss): All chunks are saved
-[14juin2022 01:06:30.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/boss_tools:moon
-[14juin2022 01:06:30.802] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (moon): All chunks are saved
-[14juin2022 01:06:30.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/theabyss:frost_world
-[14juin2022 01:06:30.808] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (frost_world): All chunks are saved
-[14juin2022 01:06:30.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/undergarden:undergarden
-[14juin2022 01:06:30.810] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (undergarden): All chunks are saved
-[14juin2022 01:06:30.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/theabyss:pocket_dimension
-[14juin2022 01:06:30.812] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (pocket_dimension): All chunks are saved
-[14juin2022 01:06:30.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/boss_tools:mercury_orbit
-[14juin2022 01:06:30.813] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (mercury_orbit): All chunks are saved
-[14juin2022 01:06:30.905] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[14juin2022 01:06:30.980] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[14juin2022 01:06:30.980] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14juin2022 01:06:30.981] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (dream): All chunks are saved
-[14juin2022 01:06:30.982] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (mars_orbit): All chunks are saved
-[14juin2022 01:06:30.982] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (mercury): All chunks are saved
-[14juin2022 01:06:30.983] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (radio): All chunks are saved
-[14juin2022 01:06:30.983] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (ground_lands): All chunks are saved
-[14juin2022 01:06:30.984] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (blueleaf): All chunks are saved
-[14juin2022 01:06:30.984] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
-[14juin2022 01:06:30.985] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (venus_orbit): All chunks are saved
-[14juin2022 01:06:30.986] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (mars): All chunks are saved
-[14juin2022 01:06:30.986] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (venus): All chunks are saved
-[14juin2022 01:06:30.987] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (overworld_orbit): All chunks are saved
-[14juin2022 01:06:30.987] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (moon_orbit): All chunks are saved
-[14juin2022 01:06:30.988] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (the_abyss): All chunks are saved
-[14juin2022 01:06:30.988] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (moon): All chunks are saved
-[14juin2022 01:06:30.989] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (frost_world): All chunks are saved
-[14juin2022 01:06:30.994] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (undergarden): All chunks are saved
-[14juin2022 01:06:30.994] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (pocket_dimension): All chunks are saved
-[14juin2022 01:06:30.995] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (mercury_orbit): All chunks are saved
-[14juin2022 01:06:31.001] [Server thread/INFO] [FluxNetworks/]: FluxNetworkData has been unloaded
+[14juin2022 09:12:24.064] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.2.34, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge]
+[14juin2022 09:12:24.069] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 1.8.0_202 by Oracle Corporation
+[14juin2022 09:12:26.638] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[14juin2022 09:12:26.697] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/C:/Minecraft/TimeInstantS3/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
+[14juin2022 09:12:28.390] [main/INFO] [STDERR/]: [org.antlr.v4.runtime.ConsoleErrorListener:syntaxError:38]: line 1:0 token recognition error at: '~'
+[14juin2022 09:12:29.103] [main/ERROR] [mixin/]: Mixin config boss_tools.mixin.json does not specify "minVersion" property
+[14juin2022 09:12:29.295] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [vazkii.botania.common.MixinConnector]
+[14juin2022 09:12:29.298] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [de.maxhenkel.car.MixinConnector]
+[14juin2022 09:12:29.301] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [vazkii.patchouli.common.MixinConnector]
+[14juin2022 09:12:29.309] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, .]
+[14juin2022 09:12:30.509] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/entity/player/ClientPlayerEntity for invalid dist DEDICATED_SERVER
+[14juin2022 09:12:30.510] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/entity/player/ClientPlayerEntity (java.lang.RuntimeException: Attempted to load class net/minecraft/client/entity/player/ClientPlayerEntity for invalid dist DEDICATED_SERVER)
+[14juin2022 09:12:30.510] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.entity.player.ClientPlayerEntity was not found ars_nouveau.mixins.json:ClientElytraMixin
+[14juin2022 09:12:47.595] [main/INFO] [PluginManager/]: Scanning classes for titanium
+[14juin2022 09:12:47.645] [main/INFO] [PluginManager/]: Found FeaturePluginInstance for class IndustrialForegoingResourcePlugin for plugin resources
+[14juin2022 09:12:47.755] [main/INFO] [PluginManager/]: Found FeaturePluginInstance for class DefaultResourceRegistryPlugin for plugin resources
+[14juin2022 09:12:48.834] [modloading-worker-7/INFO] [bettercaves/]: Creating directory for dimension-specific Better Caves configs at C:\Minecraft\TimeInstantS3\config\bettercaves\1_16
+[14juin2022 09:12:50.181] [modloading-worker-4/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.34, for MC 1.16.5 with MCP 20210115.111550
+[14juin2022 09:12:50.344] [modloading-worker-4/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.34 Initialized
+[14juin2022 09:12:51.155] [modloading-worker-0/INFO] [dev.itsmeow.betteranimalsplus.BetterAnimalsPlusMod/]: Injecting super coyotes...
+[14juin2022 09:12:51.669] [modloading-worker-5/INFO] [PluginManager/]: Scanning classes for industrialforegoing
+[14juin2022 09:12:51.772] [modloading-worker-5/INFO] [PluginManager/]: Found FeaturePluginInstance for class ImmersiveEngineeringPlugin for plugin immersiveengineering
+[14juin2022 09:12:51.897] [modloading-worker-4/INFO] [PluginManager/]: Scanning classes for titanium
+[14juin2022 09:12:52.123] [modloading-worker-7/INFO] [doublenegation.mods.compactores.config.ConfigLoader/]: Loading compactores configuration...
+[14juin2022 09:12:52.142] [modloading-worker-5/INFO] [PluginManager/]: Found FeaturePluginInstance for class CuriosPlugin for plugin curios
+[14juin2022 09:12:53.425] [modloading-worker-5/INFO] [PluginManager/]: Constructed class ImmersiveEngineeringPlugin for plugin immersiveengineering for mod industrialforegoing
+[14juin2022 09:12:52.231] [modloading-worker-4/INFO] [PluginManager/]: Constructed class IndustrialForegoingResourcePlugin for plugin resources for mod titanium
+[14juin2022 09:12:53.634] [modloading-worker-4/INFO] [PluginManager/]: Constructed class DefaultResourceRegistryPlugin for plugin resources for mod titanium
+[14juin2022 09:12:52.224] [modloading-worker-7/INFO] [doublenegation.mods.compactores.config.ConfigFileManager/]: Loading configuration files...
+[14juin2022 09:12:53.707] [modloading-worker-4/INFO] [PluginManager/]: Executing phase CONSTRUCTION for plugin class IndustrialForegoingResourcePlugin
+[14juin2022 09:12:53.744] [modloading-worker-4/INFO] [PluginManager/]: Executing phase CONSTRUCTION for plugin class DefaultResourceRegistryPlugin
+[14juin2022 09:12:53.582] [modloading-worker-5/INFO] [PluginManager/]: Constructed class CuriosPlugin for plugin curios for mod industrialforegoing
+[14juin2022 09:12:53.757] [modloading-worker-7/INFO] [doublenegation.mods.compactores.config.ConfigFileManager/]: Loaded 2 ore customization files
+[14juin2022 09:12:54.160] [modloading-worker-5/INFO] [PluginManager/]: Executing phase CONSTRUCTION for plugin class ImmersiveEngineeringPlugin
+[14juin2022 09:12:54.203] [modloading-worker-7/INFO] [doublenegation.mods.compactores.config.ConfigFileManager/]: Configuration files loaded successfully!
+[14juin2022 09:12:54.262] [modloading-worker-5/INFO] [PluginManager/]: Executing phase CONSTRUCTION for plugin class CuriosPlugin
+[14juin2022 09:12:54.268] [modloading-worker-5/INFO] [PluginManager/]: Executing phase PRE_INIT for plugin class ImmersiveEngineeringPlugin
+[14juin2022 09:12:54.272] [modloading-worker-5/INFO] [PluginManager/]: Executing phase PRE_INIT for plugin class CuriosPlugin
+[14juin2022 09:12:54.335] [modloading-worker-7/INFO] [doublenegation.mods.compactores.config.ConfigLoader/]: Successfully loaded 10 compact ores for a total of 1 mods.
+[14juin2022 09:12:54.370] [modloading-worker-7/INFO] [doublenegation.mods.compactores.config.ConfigLoader/]: 	10 ores for 1 mods are active.
+[14juin2022 09:12:54.458] [modloading-worker-7/INFO] [doublenegation.mods.compactores.config.ConfigLoader/]: 	0 ores for 0 mods will not be enabled because their mod is not loaded.
+[14juin2022 09:12:54.958] [modloading-worker-4/INFO] [com.simibubi.create.repack.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[14juin2022 09:12:57.518] [modloading-worker-3/INFO] [brandonscore/]: Hey! Where's DE?
+[14juin2022 09:12:57.624] [modloading-worker-3/INFO] [brandonscore/]: Oh well.. At least we dont have to worry about getting blown up now...
+[14juin2022 09:12:57.586] [modloading-worker-5/INFO] [PluginManager/]: Executing phase INIT for plugin class ImmersiveEngineeringPlugin
+[14juin2022 09:12:57.682] [modloading-worker-5/INFO] [PluginManager/]: Executing phase INIT for plugin class CuriosPlugin
+[14juin2022 09:12:58.350] [modloading-worker-5/INFO] [PluginManager/]: Executing phase POST_INIT for plugin class ImmersiveEngineeringPlugin
+[14juin2022 09:12:58.570] [modloading-worker-5/INFO] [PluginManager/]: Executing phase POST_INIT for plugin class CuriosPlugin
+[14juin2022 09:13:16.884] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `shulker_shell`, expected `supplementaries`. This could be a intended override, but in most cases indicates a broken mod.
+[14juin2022 09:13:17.712] [main/INFO] [patchouli/]: Loaded book jsons on Thread[main,5,main] in 545 ms
+[14juin2022 09:13:18.793] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+[14juin2022 09:13:18.793] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `flowing_milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+[14juin2022 09:13:19.075] [main/INFO] [STDOUT/]: [com.hollingsworth.arsnouveau.client.particle.ModParticles:registerParticles:23]: Rendering particles
+[14juin2022 09:13:19.886] [main/INFO] [ModdingLegacy/structure_gel/Compat/]: Checking for biome dictionary registry methods in other mods.
+[14juin2022 09:13:20.124] [main/INFO] [FluxNetworks/]: BLACKLIST RELOADED
+[14juin2022 09:13:20.125] [main/INFO] [FluxNetworks/]: COMMON CONFIG LOADED
+[14juin2022 09:13:20.130] [Thread-1/INFO] [FluxNetworks/]: BLACKLIST RELOADED
+[14juin2022 09:13:20.130] [Thread-1/INFO] [FluxNetworks/]: COMMON CONFIG LOADED
+[14juin2022 09:13:20.141] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class ImmersiveEngineeringPlugin
+[14juin2022 09:13:20.141] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[14juin2022 09:13:20.152] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class ImmersiveEngineeringPlugin
+[14juin2022 09:13:20.152] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[14juin2022 09:13:20.161] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class ImmersiveEngineeringPlugin
+[14juin2022 09:13:20.162] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[14juin2022 09:13:20.169] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class ImmersiveEngineeringPlugin
+[14juin2022 09:13:20.169] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[14juin2022 09:13:20.176] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class ImmersiveEngineeringPlugin
+[14juin2022 09:13:20.176] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[14juin2022 09:13:20.544] [main/INFO] [quark/]: Loading Module Chain Linkage
+[14juin2022 09:13:20.547] [main/INFO] [quark/]: Loading Module Chains Connect Blocks
+[14juin2022 09:13:20.547] [main/INFO] [quark/]: Loading Module Chute
+[14juin2022 09:13:20.548] [main/INFO] [quark/]: Loading Module Color Slime
+[14juin2022 09:13:20.548] [main/INFO] [quark/]: Loading Module Dispensers Place Blocks
+[14juin2022 09:13:20.549] [main/INFO] [quark/]: Loading Module Ender Watcher
+[14juin2022 09:13:20.549] [main/INFO] [quark/]: Loading Module Endermites Form Shulkers
+[14juin2022 09:13:20.552] [main/INFO] [quark/]: Loading Module Feeding Trough
+[14juin2022 09:13:20.553] [main/INFO] [quark/]: Loading Module Gravisand
+[14juin2022 09:13:20.553] [main/INFO] [quark/]: Loading Module Iron Rod
+[14juin2022 09:13:20.554] [main/INFO] [quark/]: Loading Module Jukebox Automation
+[14juin2022 09:13:20.557] [main/INFO] [quark/]: Loading Module Metal Buttons
+[14juin2022 09:13:20.557] [main/INFO] [quark/]: Loading Module Obsidian Plate
+[14juin2022 09:13:20.558] [main/INFO] [quark/]: Loading Module Pistons Move Tile Entities
+[14juin2022 09:13:20.559] [main/INFO] [quark/]: Loading Module Redstone Circuit
+[14juin2022 09:13:20.559] [main/INFO] [quark/]: Loading Module Weather Sensor
+[14juin2022 09:13:20.560] [main/INFO] [quark/]: Loading Module Bamboo Mat
+[14juin2022 09:13:20.560] [main/INFO] [quark/]: Loading Module Burn Vines
+[14juin2022 09:13:20.561] [main/INFO] [quark/]: Loading Module Celebratory Lamps
+[14juin2022 09:13:20.561] [main/INFO] [quark/]: Loading Module Cobblestone Bricks
+[14juin2022 09:13:20.562] [main/INFO] [quark/]: Loading Module Compressed Blocks
+[14juin2022 09:13:20.562] [main/INFO] [quark/]: Loading Module Duskbound Blocks
+[14juin2022 09:13:20.562] [main/INFO] [quark/]: Loading Module Framed Glass
+[14juin2022 09:13:20.563] [main/INFO] [quark/]: Loading Module Gold Bars
+[14juin2022 09:13:20.563] [main/INFO] [quark/]: Loading Module Grate
+[14juin2022 09:13:20.563] [main/INFO] [quark/]: Loading Module Hedges
+[14juin2022 09:13:20.564] [main/INFO] [quark/]: Loading Module Iron Plates
+[14juin2022 09:13:20.566] [main/INFO] [quark/]: Loading Module Item Frames
+[14juin2022 09:13:20.566] [main/INFO] [quark/]: Loading Module Leaf Carpet
+[14juin2022 09:13:20.567] [main/INFO] [quark/]: Loading Module Lit Lamp
+[14juin2022 09:13:20.567] [main/INFO] [quark/]: Loading Module Midori
+[14juin2022 09:13:20.567] [main/INFO] [quark/]: Loading Module More Brick Types
+[14juin2022 09:13:20.568] [main/INFO] [quark/]: Loading Module More Potted Plants
+[14juin2022 09:13:20.568] [main/INFO] [quark/]: Loading Module More Stone Variants
+[14juin2022 09:13:20.568] [main/INFO] [quark/]: Loading Module Nether Brick Fence Gate
+[14juin2022 09:13:20.569] [main/INFO] [quark/]: Loading Module Paper Decor
+[14juin2022 09:13:20.569] [main/INFO] [quark/]: Loading Module Quilted Wool
+[14juin2022 09:13:20.569] [main/INFO] [quark/]: Loading Module Rope
+[14juin2022 09:13:20.570] [main/INFO] [quark/]: Loading Module Shallow Dirt
+[14juin2022 09:13:20.571] [main/INFO] [quark/]: Loading Module Shingles
+[14juin2022 09:13:20.571] [main/INFO] [quark/]: Loading Module Soul Sandstone
+[14juin2022 09:13:20.571] [main/INFO] [quark/]: Loading Module Stained Planks
+[14juin2022 09:13:20.571] [main/INFO] [quark/]: Loading Module Stools
+[14juin2022 09:13:20.572] [main/INFO] [quark/]: Loading Module Sturdy Stone
+[14juin2022 09:13:20.572] [main/INFO] [quark/]: Loading Module Tallow And Candles
+[14juin2022 09:13:20.573] [main/INFO] [quark/]: Loading Module Thatch
+[14juin2022 09:13:20.575] [main/INFO] [quark/]: Loading Module Tie Leads To Fences
+[14juin2022 09:13:20.576] [main/INFO] [quark/]: Loading Module Turf
+[14juin2022 09:13:20.576] [main/INFO] [quark/]: Loading Module Variant Bookshelves
+[14juin2022 09:13:20.577] [main/INFO] [quark/]: Loading Module Variant Chests
+[14juin2022 09:13:20.579] [main/INFO] [quark/]: Loading Module Variant Ladders
+[14juin2022 09:13:20.579] [main/INFO] [quark/]: Loading Module Vertical Planks
+[14juin2022 09:13:20.580] [main/INFO] [quark/]: Loading Module Vertical Slabs
+[14juin2022 09:13:20.580] [main/INFO] [quark/]: Loading Module Wooden Posts
+[14juin2022 09:13:20.580] [main/INFO] [quark/]: Loading Module Chests In Boats
+[14juin2022 09:13:20.581] [main/INFO] [quark/]: Loading Module Easy Transfering
+[14juin2022 09:13:20.582] [main/INFO] [quark/]: Loading Module Hotbar Changer
+[14juin2022 09:13:20.582] [main/INFO] [quark/]: Loading Module Inventory Sorting
+[14juin2022 09:13:20.582] [main/INFO] [quark/]: Loading Module Item Sharing
+[14juin2022 09:13:20.583] [main/INFO] [quark/]: Loading Module Right Click Armor
+[14juin2022 09:13:20.583] [main/INFO] [quark/]: Loading Module Shulker Box Right Click
+[14juin2022 09:13:20.584] [main/INFO] [quark/]: Loading Module Endermosh Music Disc
+[14juin2022 09:13:20.586] [main/INFO] [quark/]: Loading Module Abacus
+[14juin2022 09:13:20.586] [main/INFO] [quark/]: Loading Module Ambient Discs
+[14juin2022 09:13:20.588] [main/INFO] [quark/]: Loading Module Ancient Tomes
+[14juin2022 09:13:20.589] [main/INFO] [quark/]: Loading Module Bottled Cloud
+[14juin2022 09:13:20.590] [main/INFO] [quark/]: Loading Module Camera
+[14juin2022 09:13:20.590] [main/INFO] [quark/]: Loading Module Color Runes
+[14juin2022 09:13:20.591] [main/INFO] [quark/]: Loading Module Pathfinder Maps
+[14juin2022 09:13:20.592] [main/INFO] [quark/]: Loading Module Pickarang
+[14juin2022 09:13:20.593] [main/INFO] [quark/]: Loading Module Seed Pouch
+[14juin2022 09:13:20.595] [main/INFO] [quark/]: Loading Module Slime In A Bucket
+[14juin2022 09:13:20.596] [main/INFO] [quark/]: Loading Module Trowel
+[14juin2022 09:13:20.597] [main/INFO] [quark/]: Loading Module Skull Pikes
+[14juin2022 09:13:20.598] [main/INFO] [quark/]: Loading Module Armed Armor Stands
+[14juin2022 09:13:20.601] [main/INFO] [quark/]: Loading Module Automatic Recipe Unlock
+[14juin2022 09:13:20.602] [main/INFO] [quark/]: Loading Module Axe Leaf Harvesting
+[14juin2022 09:13:20.603] [main/INFO] [quark/]: Loading Module Better Elytra Rocket
+[14juin2022 09:13:20.604] [main/INFO] [quark/]: Loading Module Campfires Boost Elytra
+[14juin2022 09:13:20.605] [main/INFO] [quark/]: Loading Module Compasses Work Everywhere
+[14juin2022 09:13:20.608] [main/INFO] [quark/]: Loading Module Dirt To Path
+[14juin2022 09:13:20.610] [main/INFO] [quark/]: Loading Module Double Door Opening
+[14juin2022 09:13:20.610] [main/INFO] [quark/]: Loading Module Dragon Scales
+[14juin2022 09:13:20.611] [main/INFO] [quark/]: Loading Module Emotes
+[14juin2022 09:13:20.611] [main/INFO] [quark/]: Loading Module Enhanced Ladders
+[14juin2022 09:13:20.612] [main/INFO] [quark/]: Loading Module Glass Shard
+[14juin2022 09:13:20.613] [main/INFO] [quark/]: Loading Module Hoe Harvesting
+[14juin2022 09:13:20.614] [main/INFO] [quark/]: Loading Module Improved Sleeping
+[14juin2022 09:13:20.615] [main/INFO] [quark/]: Loading Module Infinity Bucket
+[14juin2022 09:13:20.616] [main/INFO] [quark/]: Loading Module Lava Bucket As Trash
+[14juin2022 09:13:20.617] [main/INFO] [quark/]: Loading Module Lock Rotation
+[14juin2022 09:13:20.619] [main/INFO] [quark/]: Loading Module More Banner Layers
+[14juin2022 09:13:20.619] [main/INFO] [quark/]: Loading Module Note Block Mob Sounds
+[14juin2022 09:13:20.622] [main/INFO] [quark/]: Loading Module Pat The Dogs
+[14juin2022 09:13:20.624] [main/INFO] [quark/]: Loading Module Poison Potato Usage
+[14juin2022 09:13:20.625] [main/INFO] [quark/]: Loading Module Reacharound Placing
+[14juin2022 09:13:20.626] [main/INFO] [quark/]: Loading Module Replace Scaffolding
+[14juin2022 09:13:20.627] [main/INFO] [quark/]: Loading Module Sign Editing
+[14juin2022 09:13:20.627] [main/INFO] [quark/]: Loading Module Simple Harvest
+[14juin2022 09:13:20.628] [main/INFO] [quark/]: Loading Module Snow Golem Player Heads
+[14juin2022 09:13:20.629] [main/INFO] [quark/]: Loading Module Springy Slime
+[14juin2022 09:13:20.629] [main/INFO] [quark/]: Loading Module Utility Recipes
+[14juin2022 09:13:20.631] [main/INFO] [quark/]: Loading Module Villagers Follow Emeralds
+[14juin2022 09:13:20.631] [main/INFO] [quark/]: Loading Module Big Dungeon
+[14juin2022 09:13:20.632] [main/INFO] [quark/]: Loading Module Big Stone Clusters
+[14juin2022 09:13:20.632] [main/INFO] [quark/]: Loading Module Biotite
+[14juin2022 09:13:20.632] [main/INFO] [quark/]: Loading Module Blossom Trees
+[14juin2022 09:13:20.633] [main/INFO] [quark/]: Loading Module Cave Roots
+[14juin2022 09:13:20.633] [main/INFO] [quark/]: Loading Module Chorus Vegetation
+[14juin2022 09:13:20.633] [main/INFO] [quark/]: Loading Module Crevices
+[14juin2022 09:13:20.634] [main/INFO] [quark/]: Loading Module Deepslate
+[14juin2022 09:13:20.634] [main/INFO] [quark/]: Loading Module Fairy Rings
+[14juin2022 09:13:20.634] [main/INFO] [quark/]: Loading Module Mega Caves
+[14juin2022 09:13:20.635] [main/INFO] [quark/]: Loading Module Monster Box
+[14juin2022 09:13:20.636] [main/INFO] [quark/]: Loading Module Nether Obsidian Spikes
+[14juin2022 09:13:20.636] [main/INFO] [quark/]: Loading Module New Stone Types
+[14juin2022 09:13:20.637] [main/INFO] [quark/]: Loading Module Realistic World Gen
+[14juin2022 09:13:20.637] [main/INFO] [quark/]: Loading Module Speleothems
+[14juin2022 09:13:20.637] [main/INFO] [quark/]: Loading Module Spiral Spires
+[14juin2022 09:13:20.638] [main/INFO] [quark/]: Loading Module Underground Clay
+[14juin2022 09:13:20.638] [main/INFO] [quark/]: Loading Module Brimstone Underground Biome
+[14juin2022 09:13:20.639] [main/INFO] [quark/]: Loading Module Cave Crystal Underground Biome
+[14juin2022 09:13:20.639] [main/INFO] [quark/]: Loading Module Elder Prismarine Underground Biome
+[14juin2022 09:13:20.639] [main/INFO] [quark/]: Loading Module Glowshroom Underground Biome
+[14juin2022 09:13:20.640] [main/INFO] [quark/]: Loading Module Lush Underground Biome
+[14juin2022 09:13:20.640] [main/INFO] [quark/]: Loading Module Overgrown Underground Biome
+[14juin2022 09:13:20.640] [main/INFO] [quark/]: Loading Module Permafrost Underground Biome
+[14juin2022 09:13:20.641] [main/INFO] [quark/]: Loading Module Sandstone Underground Biome
+[14juin2022 09:13:20.641] [main/INFO] [quark/]: Loading Module Slime Underground Biome
+[14juin2022 09:13:20.641] [main/INFO] [quark/]: Loading Module Spider Nest Underground Biome
+[14juin2022 09:13:20.643] [main/INFO] [quark/]: Loading Module Crabs
+[14juin2022 09:13:20.644] [main/INFO] [quark/]: Loading Module Forgotten
+[14juin2022 09:13:20.645] [main/INFO] [quark/]: Loading Module Foxhound
+[14juin2022 09:13:20.645] [main/INFO] [quark/]: Loading Module Frogs
+[14juin2022 09:13:20.646] [main/INFO] [quark/]: Loading Module Stonelings
+[14juin2022 09:13:20.647] [main/INFO] [quark/]: Loading Module Toretoise
+[14juin2022 09:13:20.647] [main/INFO] [quark/]: Loading Module Wraith
+[14juin2022 09:13:20.647] [main/INFO] [quark/]: Loading Module Auto Walk Keybind
+[14juin2022 09:13:20.647] [main/INFO] [quark/]: Loading Module Back Button Keybind
+[14juin2022 09:13:20.648] [main/INFO] [quark/]: Loading Module Chest Searching
+[14juin2022 09:13:20.648] [main/INFO] [quark/]: Loading Module Greener Grass
+[14juin2022 09:13:20.648] [main/INFO] [quark/]: Loading Module Improved Mount Hud
+[14juin2022 09:13:20.649] [main/INFO] [quark/]: Loading Module Improved Tooltips
+[14juin2022 09:13:20.650] [main/INFO] [quark/]: Loading Module Usage Ticker
+[14juin2022 09:13:20.650] [main/INFO] [quark/]: Loading Module Variant Animal Textures
+[14juin2022 09:13:20.651] [main/INFO] [quark/]: Loading Module Backpack
+[14juin2022 09:13:20.651] [main/INFO] [quark/]: Loading Module Crate
+[14juin2022 09:13:20.651] [main/INFO] [quark/]: Loading Module Magnets
+[14juin2022 09:13:20.652] [main/INFO] [quark/]: Loading Module Matrix Enchanting
+[14juin2022 09:13:20.652] [main/INFO] [quark/]: Loading Module Pipes
+[14juin2022 09:13:20.652] [main/INFO] [quark/]: Loading Module Totem Of Holding
+[14juin2022 09:13:20.653] [main/INFO] [quark/]: Loading Module Adjustable Chat
+[14juin2022 09:13:20.654] [main/INFO] [quark/]: Loading Module Custom Underground Biome
+[14juin2022 09:13:20.655] [main/INFO] [quark/]: Loading Module Game Nerfs
+[14juin2022 09:13:20.655] [main/INFO] [quark/]: Loading Module Microcrafting Helper
+[14juin2022 09:13:20.655] [main/INFO] [quark/]: Loading Module Narrator Readout
+[14juin2022 09:13:20.656] [main/INFO] [quark/]: Loading Module Overlay Shader
+[14juin2022 09:13:20.656] [main/INFO] [quark/]: Loading Module Pallet
+[14juin2022 09:13:20.656] [main/INFO] [quark/]: Loading Module Shiba
+[14juin2022 09:13:20.701] [modloading-worker-4/INFO] [dev.itsmeow.betteranimalsplus.BetterAnimalsPlusMod/]: Overspawning lammergeiers...
+[14juin2022 09:13:20.743] [modloading-worker-1/INFO] [Mekanism/]: Loaded 'Mekanism Generators' module.
+[14juin2022 09:13:20.752] [modloading-worker-1/INFO] [PluginManager/]: Executing phase COMMON_SETUP for plugin class ImmersiveEngineeringPlugin
+[14juin2022 09:13:20.753] [modloading-worker-1/INFO] [PluginManager/]: Executing phase COMMON_SETUP for plugin class CuriosPlugin
+[14juin2022 09:13:20.784] [modloading-worker-3/INFO] [doublenegation.mods.compactores.CompactOreWorldGen/]: Registering 2 world generation features (1 normal, 1 late)
+[14juin2022 09:13:20.792] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [falling_tree] Starting version check at https://raw.githubusercontent.com/RakSrinaNa/FallingTree/1.16.4-forge/update.json
+[14juin2022 09:13:20.817] [modloading-worker-0/INFO] [Mekanism/]: Version 10.1.2 initializing...
+[14juin2022 09:13:20.805] [Immersive Engineering Contributors Thread/INFO] [immersiveengineering/]: Attempting to download special revolvers from GitHub
+[14juin2022 09:13:20.833] [modloading-worker-6/INFO] [AE2:C/]: Post Initialization ( started )
+[14juin2022 09:13:20.921] [modloading-worker-6/INFO] [AE2:C/]: Post Initialization ( ended after 92ms )
+[14juin2022 09:13:20.939] [modloading-worker-0/INFO] [Mekanism/]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
+[14juin2022 09:13:20.940] [modloading-worker-0/INFO] [Mekanism/]: Loading complete.
+[14juin2022 09:13:20.941] [modloading-worker-0/INFO] [Mekanism/]: Mod loaded.
+[14juin2022 09:13:20.981] [modloading-worker-0/INFO] [STDOUT/]: [com.hollingsworth.arsnouveau.common.capability.ManaCapability:register:62]: Finished Registering ManaCapability
+[14juin2022 09:13:20.985] [modloading-worker-0/INFO] [STDOUT/]: [com.hollingsworth.arsnouveau.api.familiar.FamiliarCap:register:97]: Finished Registering FamiliarCap
+[14juin2022 09:13:20.992] [modloading-worker-0/INFO] [STDOUT/]: [com.hollingsworth.arsnouveau.common.network.Networking:registerMessages:27]: Registering packets!!
+[14juin2022 09:13:21.016] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [falling_tree] Found status: BETA Current: 2.5.0 Target: null
+[14juin2022 09:13:21.017] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bettercaves] Starting version check at https://raw.githubusercontent.com/yungnickyoung/YUNGs-Better-Caves/1.16/versions.json
+[14juin2022 09:13:21.025] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:forgotten, use EntityAttributeCreationEvent instead.
+[14juin2022 09:13:21.033] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bettercaves] Found status: BETA Current: 1.16.4-1.1.2 Target: null
+[14juin2022 09:13:21.033] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:leash_knot_fake, use EntityAttributeCreationEvent instead.
+[14juin2022 09:13:21.060] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:crab, use EntityAttributeCreationEvent instead.
+[14juin2022 09:13:21.033] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[14juin2022 09:13:21.066] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:wrapped, use EntityAttributeCreationEvent instead.
+[14juin2022 09:13:21.067] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:shiba, use EntityAttributeCreationEvent instead.
+[14juin2022 09:13:21.072] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:stoneling, use EntityAttributeCreationEvent instead.
+[14juin2022 09:13:21.079] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:foxhound, use EntityAttributeCreationEvent instead.
+[14juin2022 09:13:21.097] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:toretoise, use EntityAttributeCreationEvent instead.
+[14juin2022 09:13:21.098] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:frog, use EntityAttributeCreationEvent instead.
+[14juin2022 09:13:21.104] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:wraith, use EntityAttributeCreationEvent instead.
+[14juin2022 09:13:21.163] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for boss_tools:alien, use EntityAttributeCreationEvent instead.
+[14juin2022 09:13:21.164] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for boss_tools:pygro, use EntityAttributeCreationEvent instead.
+[14juin2022 09:13:21.165] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for boss_tools:mogler, use EntityAttributeCreationEvent instead.
+[14juin2022 09:13:21.166] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for boss_tools:alien_zombie, use EntityAttributeCreationEvent instead.
+[14juin2022 09:13:21.166] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for boss_tools:star_crawler, use EntityAttributeCreationEvent instead.
+[14juin2022 09:13:21.167] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for boss_tools:rocket_t1, use EntityAttributeCreationEvent instead.
+[14juin2022 09:13:21.168] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class net.mrscauthd.boss_tools.entity.RocketTier1Entity from class net.mrscauthd.boss_tools.entity.RocketTier2Entity
+[14juin2022 09:13:21.169] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class net.mrscauthd.boss_tools.entity.RocketTier1Entity from class net.mrscauthd.boss_tools.entity.RocketTier2Entity
+[14juin2022 09:13:21.169] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class net.mrscauthd.boss_tools.entity.RocketTier1Entity from class net.mrscauthd.boss_tools.entity.RocketTier2Entity
+[14juin2022 09:13:21.169] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class net.mrscauthd.boss_tools.entity.RocketTier1Entity from class net.mrscauthd.boss_tools.entity.RocketTier2Entity
+[14juin2022 09:13:21.170] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for boss_tools:rocket_t2, use EntityAttributeCreationEvent instead.
+[14juin2022 09:13:21.171] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class net.mrscauthd.boss_tools.entity.RocketTier1Entity from class net.mrscauthd.boss_tools.entity.RocketTier3Entity
+[14juin2022 09:13:21.171] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class net.mrscauthd.boss_tools.entity.RocketTier1Entity from class net.mrscauthd.boss_tools.entity.RocketTier3Entity
+[14juin2022 09:13:21.171] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class net.mrscauthd.boss_tools.entity.RocketTier1Entity from class net.mrscauthd.boss_tools.entity.RocketTier3Entity
+[14juin2022 09:13:21.172] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class net.mrscauthd.boss_tools.entity.RocketTier1Entity from class net.mrscauthd.boss_tools.entity.RocketTier3Entity
+[14juin2022 09:13:21.172] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for boss_tools:rocket_t3, use EntityAttributeCreationEvent instead.
+[14juin2022 09:13:21.173] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for boss_tools:lander, use EntityAttributeCreationEvent instead.
+[14juin2022 09:13:21.177] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class net.mrscauthd.boss_tools.entity.RocketTier1Entity from class net.mrscauthd.boss_tools.entity.RoverEntity
+[14juin2022 09:13:21.179] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for boss_tools:rover, use EntityAttributeCreationEvent instead.
+[14juin2022 09:13:21.555] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 36.2.34 Target: null
+[14juin2022 09:13:21.555] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [scuba_gear] Starting version check at http://changelogs.moddinglegacy.com/scuba-gear.json
+[14juin2022 09:13:21.728] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:ice_skeleton, use EntityAttributeCreationEvent instead.
+[14juin2022 09:13:21.837] [modloading-worker-4/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[14juin2022 09:13:21.841] [modloading-worker-2/INFO] [xaero.common.server.XaeroMinimapServer/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[14juin2022 09:13:21.845] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[14juin2022 09:13:21.848] [main/INFO] [xaero.common.server.XaeroMinimapServer/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[14juin2022 09:13:21.872] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Attempting to register unregistered biomes to the biome dictionary. This can be disabled via config.
+[14juin2022 09:13:25.185] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [scuba_gear] Found status: UP_TO_DATE Current: 1.0.3 Target: null
+[14juin2022 09:13:25.186] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cofh_core] Starting version check at https://raw.github.com/cofh/version/master/cofh_core/update.json
+[14juin2022 09:13:25.212] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Registered hem:cliffs to structure_gel:[]
+[14juin2022 09:13:25.212] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Registered theabyss:mud_plains to structure_gel:[]
+[14juin2022 09:13:25.214] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Registered hem:blueleaf_plains to structure_gel:[]
+[14juin2022 09:13:25.214] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Registered hem:blueleaf_pine_forest to structure_gel:[]
+[14juin2022 09:13:25.215] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Registered boss_tools:mars to structure_gel:[]
+[14juin2022 09:13:25.215] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Registered boss_tools:venus_hills to structure_gel:[]
+[14juin2022 09:13:25.218] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Registered hem:hayfever_fields to structure_gel:[]
+[14juin2022 09:13:25.218] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Registered hem:lush_forest to structure_gel:[]
+[14juin2022 09:13:25.219] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Registered theabyss:forgottenmountains to structure_gel:[]
+[14juin2022 09:13:25.220] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Registered theabyss:blue_jungle to structure_gel:[]
+[14juin2022 09:13:25.220] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Registered undergarden:dense_forest to structure_gel:[]
+[14juin2022 09:13:25.220] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Registered theabyss:radio_biome to structure_gel:[]
+[14juin2022 09:13:25.221] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Registered undergarden:mushroom_bog to structure_gel:[]
+[14juin2022 09:13:25.221] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Registered theabyss:blue_forest to structure_gel:[]
+[14juin2022 09:13:25.222] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Registered boss_tools:mercury_magma to structure_gel:[]
+[14juin2022 09:13:25.225] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Registered undergarden:barren_abyss to structure_gel:[]
+[14juin2022 09:13:25.227] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Registered theabyss:infected_lake to structure_gel:[]
+[14juin2022 09:13:25.227] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Registered undergarden:frostfields to structure_gel:[]
+[14juin2022 09:13:25.228] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Registered appliedenergistics2:spatial_storage to structure_gel:[]
+[14juin2022 09:13:25.228] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Registered undergarden:gronglegrowth to structure_gel:[]
+[14juin2022 09:13:25.229] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Registered theabyss:pocket_biome to structure_gel:[]
+[14juin2022 09:13:25.229] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Registered hem:crystal_plains to structure_gel:[]
+[14juin2022 09:13:25.230] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Registered theabyss:slime_forest to structure_gel:[]
+[14juin2022 09:13:25.230] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Registered theabyss:fungal_forest to structure_gel:[]
+[14juin2022 09:13:25.231] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Registered theabyss:waywardsea to structure_gel:[]
+[14juin2022 09:13:25.231] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Registered boss_tools:orbit to structure_gel:[]
+[14juin2022 09:13:25.231] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Registered undergarden:smog_spires to structure_gel:[]
+[14juin2022 09:13:25.232] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Registered hem:redwood_woodlands to structure_gel:[]
+[14juin2022 09:13:25.232] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Registered hem:blueleaf_birch_forest to structure_gel:[]
+[14juin2022 09:13:25.233] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Registered theabyss:phantom_crate to structure_gel:[]
+[14juin2022 09:13:25.233] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Registered undergarden:smogstem_forest to structure_gel:[]
+[14juin2022 09:13:25.234] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Registered boss_tools:infernal_venus_barrens to structure_gel:[]
+[14juin2022 09:13:25.234] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Registered ars_nouveau:archwood_forest to structure_gel:[]
+[14juin2022 09:13:25.235] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Registered boss_tools:mars_ice_spike to structure_gel:[]
+[14juin2022 09:13:25.238] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Registered theabyss:dream_biome to structure_gel:[]
+[14juin2022 09:13:25.238] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Registered theabyss:plains to structure_gel:[]
+[14juin2022 09:13:25.238] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Registered boss_tools:moon to structure_gel:[]
+[14juin2022 09:13:25.239] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Registered theabyss:blue_mountain to structure_gel:[]
+[14juin2022 09:13:25.240] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Registered hem:extreme_mountains to structure_gel:[]
+[14juin2022 09:13:25.242] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Registered theabyss:roggen_forest to structure_gel:[]
+[14juin2022 09:13:25.242] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Registered boss_tools:mercury to structure_gel:[]
+[14juin2022 09:13:25.242] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Registered undergarden:wigglewood_forest to structure_gel:[]
+[14juin2022 09:13:25.243] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Registered undergarden:forgotten_field to structure_gel:[]
+[14juin2022 09:13:25.244] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Registered boss_tools:venus to structure_gel:[]
+[14juin2022 09:13:25.245] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_plus:tower
+[14juin2022 09:13:25.245] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_plus:bigger_dungeon
+[14juin2022 09:13:25.246] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_plus:leviathan
+[14juin2022 09:13:25.249] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_plus:snowy_temple
+[14juin2022 09:13:25.249] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_plus:end_ruins
+[14juin2022 09:13:25.249] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_plus:warped_garden
+[14juin2022 09:13:25.250] [modloading-worker-0/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_plus:soul_prison
+[14juin2022 09:13:25.378] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cofh_core] Found status: AHEAD Current: 1.5.0.11 Target: null
+[14juin2022 09:13:25.381] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal] Starting version check at https://raw.github.com/cofh/version/master/thermal/update.json
+[14juin2022 09:13:25.491] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal] Found status: AHEAD Current: 1.5.0.14 Target: null
+[14juin2022 09:13:25.491] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [immersiveengineering] Starting version check at https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.16.5/changelog.json
+[14juin2022 09:13:25.614] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [immersiveengineering] Found status: UP_TO_DATE Current: 1.16.5-5.1.0-148 Target: null
+[14juin2022 09:13:25.615] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [car] Starting version check at https://maxhenkel.de/update/car.json
+[14juin2022 09:13:26.284] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.lang.NullPointerException: null
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:174) ~[forge:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:201) ~[forge:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:1.8.0_202]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:142) [forge:?]
+[14juin2022 09:13:26.285] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [plane] Starting version check at https://maxhenkel.de/update/plane.json
+[14juin2022 09:13:26.685] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.lang.NullPointerException: null
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:174) ~[forge:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:201) ~[forge:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:1.8.0_202]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:142) [forge:?]
+[14juin2022 09:13:26.685] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [leap] Starting version check at http://changelogs.moddinglegacy.com/leap.json
+[14juin2022 09:13:27.301] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [leap] Found status: BETA Current: 1.1.1 Target: null
+[14juin2022 09:13:27.301] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [codechickenlib] Starting version check at https://version-check.covers1624.net/check/?mod=CodeChickenLib&mc=1.16.5
+[14juin2022 09:13:28.627] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.lang.NullPointerException: null
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:174) ~[forge:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:201) ~[forge:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:1.8.0_202]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:142) [forge:?]
+[14juin2022 09:13:28.627] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [brandonscore] Starting version check at https://version-check.covers1624.net/check/?mod=BrandonsCore&mc=1.16.5
+[14juin2022 09:13:30.147] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.lang.NullPointerException: null
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:174) ~[forge:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:201) ~[forge:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:1.8.0_202]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:142) [forge:?]
+[14juin2022 09:13:37.340] [main/ERROR] [net.minecraft.util.registry.WorldSettingsImport/]: Error adding element: Spread too big: 8 > 5
+[14juin2022 09:13:37.341] [main/ERROR] [net.minecraft.util.registry.WorldSettingsImport/]: Error adding element: Spread too big: 6 > 5
+[14juin2022 09:13:38.669] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14juin2022 09:13:39.400] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [c, coupling, add, cart1] and [c, coupling, add, carts] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14juin2022 09:13:39.407] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [c, coupling, add, carts] and [c, coupling, add, cart1] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14juin2022 09:13:39.409] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [cofh, ignite, duration] and [cofh, ignite, targets] with inputs: [0, -123, 123]
+[14juin2022 09:13:39.410] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [cofh, ignite, targets] and [cofh, ignite, duration] with inputs: [0123]
+[14juin2022 09:13:39.411] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [cofh, invis, flag] and [cofh, invis, targets] with inputs: [true, false]
+[14juin2022 09:13:39.413] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [cofh, invuln, flag] and [cofh, invuln, targets] with inputs: [true, false]
+[14juin2022 09:13:39.415] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [c, coupling, add, cart1] and [c, coupling, add, carts] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14juin2022 09:13:39.418] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [c, coupling, add, carts] and [c, coupling, add, cart1] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14juin2022 09:13:39.431] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14juin2022 09:13:39.433] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14juin2022 09:13:39.434] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14juin2022 09:13:39.437] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14juin2022 09:13:39.438] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14juin2022 09:13:39.442] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [tpx, destination] and [tpx, dimension] with inputs: [0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14juin2022 09:13:39.444] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [tpx, destination] and [tpx, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14juin2022 09:13:39.447] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [tpx, targets] and [tpx, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14juin2022 09:13:39.448] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [tpx, targets] and [tpx, dimension] with inputs: [0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14juin2022 09:13:39.449] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [tpx, targets, destination] and [tpx, targets, dimension] with inputs: [0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14juin2022 09:13:39.472] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, jei-1.16.5-7.7.1.152.jar, H.E.M+V0.4.6M.jar, FallingTree-Forge-1.16.4-2.5.0.jar, MedievalCraft-1.16.5-1.18.1.jar, Mekanism-1.16.5-10.1.2.457.jar, Space-BossTools-1.16.5-5.5e.jar, BetterCaves-Forge-1.16.4-1.1.2.jar, appliedenergistics2-8.4.7.jar, YungsApi-1.16.4-Forge-13.jar, betteranimalsplus-1.16.5-11.0.5-forge.jar, forge-1.16.5-36.2.34-universal.jar, scuba-gear-1.16.5-1.0.3.jar, supplementaries-1.16.5-0.18.4.jar, structure_gel-1.16.5-1.7.8.jar, selene-1.16.5-1.9.0.jar, ironchest-1.16.4-11.2.10.jar, compactores-1.16.5-3.0.3.jar, BiomesOPlenty-1.16.5-13.1.0.477-universal.jar, dungeons_plus-1.16.5-1.1.4.jar, Botania-1.16.5-420.2.jar, flywheel-1.16-0.2.5.jar, create-mc1.16.5_v0.3.2g.jar, curios-forge-1.16.5-4.0.8.2.jar, Patchouli-1.16.4-53.2.jar, leap-1.16.4-1.1.1.jar, ExtraSpace+1.0.6+1.16.5.jar, FluxNetworks-1.16.5-6.2.1.14.jar, BetterStrongholds-1.16.4-1.2.1.jar, TheAbyss2+2.2.3-4+1.16.5.jar, architectury-1.32.63.jar, cc-tweaked-1.16.5-1.100.5.jar, The_Undergarden-1.16.5-0.5.5.jar, CodeChickenLib-1.16.5-4.0.7.445-universal.jar, BrandonsCore-1.16.5-3.0.14.247-universal.jar, BetterMineshafts-Forge-1.16.4-2.0.4.jar, geckolib-forge-1.16.5-3.0.75.jar, ars_nouveau-1.16.5-1.25.1.jar, dungeons_gear-1.16.5-3.0.21-hotfix.jar, mcjtylib-1.16-5.1.7.jar, rftoolsbase-1.16-2.1.3.jar, MekanismGenerators-1.16.5-10.1.2.457.jar, rftoolspower-1.16-3.0.14.jar, cofh_core-1.16.5-1.5.0.11.jar, thermal_foundation-1.16.5-1.5.0.14.jar, industrial-foregoing-1.16.5-3.2.14.6-14.jar, titanium-1.16.5-3.2.8.4-10.jar, ImmersiveEngineering-1.16.5-5.1.0-148.jar, thermal_expansion-1.16.5-1.5.0.7.jar, Xaeros_Minimap_22.9.0_Forge_1.16.5(1).jar, XaerosWorldMap_1.23.1_Forge_1.16.5.jar, AutoRegLib-1.6-49.jar, Quark-r2.4-322.jar, WirelessRedstone-1.16.5-1.1.2.jar, carryon-1.16.5-1.15.5.22.jar, simpleplanes-1.16.5-4.6.0.jar, car-1.16.5-1.0.17.jar, plane-1.16.5-1.0.0.jar
+[14juin2022 09:13:42.344] [Worker-Main-10/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldn't load block tag farmersdelight:mushroom_colony_growable_on as it is missing following references: supplementaries:planter_rich (from supplementaries-1.16.5-0.18.4.jar)
+[14juin2022 09:13:42.427] [Worker-Main-10/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe medieval_craft:iaccraft
+com.google.gson.JsonSyntaxException: Unknown item 'medieval_craft:deleted_mod_element'
+	at net.minecraft.item.crafting.ShapedRecipe.func_222129_c(ShapedRecipe.java:262) ~[?:?]
+	at java.util.Optional.orElseThrow(Optional.java:290) ~[?:1.8.0_202]
+	at net.minecraft.item.crafting.ShapedRecipe.func_199798_a(ShapedRecipe.java:261) ~[?:?]
+	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.func_199425_a_(ShapelessRecipe.java:86) ~[?:?]
+	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.func_199425_a_(ShapelessRecipe.java:76) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:656) ~[?:1.8.0_202]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632) ~[?:1.8.0_202]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:442) ~[?:1.8.0_202]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:529) [?:1.8.0_202]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:653) [?:1.8.0_202]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632) [?:1.8.0_202]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474) [?:1.8.0_202]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1595) [?:1.8.0_202]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1582) [?:1.8.0_202]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) [?:1.8.0_202]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) [?:1.8.0_202]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692) [?:1.8.0_202]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157) [?:1.8.0_202]
+[14juin2022 09:13:42.449] [Worker-Main-10/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/tetrahedrite as it's serializer returned null
+[14juin2022 09:13:42.473] [Worker-Main-10/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/peridot as it's serializer returned null
+[14juin2022 09:13:42.503] [Worker-Main-10/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe thermal:compat/appliedenergistics2/ae2_ender_pearl_dust_convert
+com.google.gson.JsonSyntaxException: Unknown item tag 'thermal:ender_pearl_dust'
+	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:223) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[forge:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[forge:?]
+	at net.minecraft.item.crafting.Ingredient.func_199802_a(Ingredient.java:189) ~[?:?]
+	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.func_199568_a(ShapelessRecipe.java:95) ~[?:?]
+	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.func_199425_a_(ShapelessRecipe.java:80) ~[?:?]
+	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.func_199425_a_(ShapelessRecipe.java:76) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:656) ~[?:1.8.0_202]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632) ~[?:1.8.0_202]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:442) ~[?:1.8.0_202]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:529) [?:1.8.0_202]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:653) [?:1.8.0_202]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632) [?:1.8.0_202]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474) [?:1.8.0_202]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1595) [?:1.8.0_202]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1582) [?:1.8.0_202]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) [?:1.8.0_202]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) [?:1.8.0_202]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692) [?:1.8.0_202]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157) [?:1.8.0_202]
+[14juin2022 09:13:42.511] [Worker-Main-10/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:planter_rich_soul as it's serializer returned null
+[14juin2022 09:13:42.550] [Worker-Main-10/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:planter_rich as it's serializer returned null
+[14juin2022 09:13:42.588] [Worker-Main-10/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/yellorium as it's serializer returned null
+[14juin2022 09:13:42.589] [Worker-Main-10/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/yellorite as it's serializer returned null
+[14juin2022 09:13:42.600] [Worker-Main-10/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/platinum as it's serializer returned null
+[14juin2022 09:13:42.640] [Worker-Main-10/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/ardite as it's serializer returned null
+[14juin2022 09:13:42.729] [Worker-Main-10/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/bauxite as it's serializer returned null
+[14juin2022 09:13:42.734] [Worker-Main-10/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_clear as it's serializer returned null
+[14juin2022 09:13:42.738] [Worker-Main-10/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/draconium as it's serializer returned null
+[14juin2022 09:13:42.738] [Worker-Main-10/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/cobalt as it's serializer returned null
+[14juin2022 09:13:42.744] [Worker-Main-10/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:firefly_jar_tf as it's serializer returned null
+[14juin2022 09:13:42.756] [Worker-Main-10/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/arcane as it's serializer returned null
+[14juin2022 09:13:42.763] [Worker-Main-10/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_gear:gold_sword_smithing
+com.google.gson.JsonSyntaxException: Unknown item 'minecraft:golden__sword'
+	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
+	at java.util.Optional.orElseThrow(Optional.java:290) ~[?:1.8.0_202]
+	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:215) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[forge:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[forge:?]
+	at net.minecraft.item.crafting.Ingredient.func_199802_a(Ingredient.java:189) ~[?:?]
+	at net.minecraft.item.crafting.SmithingRecipe$Serializer.func_199425_a_(SmithingRecipe.java:70) ~[?:?]
+	at net.minecraft.item.crafting.SmithingRecipe$Serializer.func_199425_a_(SmithingRecipe.java:68) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:656) ~[?:1.8.0_202]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632) ~[?:1.8.0_202]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:442) ~[?:1.8.0_202]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:529) [?:1.8.0_202]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:653) [?:1.8.0_202]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632) [?:1.8.0_202]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474) [?:1.8.0_202]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1595) [?:1.8.0_202]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1582) [?:1.8.0_202]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) [?:1.8.0_202]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) [?:1.8.0_202]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692) [?:1.8.0_202]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157) [?:1.8.0_202]
+[14juin2022 09:13:42.773] [Worker-Main-10/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_fluid/oil as it's serializer returned null
+[14juin2022 09:13:42.785] [Worker-Main-10/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/blackboard_clear as it's serializer returned null
+[14juin2022 09:13:42.796] [Worker-Main-10/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/bitumen as it's serializer returned null
+[14juin2022 09:13:42.801] [Worker-Main-10/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_dye as it's serializer returned null
+[14juin2022 09:13:42.808] [Worker-Main-10/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/galena as it's serializer returned null
+[14juin2022 09:13:42.809] [Worker-Main-10/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/tungsten as it's serializer returned null
+[14juin2022 09:13:42.811] [Worker-Main-10/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:copper_lantern_2 as it's serializer returned null
+[14juin2022 09:13:42.821] [Worker-Main-10/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/iridium as it's serializer returned null
+[14juin2022 09:13:42.854] [Worker-Main-10/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/pyrite as it's serializer returned null
+[14juin2022 09:13:42.863] [Worker-Main-10/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/sheldonite as it's serializer returned null
+[14juin2022 09:13:42.893] [Worker-Main-10/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/sodalite as it's serializer returned null
+[14juin2022 09:13:42.935] [Worker-Main-10/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 122 recipes
+[14juin2022 09:13:44.432] [Worker-Main-10/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement theabyss:unlockthebook: Unknown item id 'theabyss:translationletter'
+[14juin2022 09:13:44.557] [Worker-Main-10/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3798 advancements
+[14juin2022 09:13:44.770] [Worker-Main-10/INFO] [immersiveengineering/]: Couldn't fully analyze 1 fusioned_incorythe_armor_leggings, missing knowledge for {1 netherite_leggings=1.0}
+[14juin2022 09:13:44.771] [Worker-Main-10/INFO] [immersiveengineering/]: Couldn't fully analyze 1 fusioned_incorythe_armor_helmet, missing knowledge for {1 netherite_helmet=1.0}
+[14juin2022 09:13:44.772] [Worker-Main-10/INFO] [immersiveengineering/]: Couldn't fully analyze 1 greatsword, missing knowledge for {1 longsword=1.0}
+[14juin2022 09:13:44.773] [Worker-Main-10/INFO] [immersiveengineering/]: Couldn't fully analyze 1 steelsword, missing knowledge for {1 diamond_sword=1.0}
+[14juin2022 09:13:44.775] [Worker-Main-10/INFO] [immersiveengineering/]: Couldn't fully analyze 1 fusioned_incorythe_armor_chestplate, missing knowledge for {1 netherite_chestplate=1.0}
+[14juin2022 09:13:44.775] [Worker-Main-10/INFO] [immersiveengineering/]: Couldn't fully analyze 1 fusioned_incorythe_armor_boots, missing knowledge for {1 netherite_boots=1.0}
+[14juin2022 09:13:44.778] [Worker-Main-10/INFO] [immersiveengineering/]: Finished recipe profiler for Arc Recycling, took 202 milliseconds
+[14juin2022 09:13:45.008] [Worker-Main-10/INFO] [immersiveengineering/]: Recipes for potions: minecraft:long_slow_falling, minecraft:regeneration, ars_nouveau:spell_damage_long, minecraft:strong_slowness, minecraft:strong_turtle_master, undergarden:long_virulent_resistance, ars_nouveau:mana_regen_potion, minecraft:long_slowness, minecraft:strong_harming, quark:resistance, quark:strong_resistance, ars_nouveau:spell_damage, undergarden:strong_brittleness, minecraft:thick, quark:long_danger_sight, ars_nouveau:mana_regen_potion_long, minecraft:harming, minecraft:strong_poison, minecraft:mundane, minecraft:long_leaping, minecraft:water_breathing, minecraft:long_night_vision, minecraft:strong_regeneration, minecraft:strong_strength, minecraft:leaping, minecraft:awkward, undergarden:featherweight, minecraft:swiftness, minecraft:night_vision, minecraft:weakness, minecraft:long_weakness, minecraft:long_invisibility, undergarden:strong_featherweight, minecraft:turtle_master, ars_nouveau:mana_regen_potion_strong, quark:long_resilience, minecraft:long_strength, undergarden:virulent_resistance, ars_nouveau:spell_damage_strong, minecraft:strength, minecraft:fire_resistance, minecraft:strong_leaping, minecraft:healing, minecraft:long_water_breathing, quark:long_resistance, undergarden:long_glowing, minecraft:slowness, quark:danger_sight, minecraft:long_swiftness, minecraft:long_fire_resistance, minecraft:poison, minecraft:long_poison, minecraft:long_turtle_master, undergarden:glowing, undergarden:brittleness, minecraft:strong_healing, undergarden:long_brittleness, minecraft:invisibility, quark:strong_resilience, minecraft:water, minecraft:slow_falling, minecraft:long_regeneration, undergarden:long_featherweight, quark:resilience, minecraft:strong_swiftness
+[14juin2022 09:13:54.696] [main/INFO] [STDOUT/]: [tschipp.carryon.common.handler.ListHandler:initConfigLists:282]: [forge:glass_panes/magenta, forge:ores/biotite, quark:planks_vertical_slab, forge:wooden_fences, undergarden:grongle_logs, quark:stools, forge:storage_blocks/netherite, forge:glass_panes/white, forge:storage_blocks/desh, biomesoplenty:hellbark_logs, supplementaries:beams, forge:wool/black, forge:glass_panes/light_gray, forge:storage_blocks/nickel, botania:floating_flowers, forge:ores/niter, tconstruct:harvestable/stackable, quark:candles, minecraft:dragon_immune, forge:glass/pink, forge:chests, forge:storage_blocks/emerald, forge:ores/redstone, forge:storage_blocks/uranium, forge:sheetmetals/nickel, forge:glass/red, chiselsandbits:chiselable/forced, forge:sheetmetals/steel, forge:glass_panes/green, carryon:block_blacklist, minecraft:prevent_mob_spawning_inside, forge:fiber, forge:chests/trapped, structure_gel:gel, forge:fence_gates, forge:sandstone, forge:storage_blocks/copper, forge:glass_panes/colorless, computercraft:monitor, forge:storage_blocks/cinnabar, forge:storage_blocks/lapis, minecraft:beds, forge:sheetmetals/aluminum, forge:ores/diamond, forge:ores/lead, minecraft:doors, forge:relocation_not_supported, minecraft:infiniburn_overworld, minecraft:flower_pots, forge:storage_blocks/sugar_cane, forge:storage_blocks/signalum, forge:storage_blocks/invar, computercraft:turtle_always_breakable, supplementaries:posts, industrialforegoing:machine_frame/advanced, forge:ores/tin, forge:glass/white, forge:glass_panes/red, minecraft:signs, biomesoplenty:willow_logs, minecraft:wither_summon_base_blocks, botania:mundane_floating_flowers, forge:storage_blocks/certus_quartz, forge:storage_blocks/osmium, minecraft:hoglin_repellents, mekanism:cardboard_blacklist, simpleplanes:fireproof_materials, create:fan_transparent, forge:ores/cloggrum, forge:wool, botania:mini_flowers, minecraft:logs/archwood, forge:storage_blocks/sapphire, forge:sand/colorless, computercraft:turtle, minecraft:soul_speed_blocks, forge:storage_blocks/charcoal, forge:sheetmetals/copper, tconstruct:slimy_logs, minecraft:walls, minecraft:coral_blocks, forge:glass/green, forge:storage_blocks/lead, forge:fences/aluminum, minecraft:underwater_bonemeals, minecraft:impermeable, minecraft:sand, forge:end_stones, forge:storage_blocks/fluorite, biomesoplenty:fir_logs, forge:sandstone/colorless, forge:storage_blocks/terrasteel, forge:ores/sulfur, forge:wg_stone, supplementaries:walls, forge:treated_wood, forge:fences/wooden, sereneseasons:summer_crops, minecraft:campfires, supplementaries:vine_support, forge:storage_blocks, forge:sheetmetals/uranium, minecraft:infiniburn_nether, ars_nouveau:an_decorative, forge:glass_panes/orange, forge:ores/quartz, appliedenergistics2:whitelisted/facades, forge:glass/blue, car:drivable_blocks, ars_nouveau:harvest/foliage, minecraft:wooden_trapdoors, create:valve_handles, forge:wool/orange, forge:storage_blocks/coal, forge:glass/light_blue, botania:special_floating_flowers, forge:storage_blocks/redstone, minecraft:stairs, forge:logs/archwood, quark:underground_biome_replaceable, sereneseasons:unbreakable_infertile_crops, forge:wool/light_blue, minecraft:logs, forge:ores/cinnabar, forge:sandstone/red, forge:treated_wood_slab, mekanism:miner_blacklist, minecraft:valid_spawn, minecraft:mushroom_grow_block, quark:wraith_spawnable, minecraft:wooden_doors, forge:ores/certus_quartz, sereneseasons:autumn_crops, forge:glass/purple, quark:slime_blocks, minecraft:fences/wooden, minecraft:crimson_stems, computercraft:turtle_sword_harvestable, quark:vertical_slab, quark:hedges, forge:storage_blocks/ruby, appliedenergistics2:blacklisted/annihilation_plane, forge:wool/blue, minecraft:beacon_base_blocks, minecraft:anvil, forge:storage_blocks/enderium, appliedenergistics2:spatial/blacklist, forge:sand, minecraft:wall_corals, forge:sheetmetals/lead, thermal:rockwool, forge:storage_blocks/tar, forge:ores/utherium, forge:storage_blocks/silver, forge:ores/gold, forge:pumpkins/carved, botania:mystical_flowers, minecraft:piglin_repellents, biomesoplenty:palm_logs, forge:glass/black, minecraft:portals, undergarden:muncher_breakables, forge:fences/nether_brick, forge:glass/lime, forge:chests/wooden, forge:storage_blocks/aluminum, immersiveengineering:scaffoldings/aluminum, forge:ores/iron, forge:storage_blocks/biotite, forge:storage_blocks/sulfur, botania:double_mystical_flowers, minecraft:wooden_stairs, thermal:glass/hardened, minecraft:carpets, minecraft:base_stone_overworld, minecraft:wooden_buttons, quark:crystal, biomesoplenty:umbran_logs, forge:storage_blocks/glowstone, minecraft:stone_bricks, forge:storage_blocks/quartz, forge:glass/orange, forge:planks/archwood, minecraft:slabs, minecraft:guarded_by_piglins, forge:ores/emerald, forge:storage_blocks/bitumen, computercraft:wired_modem, botania:misc_special_flowers, forge:ores/apatite, minecraft:buttons, minecraft:corals, quark:foxhound_spawnable, minecraft:rails, forge:wool/lime, forge:barrels/wooden, botania:gaia_break_blacklist, forge:storage_blocks/niter, minecraft:strider_warm_blocks, forge:storage_blocks/clay, forge:storage_blocks/cloggrum, minecraft:bee_growables, minecraft:wooden_pressure_plates, create:brittle, minecraft:tall_flowers, biomesoplenty:redwood_logs, biomesoplenty:jacaranda_logs, forge:doors, forge:bookshelves, minecraft:stone_pressure_plates, supplementaries:concrete_powders, minecraft:gold_ores, forge:sheetmetals/silver, supplementaries:palisades, forge:glass_panes/pink, forge:storage_blocks/froststeel, undergarden:base_stone_undergarden, forge:netherrack, forge:wool/cyan, create:non_movable, minecraft:soul_fire_base_blocks, forge:crops/flax, forge:sheetmetals, forge:storage_blocks/silicon, appliedenergistics2:spatial/whitelist, ars_nouveau:sylph/greatly_likes, forge:gravel, forge:glass_panes/cyan, biomesoplenty:magic_logs, minecraft:wool, forge:glass/colorless, ars_nouveau:harvest/stems, forge:ores/mana_gem, forge:rubberwood_logs, forge:glass_panes/light_blue, minecraft:beehives, minecraft:ice, forge:ores/zinc, forge:ores/netherite_scrap, minecraft:crops, quark:quilted_wools, forge:fiber/flax, forge:stained_glass, undergarden:wigglewood_logs, minecraft:warped_stems, botania:magnet_ring_blacklist, forge:fences/steel, forge:storage_blocks/coal_coke, forge:storage_blocks/iron, create:seats, forge:glass_panes/brown, create:wrench_pickup, forge:ores/sapphire, botania:corporea_spark_override, minecraft:climbable, minecraft:leaves/archwood_leaves, minecraft:dark_oak_logs, forge:storage_blocks/steel, ars_nouveau:magic_saplings, quark:ladders, forge:planks, minecraft:coral_plants, forge:glass_panes, forge:storage_blocks/lumium, minecraft:non_flammable_wood, ars_nouveau:an_decorative/stone, forge:ores/fluorite, industrialforegoing:machine_frame/simple, forge:storage_blocks/refined_glowstone, forge:ores/chesse, forge:mushrooms, botania:livingwood, forge:storage_blocks/bronze, create:safe_nbt, forge:sheetmetals/gold, supplementaries:pane_connection, minecraft:fences, minecraft:saplings, forge:storage_blocks/tin, forge:ores/copper, betteranimalsplus:butterfly_growables, minecraft:unstable_bottom_center, simpleplanes:plane_materials, minecraft:enderman_holdable, minecraft:banners, forge:ores/silicon, forge:storage_blocks/electrum, minecraft:wooden_fences, forge:sheetmetals/constantan, minecraft:wall_post_override, forge:obsidian, forge:enderman_place_on_blacklist, forge:chests/electric, biomesoplenty:mahogany_logs, industrialforegoing:machine_frame/supreme, botania:livingrock, supplementaries:pouring_tank, forge:glass/magenta, forge:storage_blocks/forgotten_metal, forge:wool/green, forge:ores/coal, forge:storage_blocks/constantan, minecraft:fire, forge:sheetmetals/electrum, minecraft:base_stone_nether, minecraft:wall_signs, quark:vertical_slabs, carryon:block_whitelist, forge:storage_blocks/elementium, minecraft:trapdoors, undergarden:smogstem_logs, ars_nouveau:harvest/fellable, forge:glass/cyan, botania:shiny_flowers, quark:crab_spawnable, forge:glass, forge:storage_blocks/gunpowder, forge:wooden_doors, minecraft:leaves, buzzier_bees:flower_blacklist, undergarden:mushrooms, computercraft:turtle_hoe_harvestable, forge:storage_blocks/brass, forge:glass_panes/gray, minecraft:wither_immune, forge:ores/ruby, minecraft:acacia_logs, forge:wool/red, forge:ores/regalium, forge:stained_glass_panes, immersiveengineering:scaffoldings/steel, forge:storage_blocks/zinc, forge:sand/red, forge:glass/brown, forge:wool/purple, create:sails, minecraft:logs_that_burn, forge:glass/gray, forge:glass/light_gray, minecraft:wooden_slabs, create:toolboxes, minecraft:small_flowers, forge:storage_blocks/refined_obsidian, mekanism:atomic_disassembler_ore, botania:enchanter_flowers, forge:wool/brown, forge:ores/osmium, forge:glass_panes/black, forge:storage_blocks/manasteel, supplementaries:rope_support, sereneseasons:winter_crops, forge:glass_panes/blue, forge:wool/white, supplementaries:water_holder, forge:wool/light_gray, forge:wool/yellow, forge:stone, computercraft:computer, minecraft:standing_signs, minecraft:infiniburn_end, undergarden:portal_frame_blocks, forge:glass_panes/yellow, ars_nouveau:magic_plants, forge:wool/gray, biomesoplenty:cherry_logs, minecraft:wart_blocks, minecraft:planks/archwood, botania:generating_special_flowers, forge:storage_blocks/apatite, forge:wool/magenta, minecraft:shulker_boxes, forge:ores/silver, minecraft:birch_logs, create:fan_heaters, forge:storage_blocks/regalium, forge:glass_panes/purple, forge:glass/yellow, quark:pike_trophies, minecraft:oak_logs, forge:barrels, computercraft:turtle_shovel_harvestable, forge:ores/lapis, biomesoplenty:dead_logs, forge:dirt, minecraft:bamboo_plantable_on, quark:lead_connectable, minecraft:pressure_plates, forge:ores/nickel, create:windowable, minecraft:jungle_logs, forge:chests/ender, minecraft:spruce_logs, forge:ores/desh, forge:fence_gates/wooden, forge:ores/aluminum, ars_nouveau:sylph/kinda_likes, forge:ores/uranium, forge:glass_panes/lime, create:windmill_sails, sereneseasons:spring_crops, forge:wool/pink, forge:storage_blocks/utherium, forge:logs, botania:terra_plate_base, minecraft:flowers, minecraft:planks, forge:cobblestone, botania:special_flowers, botania:functional_special_flowers, botania:terraformable, industrialforegoing:machine_frame/pity, forge:storage_blocks/gold, minecraft:fence_gates, forge:ores, forge:sheetmetals/iron, forge:fences, forge:storage_blocks/diamond, minecraft:nylium, forge:ores/froststeel, forge:storage_blocks/bamboo, supplementaries:hang_from_ropes, forge:storage_blocks/slag, forge:chests/personal, supplementaries:bellows_tickable, forge:terracotta, forge:sapling]
+[14juin2022 09:13:55.058] [main/INFO] [STDOUT/]: [tschipp.carryon.common.handler.ListHandler:initConfigLists:282]: [forge:glass_panes/magenta, forge:ores/biotite, quark:planks_vertical_slab, forge:wooden_fences, undergarden:grongle_logs, quark:stools, forge:storage_blocks/netherite, forge:glass_panes/white, forge:storage_blocks/desh, biomesoplenty:hellbark_logs, supplementaries:beams, forge:wool/black, forge:glass_panes/light_gray, forge:storage_blocks/nickel, botania:floating_flowers, forge:ores/niter, tconstruct:harvestable/stackable, quark:candles, minecraft:dragon_immune, forge:glass/pink, forge:chests, forge:storage_blocks/emerald, forge:ores/redstone, forge:storage_blocks/uranium, forge:sheetmetals/nickel, forge:glass/red, chiselsandbits:chiselable/forced, forge:sheetmetals/steel, forge:glass_panes/green, carryon:block_blacklist, minecraft:prevent_mob_spawning_inside, forge:fiber, forge:chests/trapped, structure_gel:gel, forge:fence_gates, forge:sandstone, forge:storage_blocks/copper, forge:glass_panes/colorless, computercraft:monitor, forge:storage_blocks/cinnabar, forge:storage_blocks/lapis, minecraft:beds, forge:sheetmetals/aluminum, forge:ores/diamond, forge:ores/lead, minecraft:doors, forge:relocation_not_supported, minecraft:infiniburn_overworld, minecraft:flower_pots, forge:storage_blocks/sugar_cane, forge:storage_blocks/signalum, forge:storage_blocks/invar, computercraft:turtle_always_breakable, supplementaries:posts, industrialforegoing:machine_frame/advanced, forge:ores/tin, forge:glass/white, forge:glass_panes/red, minecraft:signs, biomesoplenty:willow_logs, minecraft:wither_summon_base_blocks, botania:mundane_floating_flowers, forge:storage_blocks/certus_quartz, forge:storage_blocks/osmium, minecraft:hoglin_repellents, mekanism:cardboard_blacklist, simpleplanes:fireproof_materials, create:fan_transparent, forge:ores/cloggrum, forge:wool, botania:mini_flowers, minecraft:logs/archwood, forge:storage_blocks/sapphire, forge:sand/colorless, computercraft:turtle, minecraft:soul_speed_blocks, forge:storage_blocks/charcoal, forge:sheetmetals/copper, tconstruct:slimy_logs, minecraft:walls, minecraft:coral_blocks, forge:glass/green, forge:storage_blocks/lead, forge:fences/aluminum, minecraft:underwater_bonemeals, minecraft:impermeable, minecraft:sand, forge:end_stones, forge:storage_blocks/fluorite, biomesoplenty:fir_logs, forge:sandstone/colorless, forge:storage_blocks/terrasteel, forge:ores/sulfur, forge:wg_stone, supplementaries:walls, forge:treated_wood, forge:fences/wooden, sereneseasons:summer_crops, minecraft:campfires, supplementaries:vine_support, forge:storage_blocks, forge:sheetmetals/uranium, minecraft:infiniburn_nether, ars_nouveau:an_decorative, forge:glass_panes/orange, forge:ores/quartz, appliedenergistics2:whitelisted/facades, forge:glass/blue, car:drivable_blocks, ars_nouveau:harvest/foliage, minecraft:wooden_trapdoors, create:valve_handles, forge:wool/orange, forge:storage_blocks/coal, forge:glass/light_blue, botania:special_floating_flowers, forge:storage_blocks/redstone, minecraft:stairs, forge:logs/archwood, quark:underground_biome_replaceable, sereneseasons:unbreakable_infertile_crops, forge:wool/light_blue, minecraft:logs, forge:ores/cinnabar, forge:sandstone/red, forge:treated_wood_slab, mekanism:miner_blacklist, minecraft:valid_spawn, minecraft:mushroom_grow_block, quark:wraith_spawnable, minecraft:wooden_doors, forge:ores/certus_quartz, sereneseasons:autumn_crops, forge:glass/purple, quark:slime_blocks, minecraft:fences/wooden, minecraft:crimson_stems, computercraft:turtle_sword_harvestable, quark:vertical_slab, quark:hedges, forge:storage_blocks/ruby, appliedenergistics2:blacklisted/annihilation_plane, forge:wool/blue, minecraft:beacon_base_blocks, minecraft:anvil, forge:storage_blocks/enderium, appliedenergistics2:spatial/blacklist, forge:sand, minecraft:wall_corals, forge:sheetmetals/lead, thermal:rockwool, forge:storage_blocks/tar, forge:ores/utherium, forge:storage_blocks/silver, forge:ores/gold, forge:pumpkins/carved, botania:mystical_flowers, minecraft:piglin_repellents, biomesoplenty:palm_logs, forge:glass/black, minecraft:portals, undergarden:muncher_breakables, forge:fences/nether_brick, forge:glass/lime, forge:chests/wooden, forge:storage_blocks/aluminum, immersiveengineering:scaffoldings/aluminum, forge:ores/iron, forge:storage_blocks/biotite, forge:storage_blocks/sulfur, botania:double_mystical_flowers, minecraft:wooden_stairs, thermal:glass/hardened, minecraft:carpets, minecraft:base_stone_overworld, minecraft:wooden_buttons, quark:crystal, biomesoplenty:umbran_logs, forge:storage_blocks/glowstone, minecraft:stone_bricks, forge:storage_blocks/quartz, forge:glass/orange, forge:planks/archwood, minecraft:slabs, minecraft:guarded_by_piglins, forge:ores/emerald, forge:storage_blocks/bitumen, computercraft:wired_modem, botania:misc_special_flowers, forge:ores/apatite, minecraft:buttons, minecraft:corals, quark:foxhound_spawnable, minecraft:rails, forge:wool/lime, forge:barrels/wooden, botania:gaia_break_blacklist, forge:storage_blocks/niter, minecraft:strider_warm_blocks, forge:storage_blocks/clay, forge:storage_blocks/cloggrum, minecraft:bee_growables, minecraft:wooden_pressure_plates, create:brittle, minecraft:tall_flowers, biomesoplenty:redwood_logs, biomesoplenty:jacaranda_logs, forge:doors, forge:bookshelves, minecraft:stone_pressure_plates, supplementaries:concrete_powders, minecraft:gold_ores, forge:sheetmetals/silver, supplementaries:palisades, forge:glass_panes/pink, forge:storage_blocks/froststeel, undergarden:base_stone_undergarden, forge:netherrack, forge:wool/cyan, create:non_movable, minecraft:soul_fire_base_blocks, forge:crops/flax, forge:sheetmetals, forge:storage_blocks/silicon, appliedenergistics2:spatial/whitelist, ars_nouveau:sylph/greatly_likes, forge:gravel, forge:glass_panes/cyan, biomesoplenty:magic_logs, minecraft:wool, forge:glass/colorless, ars_nouveau:harvest/stems, forge:ores/mana_gem, forge:rubberwood_logs, forge:glass_panes/light_blue, minecraft:beehives, minecraft:ice, forge:ores/zinc, forge:ores/netherite_scrap, minecraft:crops, quark:quilted_wools, forge:fiber/flax, forge:stained_glass, undergarden:wigglewood_logs, minecraft:warped_stems, botania:magnet_ring_blacklist, forge:fences/steel, forge:storage_blocks/coal_coke, forge:storage_blocks/iron, create:seats, forge:glass_panes/brown, create:wrench_pickup, forge:ores/sapphire, botania:corporea_spark_override, minecraft:climbable, minecraft:leaves/archwood_leaves, minecraft:dark_oak_logs, forge:storage_blocks/steel, ars_nouveau:magic_saplings, quark:ladders, forge:planks, minecraft:coral_plants, forge:glass_panes, forge:storage_blocks/lumium, minecraft:non_flammable_wood, ars_nouveau:an_decorative/stone, forge:ores/fluorite, industrialforegoing:machine_frame/simple, forge:storage_blocks/refined_glowstone, forge:ores/chesse, forge:mushrooms, botania:livingwood, forge:storage_blocks/bronze, create:safe_nbt, forge:sheetmetals/gold, supplementaries:pane_connection, minecraft:fences, minecraft:saplings, forge:storage_blocks/tin, forge:ores/copper, betteranimalsplus:butterfly_growables, minecraft:unstable_bottom_center, simpleplanes:plane_materials, minecraft:enderman_holdable, minecraft:banners, forge:ores/silicon, forge:storage_blocks/electrum, minecraft:wooden_fences, forge:sheetmetals/constantan, minecraft:wall_post_override, forge:obsidian, forge:enderman_place_on_blacklist, forge:chests/electric, biomesoplenty:mahogany_logs, industrialforegoing:machine_frame/supreme, botania:livingrock, supplementaries:pouring_tank, forge:glass/magenta, forge:storage_blocks/forgotten_metal, forge:wool/green, forge:ores/coal, forge:storage_blocks/constantan, minecraft:fire, forge:sheetmetals/electrum, minecraft:base_stone_nether, minecraft:wall_signs, quark:vertical_slabs, carryon:block_whitelist, forge:storage_blocks/elementium, minecraft:trapdoors, undergarden:smogstem_logs, ars_nouveau:harvest/fellable, forge:glass/cyan, botania:shiny_flowers, quark:crab_spawnable, forge:glass, forge:storage_blocks/gunpowder, forge:wooden_doors, minecraft:leaves, buzzier_bees:flower_blacklist, undergarden:mushrooms, computercraft:turtle_hoe_harvestable, forge:storage_blocks/brass, forge:glass_panes/gray, minecraft:wither_immune, forge:ores/ruby, minecraft:acacia_logs, forge:wool/red, forge:ores/regalium, forge:stained_glass_panes, immersiveengineering:scaffoldings/steel, forge:storage_blocks/zinc, forge:sand/red, forge:glass/brown, forge:wool/purple, create:sails, minecraft:logs_that_burn, forge:glass/gray, forge:glass/light_gray, minecraft:wooden_slabs, create:toolboxes, minecraft:small_flowers, forge:storage_blocks/refined_obsidian, mekanism:atomic_disassembler_ore, botania:enchanter_flowers, forge:wool/brown, forge:ores/osmium, forge:glass_panes/black, forge:storage_blocks/manasteel, supplementaries:rope_support, sereneseasons:winter_crops, forge:glass_panes/blue, forge:wool/white, supplementaries:water_holder, forge:wool/light_gray, forge:wool/yellow, forge:stone, computercraft:computer, minecraft:standing_signs, minecraft:infiniburn_end, undergarden:portal_frame_blocks, forge:glass_panes/yellow, ars_nouveau:magic_plants, forge:wool/gray, biomesoplenty:cherry_logs, minecraft:wart_blocks, minecraft:planks/archwood, botania:generating_special_flowers, forge:storage_blocks/apatite, forge:wool/magenta, minecraft:shulker_boxes, forge:ores/silver, minecraft:birch_logs, create:fan_heaters, forge:storage_blocks/regalium, forge:glass_panes/purple, forge:glass/yellow, quark:pike_trophies, minecraft:oak_logs, forge:barrels, computercraft:turtle_shovel_harvestable, forge:ores/lapis, biomesoplenty:dead_logs, forge:dirt, minecraft:bamboo_plantable_on, quark:lead_connectable, minecraft:pressure_plates, forge:ores/nickel, create:windowable, minecraft:jungle_logs, forge:chests/ender, minecraft:spruce_logs, forge:ores/desh, forge:fence_gates/wooden, forge:ores/aluminum, ars_nouveau:sylph/kinda_likes, forge:ores/uranium, forge:glass_panes/lime, create:windmill_sails, sereneseasons:spring_crops, forge:wool/pink, forge:storage_blocks/utherium, forge:logs, botania:terra_plate_base, minecraft:flowers, minecraft:planks, forge:cobblestone, botania:special_flowers, botania:functional_special_flowers, botania:terraformable, industrialforegoing:machine_frame/pity, forge:storage_blocks/gold, minecraft:fence_gates, forge:ores, forge:sheetmetals/iron, forge:fences, forge:storage_blocks/diamond, minecraft:nylium, forge:ores/froststeel, forge:storage_blocks/bamboo, supplementaries:hang_from_ropes, forge:storage_blocks/slag, forge:chests/personal, supplementaries:bellows_tickable, forge:terracotta, forge:sapling]
+[14juin2022 09:14:06.907] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
+[14juin2022 09:14:06.914] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[14juin2022 09:14:06.914] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[14juin2022 09:14:06.917] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[14juin2022 09:14:07.039] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[14juin2022 09:14:07.051] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using default channel type
+[14juin2022 09:14:07.763] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14juin2022 09:14:07.764] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[14juin2022 09:14:07.765] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14juin2022 09:14:07.766] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[14juin2022 09:14:07.974] [Server thread/INFO] [STDOUT/]: [tschipp.carryon.common.handler.ListHandler:initConfigLists:282]: [forge:glass_panes/magenta, forge:ores/biotite, quark:planks_vertical_slab, forge:wooden_fences, undergarden:grongle_logs, quark:stools, forge:storage_blocks/netherite, forge:glass_panes/white, forge:storage_blocks/desh, biomesoplenty:hellbark_logs, supplementaries:beams, forge:wool/black, forge:glass_panes/light_gray, forge:storage_blocks/nickel, botania:floating_flowers, forge:ores/niter, tconstruct:harvestable/stackable, quark:candles, minecraft:dragon_immune, forge:glass/pink, forge:chests, forge:storage_blocks/emerald, forge:ores/redstone, forge:storage_blocks/uranium, forge:sheetmetals/nickel, forge:glass/red, chiselsandbits:chiselable/forced, forge:sheetmetals/steel, forge:glass_panes/green, carryon:block_blacklist, minecraft:prevent_mob_spawning_inside, forge:fiber, forge:chests/trapped, structure_gel:gel, forge:fence_gates, forge:sandstone, forge:storage_blocks/copper, forge:glass_panes/colorless, computercraft:monitor, forge:storage_blocks/cinnabar, forge:storage_blocks/lapis, minecraft:beds, forge:sheetmetals/aluminum, forge:ores/diamond, forge:ores/lead, minecraft:doors, forge:relocation_not_supported, minecraft:infiniburn_overworld, minecraft:flower_pots, forge:storage_blocks/sugar_cane, forge:storage_blocks/signalum, forge:storage_blocks/invar, computercraft:turtle_always_breakable, supplementaries:posts, industrialforegoing:machine_frame/advanced, forge:ores/tin, forge:glass/white, forge:glass_panes/red, minecraft:signs, biomesoplenty:willow_logs, minecraft:wither_summon_base_blocks, botania:mundane_floating_flowers, forge:storage_blocks/certus_quartz, forge:storage_blocks/osmium, minecraft:hoglin_repellents, mekanism:cardboard_blacklist, simpleplanes:fireproof_materials, create:fan_transparent, forge:ores/cloggrum, forge:wool, botania:mini_flowers, minecraft:logs/archwood, forge:storage_blocks/sapphire, forge:sand/colorless, computercraft:turtle, minecraft:soul_speed_blocks, forge:storage_blocks/charcoal, forge:sheetmetals/copper, tconstruct:slimy_logs, minecraft:walls, minecraft:coral_blocks, forge:glass/green, forge:storage_blocks/lead, forge:fences/aluminum, minecraft:underwater_bonemeals, minecraft:impermeable, minecraft:sand, forge:end_stones, forge:storage_blocks/fluorite, biomesoplenty:fir_logs, forge:sandstone/colorless, forge:storage_blocks/terrasteel, forge:ores/sulfur, forge:wg_stone, supplementaries:walls, forge:treated_wood, forge:fences/wooden, sereneseasons:summer_crops, minecraft:campfires, supplementaries:vine_support, forge:storage_blocks, forge:sheetmetals/uranium, minecraft:infiniburn_nether, ars_nouveau:an_decorative, forge:glass_panes/orange, forge:ores/quartz, appliedenergistics2:whitelisted/facades, forge:glass/blue, car:drivable_blocks, ars_nouveau:harvest/foliage, minecraft:wooden_trapdoors, create:valve_handles, forge:wool/orange, forge:storage_blocks/coal, forge:glass/light_blue, botania:special_floating_flowers, forge:storage_blocks/redstone, minecraft:stairs, forge:logs/archwood, quark:underground_biome_replaceable, sereneseasons:unbreakable_infertile_crops, forge:wool/light_blue, minecraft:logs, forge:ores/cinnabar, forge:sandstone/red, forge:treated_wood_slab, mekanism:miner_blacklist, minecraft:valid_spawn, minecraft:mushroom_grow_block, quark:wraith_spawnable, minecraft:wooden_doors, forge:ores/certus_quartz, sereneseasons:autumn_crops, forge:glass/purple, quark:slime_blocks, minecraft:fences/wooden, minecraft:crimson_stems, computercraft:turtle_sword_harvestable, quark:vertical_slab, quark:hedges, forge:storage_blocks/ruby, appliedenergistics2:blacklisted/annihilation_plane, forge:wool/blue, minecraft:beacon_base_blocks, minecraft:anvil, forge:storage_blocks/enderium, appliedenergistics2:spatial/blacklist, forge:sand, minecraft:wall_corals, forge:sheetmetals/lead, thermal:rockwool, forge:storage_blocks/tar, forge:ores/utherium, forge:storage_blocks/silver, forge:ores/gold, forge:pumpkins/carved, botania:mystical_flowers, minecraft:piglin_repellents, biomesoplenty:palm_logs, forge:glass/black, minecraft:portals, undergarden:muncher_breakables, forge:fences/nether_brick, forge:glass/lime, forge:chests/wooden, forge:storage_blocks/aluminum, immersiveengineering:scaffoldings/aluminum, forge:ores/iron, forge:storage_blocks/biotite, forge:storage_blocks/sulfur, botania:double_mystical_flowers, minecraft:wooden_stairs, thermal:glass/hardened, minecraft:carpets, minecraft:base_stone_overworld, minecraft:wooden_buttons, quark:crystal, biomesoplenty:umbran_logs, forge:storage_blocks/glowstone, minecraft:stone_bricks, forge:storage_blocks/quartz, forge:glass/orange, forge:planks/archwood, minecraft:slabs, minecraft:guarded_by_piglins, forge:ores/emerald, forge:storage_blocks/bitumen, computercraft:wired_modem, botania:misc_special_flowers, forge:ores/apatite, minecraft:buttons, minecraft:corals, quark:foxhound_spawnable, minecraft:rails, forge:wool/lime, forge:barrels/wooden, botania:gaia_break_blacklist, forge:storage_blocks/niter, minecraft:strider_warm_blocks, forge:storage_blocks/clay, forge:storage_blocks/cloggrum, minecraft:bee_growables, minecraft:wooden_pressure_plates, create:brittle, minecraft:tall_flowers, biomesoplenty:redwood_logs, biomesoplenty:jacaranda_logs, forge:doors, forge:bookshelves, minecraft:stone_pressure_plates, supplementaries:concrete_powders, minecraft:gold_ores, forge:sheetmetals/silver, supplementaries:palisades, forge:glass_panes/pink, forge:storage_blocks/froststeel, undergarden:base_stone_undergarden, forge:netherrack, forge:wool/cyan, create:non_movable, minecraft:soul_fire_base_blocks, forge:crops/flax, forge:sheetmetals, forge:storage_blocks/silicon, appliedenergistics2:spatial/whitelist, ars_nouveau:sylph/greatly_likes, forge:gravel, forge:glass_panes/cyan, biomesoplenty:magic_logs, minecraft:wool, forge:glass/colorless, ars_nouveau:harvest/stems, forge:ores/mana_gem, forge:rubberwood_logs, forge:glass_panes/light_blue, minecraft:beehives, minecraft:ice, forge:ores/zinc, forge:ores/netherite_scrap, minecraft:crops, quark:quilted_wools, forge:fiber/flax, forge:stained_glass, undergarden:wigglewood_logs, minecraft:warped_stems, botania:magnet_ring_blacklist, forge:fences/steel, forge:storage_blocks/coal_coke, forge:storage_blocks/iron, create:seats, forge:glass_panes/brown, create:wrench_pickup, forge:ores/sapphire, botania:corporea_spark_override, minecraft:climbable, minecraft:leaves/archwood_leaves, minecraft:dark_oak_logs, forge:storage_blocks/steel, ars_nouveau:magic_saplings, quark:ladders, forge:planks, minecraft:coral_plants, forge:glass_panes, forge:storage_blocks/lumium, minecraft:non_flammable_wood, ars_nouveau:an_decorative/stone, forge:ores/fluorite, industrialforegoing:machine_frame/simple, forge:storage_blocks/refined_glowstone, forge:ores/chesse, forge:mushrooms, botania:livingwood, forge:storage_blocks/bronze, create:safe_nbt, forge:sheetmetals/gold, supplementaries:pane_connection, minecraft:fences, minecraft:saplings, forge:storage_blocks/tin, forge:ores/copper, betteranimalsplus:butterfly_growables, minecraft:unstable_bottom_center, simpleplanes:plane_materials, minecraft:enderman_holdable, minecraft:banners, forge:ores/silicon, forge:storage_blocks/electrum, minecraft:wooden_fences, forge:sheetmetals/constantan, minecraft:wall_post_override, forge:obsidian, forge:enderman_place_on_blacklist, forge:chests/electric, biomesoplenty:mahogany_logs, industrialforegoing:machine_frame/supreme, botania:livingrock, supplementaries:pouring_tank, forge:glass/magenta, forge:storage_blocks/forgotten_metal, forge:wool/green, forge:ores/coal, forge:storage_blocks/constantan, minecraft:fire, forge:sheetmetals/electrum, minecraft:base_stone_nether, minecraft:wall_signs, quark:vertical_slabs, carryon:block_whitelist, forge:storage_blocks/elementium, minecraft:trapdoors, undergarden:smogstem_logs, ars_nouveau:harvest/fellable, forge:glass/cyan, botania:shiny_flowers, quark:crab_spawnable, forge:glass, forge:storage_blocks/gunpowder, forge:wooden_doors, minecraft:leaves, buzzier_bees:flower_blacklist, undergarden:mushrooms, computercraft:turtle_hoe_harvestable, forge:storage_blocks/brass, forge:glass_panes/gray, minecraft:wither_immune, forge:ores/ruby, minecraft:acacia_logs, forge:wool/red, forge:ores/regalium, forge:stained_glass_panes, immersiveengineering:scaffoldings/steel, forge:storage_blocks/zinc, forge:sand/red, forge:glass/brown, forge:wool/purple, create:sails, minecraft:logs_that_burn, forge:glass/gray, forge:glass/light_gray, minecraft:wooden_slabs, create:toolboxes, minecraft:small_flowers, forge:storage_blocks/refined_obsidian, mekanism:atomic_disassembler_ore, botania:enchanter_flowers, forge:wool/brown, forge:ores/osmium, forge:glass_panes/black, forge:storage_blocks/manasteel, supplementaries:rope_support, sereneseasons:winter_crops, forge:glass_panes/blue, forge:wool/white, supplementaries:water_holder, forge:wool/light_gray, forge:wool/yellow, forge:stone, computercraft:computer, minecraft:standing_signs, minecraft:infiniburn_end, undergarden:portal_frame_blocks, forge:glass_panes/yellow, ars_nouveau:magic_plants, forge:wool/gray, biomesoplenty:cherry_logs, minecraft:wart_blocks, minecraft:planks/archwood, botania:generating_special_flowers, forge:storage_blocks/apatite, forge:wool/magenta, minecraft:shulker_boxes, forge:ores/silver, minecraft:birch_logs, create:fan_heaters, forge:storage_blocks/regalium, forge:glass_panes/purple, forge:glass/yellow, quark:pike_trophies, minecraft:oak_logs, forge:barrels, computercraft:turtle_shovel_harvestable, forge:ores/lapis, biomesoplenty:dead_logs, forge:dirt, minecraft:bamboo_plantable_on, quark:lead_connectable, minecraft:pressure_plates, forge:ores/nickel, create:windowable, minecraft:jungle_logs, forge:chests/ender, minecraft:spruce_logs, forge:ores/desh, forge:fence_gates/wooden, forge:ores/aluminum, ars_nouveau:sylph/kinda_likes, forge:ores/uranium, forge:glass_panes/lime, create:windmill_sails, sereneseasons:spring_crops, forge:wool/pink, forge:storage_blocks/utherium, forge:logs, botania:terra_plate_base, minecraft:flowers, minecraft:planks, forge:cobblestone, botania:special_flowers, botania:functional_special_flowers, botania:terraformable, industrialforegoing:machine_frame/pity, forge:storage_blocks/gold, minecraft:fence_gates, forge:ores, forge:sheetmetals/iron, forge:fences, forge:storage_blocks/diamond, minecraft:nylium, forge:ores/froststeel, forge:storage_blocks/bamboo, supplementaries:hang_from_ropes, forge:storage_blocks/slag, forge:chests/personal, supplementaries:bellows_tickable, forge:terracotta, forge:sapling]
+[14juin2022 09:14:08.381] [Server thread/INFO] [FluxNetworks/]: SERVER CONFIG LOADED
+[14juin2022 09:14:08.463] [Server thread/INFO] [doublenegation.mods.compactores.CompactOres/]: Attaching CompactOre resources to the Minecraft server
+[14juin2022 09:14:08.464] [Server thread/INFO] [doublenegation.mods.compactores.CompactOres/]: Injecting post-first-load CompactOres server data into the Minecraft Server
+[14juin2022 09:14:08.502] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[14juin2022 09:14:08.820] [Server thread/INFO] [FluxNetworks/]: FluxNetworkData has been successfully loaded
+[14juin2022 09:14:09.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[14juin2022 09:14:10.218] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[14juin2022 09:14:10.218] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[14juin2022 09:14:10.220] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[14juin2022 09:14:13.714] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[14juin2022 09:14:13.715] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[14juin2022 09:14:13.715] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[14juin2022 09:14:13.717] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[14juin2022 09:14:13.718] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[14juin2022 09:14:13.718] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[14juin2022 09:14:13.719] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[14juin2022 09:14:14.222] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityShark from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[14juin2022 09:14:14.240] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityFlyingFish from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[14juin2022 09:14:14.241] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityFlyingFish from class dev.itsmeow.betteranimalsplus.imdlib.entity.util.EntityTypeContainerContainable
+[14juin2022 09:14:14.243] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityJellyfish from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[14juin2022 09:14:14.244] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityJellyfish from class dev.itsmeow.betteranimalsplus.imdlib.entity.util.EntityTypeContainerContainable
+[14juin2022 09:14:14.286] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityDeer from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[14juin2022 09:14:14.292] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntitySaltwaterEel from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[14juin2022 09:14:14.292] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntitySaltwaterEel from class dev.itsmeow.betteranimalsplus.imdlib.entity.util.EntityTypeContainerContainable
+[14juin2022 09:14:14.297] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityOctopus from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[14juin2022 09:14:14.342] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityWhale from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[14juin2022 09:14:14.355] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityBadger from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[14juin2022 09:14:14.375] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityCrab from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[14juin2022 09:14:14.375] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityCrab from class dev.itsmeow.betteranimalsplus.imdlib.entity.util.EntityTypeContainerContainable
+[14juin2022 09:14:14.425] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityFeralWolf from class dev.itsmeow.betteranimalsplus.common.entity.EntityCoyote
+[14juin2022 09:14:14.444] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityPheasant from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[14juin2022 09:14:14.455] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 5323 ms
+[14juin2022 09:14:14.458] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (6.646s)! For help, type "help"
+[14juin2022 09:15:14.241] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
+[14juin2022 09:15:14.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[14juin2022 09:15:14.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[14juin2022 09:15:14.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[14juin2022 09:15:14.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14juin2022 09:15:15.398] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14juin2022 09:15:15.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[14juin2022 09:15:15.403] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14juin2022 09:15:15.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[14juin2022 09:15:15.406] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14juin2022 09:15:15.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/theabyss:dream
+[14juin2022 09:15:15.409] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (dream): All chunks are saved
+[14juin2022 09:15:15.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/boss_tools:mars_orbit
+[14juin2022 09:15:15.412] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (mars_orbit): All chunks are saved
+[14juin2022 09:15:15.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/boss_tools:mercury
+[14juin2022 09:15:15.416] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (mercury): All chunks are saved
+[14juin2022 09:15:15.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/theabyss:radio
+[14juin2022 09:15:15.419] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (radio): All chunks are saved
+[14juin2022 09:15:15.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/theabyss:ground_lands
+[14juin2022 09:15:15.422] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (ground_lands): All chunks are saved
+[14juin2022 09:15:15.423] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/hem:blueleaf
+[14juin2022 09:15:15.425] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (blueleaf): All chunks are saved
+[14juin2022 09:15:15.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/appliedenergistics2:spatial_storage
+[14juin2022 09:15:15.429] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
+[14juin2022 09:15:15.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/boss_tools:venus_orbit
+[14juin2022 09:15:15.433] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (venus_orbit): All chunks are saved
+[14juin2022 09:15:15.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/boss_tools:mars
+[14juin2022 09:15:15.436] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (mars): All chunks are saved
+[14juin2022 09:15:15.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/boss_tools:venus
+[14juin2022 09:15:15.439] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (venus): All chunks are saved
+[14juin2022 09:15:15.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/boss_tools:overworld_orbit
+[14juin2022 09:15:15.444] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (overworld_orbit): All chunks are saved
+[14juin2022 09:15:15.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/boss_tools:moon_orbit
+[14juin2022 09:15:15.447] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (moon_orbit): All chunks are saved
+[14juin2022 09:15:15.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/theabyss:the_abyss
+[14juin2022 09:15:15.451] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (the_abyss): All chunks are saved
+[14juin2022 09:15:15.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/boss_tools:moon
+[14juin2022 09:15:15.454] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (moon): All chunks are saved
+[14juin2022 09:15:15.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/theabyss:frost_world
+[14juin2022 09:15:15.459] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (frost_world): All chunks are saved
+[14juin2022 09:15:15.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/undergarden:undergarden
+[14juin2022 09:15:15.463] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (undergarden): All chunks are saved
+[14juin2022 09:15:15.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/theabyss:pocket_dimension
+[14juin2022 09:15:15.469] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (pocket_dimension): All chunks are saved
+[14juin2022 09:15:15.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/boss_tools:mercury_orbit
+[14juin2022 09:15:15.476] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (mercury_orbit): All chunks are saved
+[14juin2022 09:15:15.587] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14juin2022 09:15:15.602] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14juin2022 09:15:15.603] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14juin2022 09:15:15.604] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (dream): All chunks are saved
+[14juin2022 09:15:15.605] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (mars_orbit): All chunks are saved
+[14juin2022 09:15:15.608] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (mercury): All chunks are saved
+[14juin2022 09:15:15.608] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (radio): All chunks are saved
+[14juin2022 09:15:15.610] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (ground_lands): All chunks are saved
+[14juin2022 09:15:15.612] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (blueleaf): All chunks are saved
+[14juin2022 09:15:15.613] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
+[14juin2022 09:15:15.616] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (venus_orbit): All chunks are saved
+[14juin2022 09:15:15.619] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (mars): All chunks are saved
+[14juin2022 09:15:15.621] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (venus): All chunks are saved
+[14juin2022 09:15:15.624] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (overworld_orbit): All chunks are saved
+[14juin2022 09:15:15.626] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (moon_orbit): All chunks are saved
+[14juin2022 09:15:15.629] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (the_abyss): All chunks are saved
+[14juin2022 09:15:15.633] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (moon): All chunks are saved
+[14juin2022 09:15:15.637] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (frost_world): All chunks are saved
+[14juin2022 09:15:15.637] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (undergarden): All chunks are saved
+[14juin2022 09:15:15.638] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (pocket_dimension): All chunks are saved
+[14juin2022 09:15:15.640] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (mercury_orbit): All chunks are saved
+[14juin2022 09:15:15.648] [Server thread/INFO] [FluxNetworks/]: FluxNetworkData has been unloaded
