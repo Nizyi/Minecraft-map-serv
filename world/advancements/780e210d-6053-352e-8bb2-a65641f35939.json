@@ -3065,6 +3065,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:blaze": "2022-06-13 21:23:00 +0200",
+      "minecraft:pillager": "2022-06-14 13:39:33 +0200",
       "minecraft:skeleton": "2022-06-10 18:43:27 +0200",
       "minecraft:spider": "2022-06-10 17:19:04 +0200",
       "minecraft:piglin_brute": "2022-06-10 19:00:43 +0200",
@@ -3075,8 +3076,10 @@
       "minecraft:witch": "2022-06-11 14:29:12 +0200",
       "minecraft:wither_skeleton": "2022-06-13 21:24:19 +0200",
       "minecraft:husk": "2022-06-10 18:33:20 +0200",
+      "minecraft:ender_dragon": "2022-06-14 14:07:48 +0200",
       "minecraft:piglin": "2022-06-13 14:28:36 +0200",
       "minecraft:silverfish": "2022-06-10 17:19:58 +0200",
+      "minecraft:enderman": "2022-06-14 14:00:38 +0200",
       "minecraft:zombie": "2022-06-10 17:44:26 +0200"
     },
     "done": false
@@ -3114,6 +3117,12 @@
   "biomesoplenty:recipes/redstone/dead_pressure_plate": {
     "criteria": {
       "has_the_recipe": "2022-06-13 01:40:03 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2022-06-14 13:39:33 +0200"
     },
     "done": true
   },
@@ -5370,6 +5379,12 @@
   "undergarden:recipes/undergarden_group/indigo_stew": {
     "criteria": {
       "has_the_recipe": "2022-06-13 01:40:05 +0200"
+    },
+    "done": true
+  },
+  "botania:main/ender_air_make": {
+    "criteria": {
+      "air": "2022-06-14 14:05:01 +0200"
     },
     "done": true
   },
@@ -8217,6 +8232,12 @@
     },
     "done": true
   },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold_betterstrongholds": "2022-06-14 13:42:11 +0200"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/paved_limestone_slab_from_paved_limestone_stonecutting": {
     "criteria": {
       "has_the_recipe": "2022-06-13 01:40:04 +0200"
@@ -10041,6 +10062,12 @@
     },
     "done": true
   },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2022-06-14 14:03:18 +0200"
+    },
+    "done": true
+  },
   "botania:recipes/botania/metamorphic_mesa_bricks_slab": {
     "criteria": {
       "has_the_recipe": "2022-06-13 01:40:05 +0200"
@@ -10662,6 +10689,12 @@
   "create:recipes/create.base/crafting/kinetics/sequenced_gearshift": {
     "criteria": {
       "has_the_recipe": "2022-06-13 01:40:03 +0200"
+    },
+    "done": true
+  },
+  "minecraft:end/kill_dragon": {
+    "criteria": {
+      "killed_dragon": "2022-06-14 14:07:48 +0200"
     },
     "done": true
   },
@@ -13234,6 +13267,12 @@
   "create:recipes/create.palettes/crimson_window": {
     "criteria": {
       "has_the_recipe": "2022-06-13 01:40:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_breath": {
+    "criteria": {
+      "dragon_breath": "2022-06-14 14:04:59 +0200"
     },
     "done": true
   },
@@ -18646,6 +18685,12 @@
   "immersiveengineering:recipes/immersiveengineering/crafting/sheetmetal_colored_gray_to_slab": {
     "criteria": {
       "has_the_recipe": "2022-06-13 01:40:03 +0200"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2022-06-14 14:03:18 +0200"
     },
     "done": true
   },
