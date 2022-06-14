@@ -1,100 +1,236 @@
-[14juin2022 15:21:03.543] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.2.34, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge]
-[14juin2022 15:21:03.546] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 1.8.0_301 by Oracle Corporation
-[14juin2022 15:21:03.904] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[14juin2022 15:21:03.937] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/K:/minecraft%20server/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
-[14juin2022 15:21:05.023] [main/INFO] [STDERR/]: [org.antlr.v4.runtime.ConsoleErrorListener:syntaxError:38]: line 1:0 token recognition error at: '~'
-[14juin2022 15:21:05.372] [main/ERROR] [mixin/]: Mixin config boss_tools.mixin.json does not specify "minVersion" property
-[14juin2022 15:21:05.462] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [vazkii.botania.common.MixinConnector]
-[14juin2022 15:21:05.463] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [de.maxhenkel.car.MixinConnector]
-[14juin2022 15:21:05.464] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [vazkii.patchouli.common.MixinConnector]
-[14juin2022 15:21:05.467] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, .]
-[14juin2022 15:21:06.046] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/entity/player/ClientPlayerEntity for invalid dist DEDICATED_SERVER
-[14juin2022 15:21:06.047] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/entity/player/ClientPlayerEntity (java.lang.RuntimeException: Attempted to load class net/minecraft/client/entity/player/ClientPlayerEntity for invalid dist DEDICATED_SERVER)
-[14juin2022 15:21:06.048] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.entity.player.ClientPlayerEntity was not found ars_nouveau.mixins.json:ClientElytraMixin
-[14juin2022 15:21:50.852] [main/INFO] [PluginManager/]: Scanning classes for titanium
-[14juin2022 15:21:50.916] [main/INFO] [PluginManager/]: Found FeaturePluginInstance for class IndustrialForegoingResourcePlugin for plugin resources
-[14juin2022 15:21:50.920] [main/INFO] [PluginManager/]: Found FeaturePluginInstance for class DefaultResourceRegistryPlugin for plugin resources
-[14juin2022 15:21:59.712] [modloading-worker-3/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.34, for MC 1.16.5 with MCP 20210115.111550
-[14juin2022 15:21:59.721] [modloading-worker-3/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.34 Initialized
-[14juin2022 15:22:05.892] [modloading-worker-4/INFO] [PluginManager/]: Scanning classes for industrialforegoing
-[14juin2022 15:22:05.893] [modloading-worker-4/INFO] [PluginManager/]: Found FeaturePluginInstance for class ImmersiveEngineeringPlugin for plugin immersiveengineering
-[14juin2022 15:22:05.894] [modloading-worker-4/INFO] [PluginManager/]: Found FeaturePluginInstance for class CuriosPlugin for plugin curios
-[14juin2022 15:22:05.906] [modloading-worker-4/INFO] [PluginManager/]: Constructed class ImmersiveEngineeringPlugin for plugin immersiveengineering for mod industrialforegoing
-[14juin2022 15:22:05.907] [modloading-worker-4/INFO] [PluginManager/]: Constructed class CuriosPlugin for plugin curios for mod industrialforegoing
-[14juin2022 15:22:05.910] [modloading-worker-4/INFO] [PluginManager/]: Executing phase CONSTRUCTION for plugin class ImmersiveEngineeringPlugin
-[14juin2022 15:22:06.374] [modloading-worker-4/INFO] [PluginManager/]: Executing phase CONSTRUCTION for plugin class CuriosPlugin
-[14juin2022 15:22:06.769] [modloading-worker-4/INFO] [PluginManager/]: Executing phase PRE_INIT for plugin class ImmersiveEngineeringPlugin
-[14juin2022 15:22:06.771] [modloading-worker-4/INFO] [PluginManager/]: Executing phase PRE_INIT for plugin class CuriosPlugin
-[14juin2022 15:22:09.897] [modloading-worker-0/INFO] [PluginManager/]: Scanning classes for titanium
-[14juin2022 15:22:10.790] [modloading-worker-0/INFO] [PluginManager/]: Constructed class IndustrialForegoingResourcePlugin for plugin resources for mod titanium
-[14juin2022 15:22:10.793] [modloading-worker-0/INFO] [PluginManager/]: Constructed class DefaultResourceRegistryPlugin for plugin resources for mod titanium
-[14juin2022 15:22:10.795] [modloading-worker-0/INFO] [PluginManager/]: Executing phase CONSTRUCTION for plugin class IndustrialForegoingResourcePlugin
-[14juin2022 15:22:11.220] [modloading-worker-0/INFO] [PluginManager/]: Executing phase CONSTRUCTION for plugin class DefaultResourceRegistryPlugin
-[14juin2022 15:22:13.036] [modloading-worker-6/INFO] [doublenegation.mods.compactores.config.ConfigLoader/]: Loading compactores configuration...
-[14juin2022 15:22:13.055] [modloading-worker-6/INFO] [doublenegation.mods.compactores.config.ConfigFileManager/]: Loading configuration files...
-[14juin2022 15:22:13.066] [modloading-worker-6/INFO] [doublenegation.mods.compactores.config.ConfigFileManager/]: Loaded 2 ore customization files
-[14juin2022 15:22:13.067] [modloading-worker-6/INFO] [doublenegation.mods.compactores.config.ConfigFileManager/]: Configuration files loaded successfully!
-[14juin2022 15:22:13.981] [modloading-worker-6/INFO] [doublenegation.mods.compactores.config.ConfigLoader/]: Successfully loaded 10 compact ores for a total of 1 mods.
-[14juin2022 15:22:13.981] [modloading-worker-6/INFO] [doublenegation.mods.compactores.config.ConfigLoader/]: 	10 ores for 1 mods are active.
-[14juin2022 15:22:13.983] [modloading-worker-6/INFO] [doublenegation.mods.compactores.config.ConfigLoader/]: 	0 ores for 0 mods will not be enabled because their mod is not loaded.
-[14juin2022 15:22:14.426] [modloading-worker-7/INFO] [dev.itsmeow.betteranimalsplus.BetterAnimalsPlusMod/]: Injecting super coyotes...
-[14juin2022 15:22:25.328] [modloading-worker-0/INFO] [com.simibubi.create.repack.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
-[14juin2022 15:22:31.745] [modloading-worker-4/INFO] [PluginManager/]: Executing phase INIT for plugin class ImmersiveEngineeringPlugin
-[14juin2022 15:22:31.747] [modloading-worker-4/INFO] [PluginManager/]: Executing phase INIT for plugin class CuriosPlugin
-[14juin2022 15:22:35.408] [modloading-worker-4/INFO] [PluginManager/]: Executing phase POST_INIT for plugin class ImmersiveEngineeringPlugin
-[14juin2022 15:22:35.409] [modloading-worker-4/INFO] [PluginManager/]: Executing phase POST_INIT for plugin class CuriosPlugin
-[14juin2022 15:23:06.482] [modloading-worker-6/INFO] [brandonscore/]: Hey! Where's DE?
-[14juin2022 15:23:06.485] [modloading-worker-6/INFO] [brandonscore/]: Oh well.. At least we dont have to worry about getting blown up now...
-[14juin2022 15:24:35.942] [modloading-worker-5/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: mekanism, class mekanism.common.Mekanism
-java.lang.OutOfMemoryError: Java heap space
-[14juin2022 15:24:44.465] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: create, class com.simibubi.create.Create
-java.lang.OutOfMemoryError: Java heap space
-[14juin2022 15:25:02.289] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: ars_nouveau, class com.hollingsworth.arsnouveau.ArsNouveau
-java.lang.OutOfMemoryError: Java heap space
-[14juin2022 15:25:02.289] [modloading-worker-4/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: theabyss, class net.yezon.theabyss.TheabyssMod
-java.lang.OutOfMemoryError: Java heap space
-[14juin2022 15:25:21.550] [modloading-worker-7/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: botania, class vazkii.botania.common.Botania
-java.lang.OutOfMemoryError: Java heap space
-[14juin2022 15:24:35.942] [Worker-Bootstrap-6/ERROR] [com.mojang.datafixers.DataFixerBuilder/]: Unable to build datafixers
-java.util.concurrent.CompletionException: java.lang.OutOfMemoryError: Java heap space
-	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source) ~[?:1.8.0_301]
-	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source) [?:1.8.0_301]
-	at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source) [?:1.8.0_301]
-	at java.util.concurrent.CompletableFuture$AsyncRun.exec(Unknown Source) [?:1.8.0_301]
-	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_301]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_301]
-	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_301]
-	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_301]
-Caused by: java.lang.OutOfMemoryError: Java heap space
-	at java.lang.Class.newReflectionData(Unknown Source) ~[?:1.8.0_301]
-	at java.lang.Class.reflectionData(Unknown Source) ~[?:1.8.0_301]
-	at java.lang.Class.privateGetDeclaredMethods(Unknown Source) ~[?:1.8.0_301]
-	at java.lang.Class.privateGetMethodRecursive(Unknown Source) ~[?:1.8.0_301]
-	at java.lang.Class.getMethod0(Unknown Source) ~[?:1.8.0_301]
-	at java.lang.Class.getMethod(Unknown Source) ~[?:1.8.0_301]
-	at org.apache.commons.lang3.ObjectUtils.clone(ObjectUtils.java:684) ~[server-1.16.5-20210115.111550-extra.jar:?]
-	at com.mojang.datafixers.functions.PointFreeRule$CataFuseDifferent.doRewrite(PointFreeRule.java:456) ~[?:?]
-	at com.mojang.datafixers.functions.PointFreeRule$CompRewrite.rewrite(PointFreeRule.java:180) ~[?:?]
-	at com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:567) ~[?:?]
-	at com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:571) ~[?:?]
-	at com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:567) ~[?:?]
-	at com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:567) ~[?:?]
-	at com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:567) ~[?:?]
-	at com.mojang.datafixers.functions.Comp.one(Comp.java:43) ~[?:?]
-	at com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:651) ~[?:?]
-	at com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:571) ~[?:?]
-	at com.mojang.datafixers.functions.Comp.one(Comp.java:43) ~[?:?]
-	at com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:651) ~[?:?]
-	at com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:571) ~[?:?]
-	at com.mojang.datafixers.functions.Comp.one(Comp.java:43) ~[?:?]
-	at com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:651) ~[?:?]
-	at com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:571) ~[?:?]
-	at com.mojang.datafixers.functions.Apply.lambda$one$5(Apply.java:46) ~[?:?]
-	at com.mojang.datafixers.functions.Apply$$Lambda$1617/19578075.get(Unknown Source) ~[?:?]
-	at java.util.Optional.orElseGet(Unknown Source) ~[?:1.8.0_301]
-	at com.mojang.datafixers.functions.Apply.one(Apply.java:46) ~[?:?]
-	at com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:651) ~[?:?]
-	at com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:571) ~[?:?]
-	at com.mojang.datafixers.functions.Comp.one(Comp.java:43) ~[?:?]
-	at com.mojang.datafixers.functions.PointFreeRule$One.rewrite(PointFreeRule.java:651) ~[?:?]
-	at com.mojang.datafixers.functions.PointFreeRule$OrElse.rewrite(PointFreeRule.java:571) ~[?:?]
+[15juin2022 00:05:34.077] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Creative Mode]
+[15juin2022 00:06:39.928] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Spectator Mode]
+[15juin2022 00:06:44.416] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Creative Mode]
+[15juin2022 00:06:52.680] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Spectator Mode]
+[15juin2022 00:07:02.165] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Creative Mode]
+[15juin2022 00:07:10.569] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Spectator Mode]
+[15juin2022 00:07:23.875] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Creative Mode]
+[15juin2022 00:07:55.187] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Spectator Mode]
+[15juin2022 00:07:58.530] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Creative Mode]
+[15juin2022 00:08:01.028] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Spectator Mode]
+[15juin2022 00:08:04.229] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Creative Mode]
+[15juin2022 00:08:08.168] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Spectator Mode]
+[15juin2022 00:08:15.488] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Creative Mode]
+[15juin2022 00:08:22.019] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Spectator Mode]
+[15juin2022 00:08:27.731] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Creative Mode]
+[15juin2022 00:08:41.114] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Spectator Mode]
+[15juin2022 00:08:54.695] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Creative Mode]
+[15juin2022 00:09:05.520] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Spectator Mode]
+[15juin2022 00:09:08.030] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Creative Mode]
+[15juin2022 00:09:11.315] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Spectator Mode]
+[15juin2022 00:09:16.264] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Creative Mode]
+[15juin2022 00:09:18.816] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Spectator Mode]
+[15juin2022 00:09:23.490] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Creative Mode]
+[15juin2022 00:09:25.371] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Spectator Mode]
+[15juin2022 00:09:38.043] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Creative Mode]
+[15juin2022 00:09:52.917] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Spectator Mode]
+[15juin2022 00:10:00.621] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Creative Mode]
+[15juin2022 00:10:43.617] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Spectator Mode]
+[15juin2022 00:10:47.863] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Creative Mode]
+[15juin2022 00:10:54.126] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Survival Mode]
+[15juin2022 00:11:21.992] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Creative Mode]
+[15juin2022 00:11:26.683] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Spectator Mode]
+[15juin2022 00:11:42.215] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Creative Mode]
+[15juin2022 00:12:00.933] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Spectator Mode]
+[15juin2022 00:12:11.285] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Creative Mode]
+[15juin2022 00:12:34.687] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Spectator Mode]
+[15juin2022 00:12:38.177] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Creative Mode]
+[15juin2022 00:12:44.918] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Spectator Mode]
+[15juin2022 00:12:50.019] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Creative Mode]
+[15juin2022 00:13:03.138] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Spectator Mode]
+[15juin2022 00:13:13.019] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Creative Mode]
+[15juin2022 00:13:40.021] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Tidic moved too quickly! 8.959677327214365,2.0460216826027136,-4.554193939630622
+[15juin2022 00:13:44.719] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Spectator Mode]
+[15juin2022 00:14:14.030] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Creative Mode]
+[15juin2022 00:14:57.035] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Spectator Mode]
+[15juin2022 00:15:02.146] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Creative Mode]
+[15juin2022 00:15:06.434] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Spectator Mode]
+[15juin2022 00:15:11.042] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Creative Mode]
+[15juin2022 00:15:20.873] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Spectator Mode]
+[15juin2022 00:15:31.693] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Creative Mode]
+[15juin2022 00:15:36.625] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Spectator Mode]
+[15juin2022 00:15:54.636] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Creative Mode]
+[15juin2022 00:16:13.376] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Spectator Mode]
+[15juin2022 00:16:17.619] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Creative Mode]
+[15juin2022 00:17:00.918] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Spectator Mode]
+[15juin2022 00:17:07.395] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Creative Mode]
+[15juin2022 00:17:27.791] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Spectator Mode]
+[15juin2022 00:17:33.128] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Creative Mode]
+[15juin2022 00:17:37.193] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Spectator Mode]
+[15juin2022 00:17:40.779] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Creative Mode]
+[15juin2022 00:20:13.786] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Spectator Mode]
+[15juin2022 00:20:16.282] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Creative Mode]
+[15juin2022 00:21:36.922] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Survival Mode]
+[15juin2022 00:21:48.992] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Creative Mode]
+[15juin2022 00:22:26.790] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Survival Mode]
+[15juin2022 00:24:37.063] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Tidic was struck by lightning whilst fighting Phantom
+[15juin2022 00:24:38.459] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: java.io.FileNotFoundException: config\ExtraSpace\TidicExtraSpace.json (Le fichier spécifié est introuvable)
+[15juin2022 00:24:38.460] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at java.io.FileInputStream.open0(Native Method)
+[15juin2022 00:24:38.460] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at java.io.FileInputStream.open(Unknown Source)
+[15juin2022 00:24:38.461] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at java.io.FileInputStream.<init>(Unknown Source)
+[15juin2022 00:24:38.461] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at java.io.FileReader.<init>(Unknown Source)
+[15juin2022 00:24:38.462] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.yezon.extraspace.procedures.SavedCategoriesProcedure.executeProcedure(SavedCategoriesProcedure.java:50)
+[15juin2022 00:24:38.462] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.yezon.extraspace.procedures.SavedCategoriesProcedure.onEntityJoin(SavedCategoriesProcedure.java:93)
+[15juin2022 00:24:38.463] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraftforge.eventbus.ASMEventHandler_606_SavedCategoriesProcedure_onEntityJoin_EntityJoinWorldEvent.invoke(.dynamic)
+[15juin2022 00:24:38.463] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85)
+[15juin2022 00:24:38.463] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302)
+[15juin2022 00:24:38.464] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283)
+[15juin2022 00:24:38.464] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.world.server.ServerWorld.func_217448_f(ServerWorld.java:788)
+[15juin2022 00:24:38.465] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.world.server.ServerWorld.func_217433_d(ServerWorld.java:784)
+[15juin2022 00:24:38.465] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.server.management.PlayerList.func_232644_a_(PlayerList.java:476)
+[15juin2022 00:24:38.466] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.network.play.ServerPlayNetHandler.func_147342_a(ServerPlayNetHandler.java:1234)
+[15juin2022 00:24:38.467] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.network.play.client.CClientStatusPacket.func_148833_a(SourceFile:30)
+[15juin2022 00:24:38.468] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.network.play.client.CClientStatusPacket.func_148833_a(SourceFile:8)
+[15juin2022 00:24:38.468] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.network.PacketThreadUtil.func_225383_a(SourceFile:21)
+[15juin2022 00:24:38.469] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18)
+[15juin2022 00:24:38.469] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144)
+[15juin2022 00:24:38.469] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
+[15juin2022 00:24:38.470] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:734)
+[15juin2022 00:24:38.470] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:159)
+[15juin2022 00:24:38.470] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118)
+[15juin2022 00:24:38.471] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:717)
+[15juin2022 00:24:38.471] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:711)
+[15juin2022 00:24:38.472] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(SourceFile:127)
+[15juin2022 00:24:38.472] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.server.MinecraftServer.func_213202_o(MinecraftServer.java:697)
+[15juin2022 00:24:38.472] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:646)
+[15juin2022 00:24:38.473] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:232)
+[15juin2022 00:24:38.473] [Server thread/INFO] [STDERR/]: [net.yezon.extraspace.procedures.SavedCategoriesProcedure:executeProcedure:65]: 	at java.lang.Thread.run(Unknown Source)
+[15juin2022 00:28:41.096] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Nizy___ moved too quickly! 7.085124428025296,1.5445322604149823,7.264275533871867
+[15juin2022 00:28:58.519] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Gave 1    [Red Wool] to Nizy___]
+[15juin2022 00:28:58.677] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Gave 1    [Red Wool] to Nizy___]
+[15juin2022 00:28:58.918] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Gave 1    [Red Wool] to Nizy___]
+[15juin2022 00:28:59.268] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Gave 1    [Red Wool] to Nizy___]
+[15juin2022 00:28:59.425] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Gave 1    [Red Wool] to Nizy___]
+[15juin2022 00:28:59.614] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Gave 1    [Red Wool] to Nizy___]
+[15juin2022 00:31:00.972] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Creative Mode]
+[15juin2022 00:32:34.638] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Spectator Mode]
+[15juin2022 00:32:37.787] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Creative Mode]
+[15juin2022 00:32:41.217] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Tidic: Set own game mode to Survival Mode]
+[15juin2022 00:33:50.233] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Gave 1    [Oxygen Tank] to Nizy___]
+[15juin2022 00:33:52.984] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Gave 1    [Oxygen Tank] to Nizy___]
+[15juin2022 00:34:43.965] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Tidic lost connection: Disconnected
+[15juin2022 00:34:43.965] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Tidic left the game
+[15juin2022 00:35:08.616] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Gave 1    [Engine Fan] to Nizy___]
+[15juin2022 00:38:00.917] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Gave 1    [Oxygen Tank] to Nizy___]
+[15juin2022 00:41:06.893] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Gave 1    [Creative Chemical Tank] to Nizy___]
+[15juin2022 00:41:26.484] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Gave 1    [Basic Pressurized Tube] to Nizy___]
+[15juin2022 00:49:08.937] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nizy___ has reached the goal [Moon]
+[15juin2022 00:49:21.606] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nizy___ hit the ground too hard
+[15juin2022 00:49:22.736] [Server thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Server
+java.lang.NullPointerException: null
+	at net.minecraft.world.server.TicketManager.func_219367_b(TicketManager.java:227) ~[?:?]
+	at net.minecraft.world.server.ChunkManager.func_219183_a(ChunkManager.java:884) ~[?:?]
+	at net.minecraft.world.server.ServerChunkProvider.func_217221_a(ServerChunkProvider.java:450) ~[?:?]
+	at net.minecraft.network.play.ServerPlayNetHandler.func_147347_a(ServerPlayNetHandler.java:845) ~[?:?]
+	at net.minecraft.network.play.client.CPlayerPacket.func_148833_a(SourceFile:122) ~[?:?]
+	at net.minecraft.network.play.client.CPlayerPacket$PositionPacket.func_148833_a(SourceFile:56) ~[?:?]
+	at net.minecraft.network.PacketThreadUtil.func_225383_a(SourceFile:21) ~[?:?]
+	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18) ~[?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144) ~[?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:734) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:159) ~[?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:717) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:711) ~[?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213160_bf(SourceFile:103) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_213202_o(MinecraftServer.java:696) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:646) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:232) ~[?:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_301]
+[15juin2022 00:49:33.635] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Set own game mode to Creative Mode]
+[15juin2022 00:49:50.622] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Set own game mode to Survival Mode]
+[15juin2022 00:53:42.988] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Nizy___ moved too quickly! -3.4259043975291945,-0.0900000052549359,9.507198437549818
+[15juin2022 00:53:43.004] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3758ms or 75 ticks behind
+[15juin2022 00:56:01.144] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nizy___ fell out of the world
+[15juin2022 00:56:01.145] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Killed Nizy___]
+[15juin2022 00:56:05.233] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2037ms or 40 ticks behind
+[15juin2022 00:59:57.984] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Gave 1    [Gauge Dropper] to Nizy___]
+[15juin2022 01:00:04.963] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Gave 1    [Basic Fluid Tank] to Nizy___]
+[15juin2022 01:02:55.163] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Set own game mode to Creative Mode]
+[15juin2022 01:02:58.432] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Set own game mode to Survival Mode]
+[15juin2022 01:03:38.415] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Gave 1    [MekaSuit Helmet] to Nizy___]
+[15juin2022 01:03:39.465] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Gave 1    [Basic Fluid Tank] to Nizy___]
+[15juin2022 01:04:28.222] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Set own game mode to Creative Mode]
+[15juin2022 01:08:51.976] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Removed all radiation sources.]
+[15juin2022 01:09:56.487] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Removed all radiation sources.]
+[15juin2022 01:15:39.612] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Removed all radiation sources.]
+[15juin2022 01:16:51.144] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Set own game mode to Survival Mode]
+[15juin2022 01:16:53.163] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Removed all radiation sources.]
+[15juin2022 01:16:55.374] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Set own game mode to Creative Mode]
+[15juin2022 01:17:04.110] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Set own game mode to Survival Mode]
+[15juin2022 01:17:12.823] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nizy___ was killed by radiation poisoning.
+[15juin2022 01:17:34.121] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Set own game mode to Creative Mode]
+[15juin2022 01:17:37.411] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Nizy___: Set own game mode to Survival Mode]
+[15juin2022 01:17:44.411] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Nizy___ lost connection: Disconnected
+[15juin2022 01:17:44.411] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nizy___ left the game
+[15juin2022 01:18:03.047] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Unknown or incomplete command, see below for error
+[15juin2022 01:18:03.048] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: top<--[HERE]
+[15juin2022 01:18:06.550] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
+[15juin2022 01:18:06.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[15juin2022 01:18:06.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[15juin2022 01:18:06.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[15juin2022 01:18:06.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15juin2022 01:18:07.345] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15juin2022 01:18:07.345] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[15juin2022 01:18:07.347] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15juin2022 01:18:07.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[15juin2022 01:18:07.348] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15juin2022 01:18:07.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/theabyss:dream
+[15juin2022 01:18:07.350] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (dream): All chunks are saved
+[15juin2022 01:18:07.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/boss_tools:mars_orbit
+[15juin2022 01:18:07.352] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (mars_orbit): All chunks are saved
+[15juin2022 01:18:07.352] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/boss_tools:mercury
+[15juin2022 01:18:07.353] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (mercury): All chunks are saved
+[15juin2022 01:18:07.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/theabyss:radio
+[15juin2022 01:18:07.355] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (radio): All chunks are saved
+[15juin2022 01:18:07.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/theabyss:ground_lands
+[15juin2022 01:18:07.356] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (ground_lands): All chunks are saved
+[15juin2022 01:18:07.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/hem:blueleaf
+[15juin2022 01:18:07.358] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (blueleaf): All chunks are saved
+[15juin2022 01:18:07.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/appliedenergistics2:spatial_storage
+[15juin2022 01:18:07.359] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
+[15juin2022 01:18:07.359] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/boss_tools:venus_orbit
+[15juin2022 01:18:07.360] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (venus_orbit): All chunks are saved
+[15juin2022 01:18:07.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/boss_tools:mars
+[15juin2022 01:18:07.362] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (mars): All chunks are saved
+[15juin2022 01:18:07.362] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/boss_tools:venus
+[15juin2022 01:18:07.363] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (venus): All chunks are saved
+[15juin2022 01:18:07.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/boss_tools:overworld_orbit
+[15juin2022 01:18:07.365] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (overworld_orbit): All chunks are saved
+[15juin2022 01:18:07.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/boss_tools:moon_orbit
+[15juin2022 01:18:07.370] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (moon_orbit): All chunks are saved
+[15juin2022 01:18:07.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/theabyss:the_abyss
+[15juin2022 01:18:07.372] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (the_abyss): All chunks are saved
+[15juin2022 01:18:07.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/boss_tools:moon
+[15juin2022 01:18:07.384] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (moon): All chunks are saved
+[15juin2022 01:18:07.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/theabyss:frost_world
+[15juin2022 01:18:07.386] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (frost_world): All chunks are saved
+[15juin2022 01:18:07.386] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/undergarden:undergarden
+[15juin2022 01:18:07.388] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (undergarden): All chunks are saved
+[15juin2022 01:18:07.388] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/theabyss:pocket_dimension
+[15juin2022 01:18:07.389] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (pocket_dimension): All chunks are saved
+[15juin2022 01:18:07.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/boss_tools:mercury_orbit
+[15juin2022 01:18:07.390] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (mercury_orbit): All chunks are saved
+[15juin2022 01:18:07.482] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15juin2022 01:18:07.516] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15juin2022 01:18:07.516] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15juin2022 01:18:07.517] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (dream): All chunks are saved
+[15juin2022 01:18:07.518] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (mars_orbit): All chunks are saved
+[15juin2022 01:18:07.518] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (mercury): All chunks are saved
+[15juin2022 01:18:07.519] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (radio): All chunks are saved
+[15juin2022 01:18:07.519] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (ground_lands): All chunks are saved
+[15juin2022 01:18:07.520] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (blueleaf): All chunks are saved
+[15juin2022 01:18:07.520] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
+[15juin2022 01:18:07.521] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (venus_orbit): All chunks are saved
+[15juin2022 01:18:07.521] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (mars): All chunks are saved
+[15juin2022 01:18:07.522] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (venus): All chunks are saved
+[15juin2022 01:18:07.522] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (overworld_orbit): All chunks are saved
+[15juin2022 01:18:07.523] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (moon_orbit): All chunks are saved
+[15juin2022 01:18:07.523] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (the_abyss): All chunks are saved
+[15juin2022 01:18:07.525] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (moon): All chunks are saved
+[15juin2022 01:18:07.549] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (frost_world): All chunks are saved
+[15juin2022 01:18:07.552] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (undergarden): All chunks are saved
+[15juin2022 01:18:07.552] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (pocket_dimension): All chunks are saved
+[15juin2022 01:18:07.553] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (mercury_orbit): All chunks are saved
+[15juin2022 01:18:07.564] [Server thread/INFO] [FluxNetworks/]: FluxNetworkData has been unloaded
