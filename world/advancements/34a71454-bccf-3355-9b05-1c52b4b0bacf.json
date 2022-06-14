@@ -977,6 +977,12 @@
     },
     "done": true
   },
+  "minecraft:end/dragon_egg": {
+    "criteria": {
+      "dragon_egg": "2022-06-14 14:08:34 +0200"
+    },
+    "done": true
+  },
   "immersiveengineering:recipes/immersiveengineering/crafting/sheetmetal_colored_light_gray_to_slab": {
     "criteria": {
       "has_the_recipe": "2022-06-13 14:05:10 +0200"
@@ -8159,6 +8165,12 @@
     },
     "done": true
   },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold_betterstrongholds": "2022-06-14 13:18:32 +0200"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/paved_limestone_slab_from_paved_limestone_stonecutting": {
     "criteria": {
       "has_the_recipe": "2022-06-13 14:05:09 +0200"
@@ -9179,6 +9191,12 @@
     },
     "done": true
   },
+  "create:speedometer": {
+    "criteria": {
+      "0": "2022-06-14 10:53:52 +0200"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/fancy_scoria_bricks_wall_from_fancy_scoria_bricks_stonecutting": {
     "criteria": {
       "has_the_recipe": "2022-06-13 14:05:07 +0200"
@@ -9956,6 +9974,12 @@
   "minecraft:recipes/building_blocks/cut_red_sandstone_slab_from_cut_red_sandstone_stonecutting": {
     "criteria": {
       "has_the_recipe": "2022-06-13 14:05:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2022-06-14 14:03:18 +0200"
     },
     "done": true
   },
@@ -13123,6 +13147,12 @@
     },
     "done": true
   },
+  "minecraft:end/dragon_breath": {
+    "criteria": {
+      "dragon_breath": "2022-06-14 14:05:54 +0200"
+    },
+    "done": true
+  },
   "immersiveengineering:recipes/immersiveengineering/crafting/treated_wood_horizontal_to_slab": {
     "criteria": {
       "has_the_recipe": "2022-06-13 14:05:08 +0200"
@@ -15553,6 +15583,12 @@
     },
     "done": true
   },
+  "dungeons_plus:adventure/find_leviathan": {
+    "criteria": {
+      "structure": "2022-06-14 13:13:27 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/shield": {
     "criteria": {
       "has_iron_ingot": "2022-06-10 17:58:12 +0200"
@@ -15658,6 +15694,12 @@
   "create:recipes/create.palettes/polished_dark_scoria_slab_from_polished_dark_scoria_stonecutting": {
     "criteria": {
       "has_the_recipe": "2022-06-13 14:05:08 +0200"
+    },
+    "done": true
+  },
+  "simpleplanes:recipes/plane": {
+    "criteria": {
+      "in_fire": "2022-06-14 12:55:28 +0200"
     },
     "done": true
   },
@@ -18466,6 +18508,12 @@
   "minecraft:recipes/redstone/jungle_pressure_plate": {
     "criteria": {
       "has_the_recipe": "2022-06-13 14:05:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2022-06-14 14:03:18 +0200"
     },
     "done": true
   },
