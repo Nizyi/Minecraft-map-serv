@@ -3977,6 +3977,7 @@
       "minecraft:wither_skeleton": "2022-06-13 21:24:19 +0200",
       "minecraft:husk": "2022-06-10 18:33:20 +0200",
       "minecraft:ender_dragon": "2022-06-14 14:07:48 +0200",
+      "minecraft:shulker": "2022-06-15 16:54:05 +0200",
       "minecraft:piglin": "2022-06-13 14:28:36 +0200",
       "minecraft:silverfish": "2022-06-10 17:19:58 +0200",
       "minecraft:enderman": "2022-06-14 14:00:38 +0200",
@@ -20278,6 +20279,12 @@
     },
     "done": true
   },
+  "supplementaries:recipes/sign_post_mossy_glowshroom": {
+    "criteria": {
+      "has_plank": "2022-06-15 17:00:38 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/magenta_wool": {
     "criteria": {
       "has_white_wool": "2022-06-11 00:42:57 +0200"
@@ -22324,6 +22331,12 @@
     },
     "done": true
   },
+  "supplementaries:recipes/hanging_sign_mossy_glowshroom": {
+    "criteria": {
+      "has_plank": "2022-06-15 17:00:38 +0200"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/polished_dark_scoria_wall": {
     "criteria": {
       "has_the_recipe": "2022-06-13 01:40:04 +0200"
@@ -22849,6 +22862,12 @@
   "immersiveengineering:recipes/immersiveengineering/crafting/storage_nickel_to_slab": {
     "criteria": {
       "has_the_recipe": "2022-06-13 01:40:03 +0200"
+    },
+    "done": true
+  },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2022-06-15 16:54:07 +0200"
     },
     "done": true
   },
