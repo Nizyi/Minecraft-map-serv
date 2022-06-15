@@ -7007,6 +7007,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/very_very_frightening": {
+    "criteria": {
+      "struck_villager": "2022-06-15 10:17:44 +0200"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/fancy_diorite_bricks_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2022-06-10 21:39:24 +0200"
