@@ -22839,6 +22839,12 @@
     },
     "done": true
   },
+  "appliedenergistics2:main/controller": {
+    "criteria": {
+      "certus": "2022-06-16 10:57:02 +0200"
+    },
+    "done": true
+  },
   "botania:recipes/botania/cosmetic_orange_shades": {
     "criteria": {
       "has_the_recipe": "2022-06-13 14:05:06 +0200"
@@ -25099,6 +25105,12 @@
   "securitycraft:recipes/securitycraft/alarm": {
     "criteria": {
       "has_the_recipe": "2022-06-14 17:23:35 +0200"
+    },
+    "done": true
+  },
+  "appliedenergistics2:main/storage_cell": {
+    "criteria": {
+      "c64k": "2022-06-16 10:56:45 +0200"
     },
     "done": true
   },
