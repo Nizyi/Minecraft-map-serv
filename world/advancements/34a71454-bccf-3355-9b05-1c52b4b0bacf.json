@@ -19917,6 +19917,12 @@
     },
     "done": true
   },
+  "appliedenergistics2:main/fluix": {
+    "criteria": {
+      "certus": "2022-06-18 00:44:31 +0200"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/dolomite_cobblestone_slab": {
     "criteria": {
       "has_the_recipe": "2022-06-13 14:05:07 +0200"
