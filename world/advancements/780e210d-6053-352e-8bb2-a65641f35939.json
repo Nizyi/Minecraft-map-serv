@@ -6901,6 +6901,12 @@
     },
     "done": true
   },
+  "betteranimalsplus:shark_target_player": {
+    "criteria": {
+      "targeted": "2022-06-18 21:59:22 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/lime_dye": {
     "criteria": {
       "has_the_recipe": "2022-06-13 01:40:03 +0200"

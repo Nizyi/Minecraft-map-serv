@@ -17189,6 +17189,7 @@
   },
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
+      "seasonal_pumpkin_patch": "2022-06-18 21:18:14 +0200",
       "snowy_maple_forest": "2022-06-15 22:12:03 +0200"
     },
     "done": false
