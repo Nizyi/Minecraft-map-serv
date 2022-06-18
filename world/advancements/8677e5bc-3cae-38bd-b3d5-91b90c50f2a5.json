@@ -4224,6 +4224,12 @@
     },
     "done": true
   },
+  "supplementaries:recipes/hanging_sign_crimson": {
+    "criteria": {
+      "has_plank": "2022-06-18 12:23:44 +0200"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/fancy_limestone_bricks_slab_from_fancy_limestone_bricks_stonecutting": {
     "criteria": {
       "has_the_recipe": "2022-06-13 18:03:03 +0200"
@@ -8550,6 +8556,12 @@
     },
     "done": true
   },
+  "supplementaries:recipes/sign_post_crimson": {
+    "criteria": {
+      "has_plank": "2022-06-18 12:23:44 +0200"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/polished_limestone_stairs": {
     "criteria": {
       "has_the_recipe": "2022-06-13 18:03:02 +0200"
@@ -9507,6 +9519,12 @@
   "betterendforge:recipes/betterendforge/pythadendron_bark": {
     "criteria": {
       "has_the_recipe": "2022-06-14 19:47:56 +0200"
+    },
+    "done": true
+  },
+  "undergarden:undergarden/any_ore": {
+    "criteria": {
+      "has_cloggrum": "2022-06-18 12:22:09 +0200"
     },
     "done": true
   },
@@ -24934,6 +24952,12 @@
     },
     "done": true
   },
+  "appliedenergistics2:main/storage_cell": {
+    "criteria": {
+      "c64k": "2022-06-18 12:13:20 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
     "criteria": {
       "has_the_recipe": "2022-06-13 18:03:07 +0200"
@@ -25232,6 +25256,7 @@
     "criteria": {
       "cooked_porkchop": "2022-06-12 16:11:56 +0200",
       "cooked_beef": "2022-06-12 18:19:59 +0200",
+      "baked_potato": "2022-06-18 12:46:14 +0200",
       "bread": "2022-06-11 13:33:46 +0200",
       "carrot": "2022-06-11 13:46:51 +0200"
     },
