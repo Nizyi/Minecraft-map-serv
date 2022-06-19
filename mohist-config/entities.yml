@@ -99,3 +99,49 @@ overrides:
     skip-every: default
   net-minecraft-entity-monster-ZombieVillagerEntity:
     skip-every: default
+  dev-itsmeow-betteranimalsplus-common-entity-EntityBoar:
+    skip-every: default
+  net-minecraft-entity-passive-fish-TropicalFishEntity:
+    skip-every: default
+  dev-itsmeow-betteranimalsplus-common-entity-EntityJellyfish:
+    skip-every: default
+  net-minecraft-entity-passive-fish-PufferfishEntity:
+    skip-every: default
+  net-minecraft-entity-passive-fish-CodEntity:
+    skip-every: default
+  dev-itsmeow-betteranimalsplus-common-entity-EntitySaltwaterEel:
+    skip-every: default
+  dev-itsmeow-betteranimalsplus-common-entity-EntityFlyingFish:
+    skip-every: default
+  dev-itsmeow-betteranimalsplus-common-entity-EntityFreshwaterEel:
+    skip-every: default
+  dev-itsmeow-betteranimalsplus-common-entity-EntityBarracuda:
+    skip-every: default
+  net-minecraft-entity-monster-DrownedEntity:
+    skip-every: default
+  dev-itsmeow-betteranimalsplus-common-entity-EntityNautilus:
+    skip-every: default
+  vazkii-quark-content-mobs-entity-ForgottenEntity:
+    skip-every: default
+  cofh-thermal-core-entity-monster-BlitzEntity:
+    skip-every: default
+  com-hollingsworth-arsnouveau-common-entity-EntityCarbuncle:
+    skip-every: default
+  net-minecraft-entity-item-minecart-MinecartEntity:
+    skip-every: default
+  dev-itsmeow-betteranimalsplus-common-entity-EntityCoyote:
+    skip-every: default
+  net-minecraft-entity-merchant-villager-VillagerEntity:
+    skip-every: default
+  net-minecraft-entity-passive-IronGolemEntity:
+    skip-every: default
+  dev-itsmeow-betteranimalsplus-common-entity-EntityTarantula:
+    skip-every: default
+  net-minecraft-entity-projectile-ArrowEntity:
+    skip-every: default
+  net-minecraft-entity-passive-CatEntity:
+    skip-every: default
+  net-minecraft-entity-monster-HuskEntity:
+    skip-every: default
+  net-minecraft-entity-item-ExperienceOrbEntity:
+    skip-every: default

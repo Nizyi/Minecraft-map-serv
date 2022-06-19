@@ -181,3 +181,17 @@ overrides:
     skip-every: default
   net-minecraft-tileentity-DaylightDetectorTileEntity:
     skip-every: default
+  net-minecraft-tileentity-BrewingStandTileEntity:
+    skip-every: default
+  net-minecraft-tileentity-BellTileEntity:
+    skip-every: default
+  de-maxhenkel-car-blocks-tileentity-TileEntitySplitTank:
+    skip-every: default
+  de-maxhenkel-car-blocks-tileentity-TileEntityTank:
+    skip-every: default
+  de-maxhenkel-car-blocks-tileentity-TileEntityGasStation:
+    skip-every: default
+  de-maxhenkel-car-blocks-tileentity-TileEntityCable:
+    skip-every: default
+  blusunrize-immersiveengineering-common-blocks-metal-EnergyConnectorTileEntity:
+    skip-every: default
