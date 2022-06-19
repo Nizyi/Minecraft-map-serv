@@ -97,3 +97,5 @@ overrides:
     skip-every: default
   net-minecraft-entity-monster-SlimeEntity:
     skip-every: default
+  net-minecraft-entity-monster-ZombieVillagerEntity:
+    skip-every: default
