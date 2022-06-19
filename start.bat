@@ -4,7 +4,7 @@ git pull
 git push
 pause
 
-java -Xmx1300M -Xms1000M -jar forge-1.16.5-36.2.34.jar 
+java -Xmx1300M -Xms1000M -jar mohist-1.16.5-1031-server.jar nogui
 pause
 
 git add .
