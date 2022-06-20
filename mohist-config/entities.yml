@@ -145,3 +145,15 @@ overrides:
     skip-every: default
   net-minecraft-entity-item-ExperienceOrbEntity:
     skip-every: default
+  dev-itsmeow-betteranimalsplus-common-entity-EntityLamprey:
+    skip-every: default
+  dev-itsmeow-betteranimalsplus-common-entity-EntityBobbitWorm:
+    skip-every: default
+  net-minecraft-entity-merchant-villager-WanderingTraderEntity:
+    skip-every: default
+  net-minecraft-entity-passive-horse-TraderLlamaEntity:
+    skip-every: default
+  net-minecraft-entity-projectile-LlamaSpitEntity:
+    skip-every: default
+  net-minecraft-entity-passive-fish-SalmonEntity:
+    skip-every: default

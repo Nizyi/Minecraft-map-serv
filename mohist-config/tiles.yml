@@ -195,3 +195,9 @@ overrides:
     skip-every: default
   blusunrize-immersiveengineering-common-blocks-metal-EnergyConnectorTileEntity:
     skip-every: default
+  de-maxhenkel-car-blocks-tileentity-TileEntityFluidExtractor:
+    skip-every: default
+  de-maxhenkel-car-blocks-tileentity-TileEntityDynamo:
+    skip-every: default
+  de-maxhenkel-car-blocks-tileentity-TileEntityBackmixReactor:
+    skip-every: default
