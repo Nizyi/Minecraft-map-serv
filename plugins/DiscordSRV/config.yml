@@ -6,7 +6,7 @@ ConfigVersion: 1.25.1
 
 # Bot token; Vous ne savez pas ce que c'est ? Regardez la vidéo sur la page du plugin
 # Vous devez redémarrer votre serveur après avoir modifié cette option
-BotToken: "OTg4MzQ1NTUyNTAyNjY5MzQy.G-HuvV.E1zFYs4swFY0XijFupg-0IIvD0kYDE5ekiws8E"
+BotToken: ""
 
 # Liens de chaîne du jeu vers Discord
 # la syntaxe est Channels: {"nom de chaîne dans le jeu de Minecraft": "ID de chaîne numérique de Discord", "autre nom de chaîne de jeu de Minecraft": "autre ID de chaîne numérique de Discord"}
