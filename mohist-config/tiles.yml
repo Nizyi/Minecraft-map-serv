@@ -1,0 +1,197 @@
+# Welcome to Mohist tile tick configuration!
+# This opens up good TPS savings if used wisely.
+# 'overrides' section populates itself over time.
+# -=-=-=-=-
+# Simple usage cases:
+# 'skip-every: 50' - skips every 50th tick
+# 'skip-every: 0' - tick limiter is not applied (vanilla behaviour)
+# 'skip-every: 1' - tile will not tick at all (skips every 1st tick)
+# 'skip-every: default' - value is grabbed from 'defaults' section
+# Values in range of 0 up to 1000 can be used, you won't need more than that.
+# -=-=-=-=-
+
+defaults:
+  skip-every: 0
+overrides:
+  com-hollingsworth-arsnouveau-common-block-tile-VolcanicSourcelinkTile:
+    skip-every: default
+  net-minecraft-tileentity-FurnaceTileEntity:
+    skip-every: default
+  net-minecraft-tileentity-HopperTileEntity:
+    skip-every: default
+  com-progwml6-ironchest-common-block-tileentity-GoldChestTileEntity:
+    skip-every: default
+  net-minecraft-tileentity-ChestTileEntity:
+    skip-every: default
+  net-minecraft-tileentity-BlastFurnaceTileEntity:
+    skip-every: default
+  net-minecraft-tileentity-EnchantingTableTileEntity:
+    skip-every: default
+  com-hollingsworth-arsnouveau-common-block-tile-ArcaneRelayTile:
+    skip-every: default
+  com-progwml6-ironchest-common-block-tileentity-DiamondChestTileEntity:
+    skip-every: default
+  com-progwml6-ironchest-common-block-tileentity-IronChestTileEntity:
+    skip-every: default
+  com-simibubi-create-content-contraptions-components-waterwheel-WaterWheelTileEntity:
+    skip-every: default
+  com-simibubi-create-content-contraptions-relays-elementary-SimpleKineticTileEntity:
+    skip-every: default
+  com-simibubi-create-content-contraptions-relays-gearbox-GearboxTileEntity:
+    skip-every: default
+  com-hollingsworth-arsnouveau-common-block-tile-AgronomicSourcelinkTile:
+    skip-every: default
+  com-simibubi-create-content-contraptions-components-structureMovement-bearing-MechanicalBearingTileEntity:
+    skip-every: default
+  com-simibubi-create-content-contraptions-relays-encased-ClutchTileEntity:
+    skip-every: default
+  com-hollingsworth-arsnouveau-common-block-tile-WixieCauldronTile:
+    skip-every: default
+  com-hollingsworth-arsnouveau-common-block-tile-ArcaneRelaySplitterTile:
+    skip-every: default
+  com-hollingsworth-arsnouveau-common-block-tile-ManaJarTile:
+    skip-every: default
+  com-hollingsworth-arsnouveau-common-block-tile-BookwyrmLecternTile:
+    skip-every: default
+  appeng-tile-storage-SkyChestTileEntity:
+    skip-every: default
+  com-simibubi-create-content-logistics-block-redstone-RedstoneLinkTileEntity:
+    skip-every: default
+  dan200-computercraft-shared-computer-blocks-TileComputer:
+    skip-every: default
+  sonar-fluxnetworks-common-tileentity-TileFluxPoint:
+    skip-every: default
+  mekanism-common-tile-TileEntityChemicalTank:
+    skip-every: default
+  com-simibubi-create-content-contraptions-relays-encased-EncasedShaftTileEntity:
+    skip-every: default
+  com-simibubi-create-content-contraptions-relays-gearbox-GearshiftTileEntity:
+    skip-every: default
+  com-simibubi-create-content-contraptions-relays-gauge-SpeedGaugeTileEntity:
+    skip-every: default
+  com-simibubi-create-content-contraptions-components-structureMovement-piston-MechanicalPistonTileEntity:
+    skip-every: default
+  com-simibubi-create-content-contraptions-components-press-MechanicalPressTileEntity:
+    skip-every: default
+  com-simibubi-create-content-logistics-block-depot-DepotTileEntity:
+    skip-every: default
+  mekanism-common-tile-TileEntityEnergyCube:
+    skip-every: default
+  mekanism-common-tile-machine-TileEntityElectricPump:
+    skip-every: default
+  mekanism-common-tile-transmitter-TileEntityMechanicalPipe:
+    skip-every: default
+  mekanism-common-tile-TileEntityFluidTank:
+    skip-every: default
+  com-simibubi-create-content-logistics-block-diodes-AdjustableRepeaterTileEntity:
+    skip-every: default
+  com-simibubi-create-content-contraptions-components-structureMovement-pulley-PulleyTileEntity:
+    skip-every: default
+  com-simibubi-create-content-contraptions-components-motor-CreativeMotorTileEntity:
+    skip-every: default
+  sonar-fluxnetworks-common-tileentity-TileFluxPlug:
+    skip-every: default
+  mekanism-generators-common-tile-TileEntityWindGenerator:
+    skip-every: default
+  mekanism-common-tile-TileEntityTeleporter:
+    skip-every: default
+  net-mrscauthd-boss_tools-machines-NASAWorkbenchBlock$CustomTileEntity:
+    skip-every: default
+  mekanism-common-tile-transmitter-TileEntityUniversalCable:
+    skip-every: default
+  com-buuz135-industrial-block-transportstorage-tile-BlackHoleTankTile:
+    skip-every: default
+  net-minecraft-tileentity-BeehiveTileEntity:
+    skip-every: default
+  mekanism-common-tile-TileEntityChargepad:
+    skip-every: default
+  mekanism-common-tile-machine-TileEntityRotaryCondensentrator:
+    skip-every: default
+  mekanism-generators-common-tile-TileEntitySolarGenerator:
+    skip-every: default
+  mekanism-common-tile-machine-TileEntityElectrolyticSeparator:
+    skip-every: default
+  com-simibubi-create-content-contraptions-relays-encased-AdjustablePulleyTileEntity:
+    skip-every: default
+  com-hollingsworth-arsnouveau-common-block-tile-PortalTile:
+    skip-every: default
+  mekanism-common-tile-machine-TileEntityPressurizedReactionChamber:
+    skip-every: default
+  com-hollingsworth-arsnouveau-common-block-tile-GlyphPressTile:
+    skip-every: default
+  com-hollingsworth-arsnouveau-common-block-tile-ArcanePedestalTile:
+    skip-every: default
+  com-hollingsworth-arsnouveau-common-block-tile-EnchantingApparatusTile:
+    skip-every: default
+  mekanism-common-tile-transmitter-TileEntityPressurizedTube:
+    skip-every: default
+  com-hollingsworth-arsnouveau-common-block-tile-ArcaneCoreTile:
+    skip-every: default
+  com-hollingsworth-arsnouveau-common-block-tile-RitualTile:
+    skip-every: default
+  mekanism-common-tile-machine-TileEntityOsmiumCompressor:
+    skip-every: default
+  net-mrscauthd-boss_tools-machines-CompressorBlock$CustomTileEntity:
+    skip-every: default
+  mekanism-common-tile-TileEntityBin:
+    skip-every: default
+  mekanism-common-tile-machine-TileEntityMetallurgicInfuser:
+    skip-every: default
+  cofh-thermal-expansion-tileentity-machine-MachineSawmillTile:
+    skip-every: default
+  mekanism-common-tile-machine-TileEntityEnrichmentChamber:
+    skip-every: default
+  net-minecraft-tileentity-CampfireTileEntity:
+    skip-every: default
+  mcjty-rftoolspower-modules-powercell-blocks-PowerCellTileEntity:
+    skip-every: default
+  mekanism-common-tile-machine-TileEntityCrusher:
+    skip-every: default
+  vazkii-quark-content-building-tile-VariantChestTileEntity:
+    skip-every: default
+  com-hollingsworth-arsnouveau-common-block-tile-RuneTile:
+    skip-every: default
+  mekanism-generators-common-tile-fission-TileEntityFissionReactorCasing:
+    skip-every: default
+  mekanism-generators-common-tile-TileEntityReactorGlass:
+    skip-every: default
+  mekanism-generators-common-tile-fission-TileEntityFissionFuelAssembly:
+    skip-every: default
+  mekanism-common-tile-TileEntityRadioactiveWasteBarrel:
+    skip-every: default
+  mekanism-generators-common-tile-fission-TileEntityFissionReactorPort:
+    skip-every: default
+  mekanism-generators-common-tile-fission-TileEntityControlRodAssembly:
+    skip-every: default
+  mekanism-generators-common-tile-fission-TileEntityFissionReactorLogicAdapter:
+    skip-every: default
+  net-minecraft-tileentity-MobSpawnerTileEntity:
+    skip-every: default
+  net-minecraft-tileentity-SkullTileEntity:
+    skip-every: default
+  mekanism-common-tile-machine-TileEntitySolarNeutronActivator:
+    skip-every: default
+  com-simibubi-create-content-contraptions-relays-advanced-sequencer-SequencedGearshiftTileEntity:
+    skip-every: default
+  vazkii-quark-content-building-tile-VariantTrappedChestTileEntity:
+    skip-every: default
+  net-geforcemods-securitycraft-blockentities-SecurityCameraBlockEntity:
+    skip-every: default
+  net-mrscauthd-boss_tools-machines-FuelRefineryBlock$CustomTileEntity:
+    skip-every: default
+  net-minecraft-tileentity-DaylightDetectorTileEntity:
+    skip-every: default
+  net-minecraft-tileentity-BrewingStandTileEntity:
+    skip-every: default
+  net-minecraft-tileentity-BellTileEntity:
+    skip-every: default
+  de-maxhenkel-car-blocks-tileentity-TileEntitySplitTank:
+    skip-every: default
+  de-maxhenkel-car-blocks-tileentity-TileEntityTank:
+    skip-every: default
+  de-maxhenkel-car-blocks-tileentity-TileEntityGasStation:
+    skip-every: default
+  de-maxhenkel-car-blocks-tileentity-TileEntityCable:
+    skip-every: default
+  blusunrize-immersiveengineering-common-blocks-metal-EnergyConnectorTileEntity:
+    skip-every: default
