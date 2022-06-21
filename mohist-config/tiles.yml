@@ -201,3 +201,21 @@ overrides:
     skip-every: default
   de-maxhenkel-car-blocks-tileentity-TileEntityBackmixReactor:
     skip-every: default
+  net-minecraft-tileentity-PistonTileEntity:
+    skip-every: default
+  net-geforcemods-securitycraft-blockentities-RetinalScannerBlockEntity:
+    skip-every: default
+  net-geforcemods-securitycraft-blockentities-ScannerDoorBlockEntity:
+    skip-every: default
+  net-geforcemods-securitycraft-blockentities-UsernameLoggerBlockEntity:
+    skip-every: default
+  net-geforcemods-securitycraft-blockentities-InventoryScannerBlockEntity:
+    skip-every: default
+  net-geforcemods-securitycraft-blockentities-AlarmBlockEntity:
+    skip-every: default
+  net-geforcemods-securitycraft-blockentities-ProtectoBlockEntity:
+    skip-every: default
+  net-geforcemods-securitycraft-blockentities-LaserBlockBlockEntity:
+    skip-every: default
+  net-geforcemods-securitycraft-blockentities-SonicSecuritySystemBlockEntity:
+    skip-every: default

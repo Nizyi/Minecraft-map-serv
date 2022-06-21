@@ -157,3 +157,13 @@ overrides:
     skip-every: default
   net-minecraft-entity-passive-fish-SalmonEntity:
     skip-every: default
+  dev-itsmeow-betteranimalsplus-common-entity-EntityPheasant:
+    skip-every: default
+  net-minecraft-entity-item-minecart-TNTMinecartEntity:
+    skip-every: default
+  net-minecraft-entity-effect-LightningBoltEntity:
+    skip-every: default
+  net-geforcemods-securitycraft-entity-Sentry:
+    skip-every: default
+  net-geforcemods-securitycraft-entity-camera-SecurityCamera:
+    skip-every: default
