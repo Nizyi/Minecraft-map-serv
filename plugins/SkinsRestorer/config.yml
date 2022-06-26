@@ -103,6 +103,7 @@ MySQL:
   SkinTable: 'Skins'
   PlayerTable: 'Players'
   ConnectionOptions: verifyServerCertificate=false&useSSL=false&serverTimezone=UTC
+  MaxPoolSize: 10
 
 # Stop the process of setting a skin if the LoginEvent was canceled by an AntiBot plugin.
 NoSkinIfLoginCanceled: true
@@ -198,11 +199,11 @@ Debug: false
 #
 # SkinFile Generator:
 # With SkinFile Generator, you can upload your own custom skin to get a unique .skin file that you can put in your skins folder, to use with SkinsRestorer.
-# Check it out here: https://riflowth.github.io/SkinFile-Generator/
+# Check it out here: https://skinsrestorer.github.io/SkinFile-Generator/
 #
 # SkinSystem :
 # With SkinSystem, you, as a server owner, can connect AuthMe (and forum) with the SkinSystem website that you can host, to give your players the ability to upload custom skins.
-# Check it out here: https://github.com/riflowth/SkinSystem
+# Check it out here: https://github.com/SkinsRestorer/SkinSystem
 #
 # Useful Links #
 # Website: https://skinsrestorer.net/
